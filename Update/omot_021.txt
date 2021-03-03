@@ -82,7 +82,7 @@ void main()
 	//rしかも、どうやら取引の影には大企業か、大物の個人の存在があることがうかがえて、そのためにかなりの報道制限がかけられていることもわかっていた。
 		if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 		OutputLine(NULL, "しかも、どうやら取引の影には大企業か、大物の個人の存在があることがうかがえて、そのためにかなりの報道制限がかけられていることもわかっていた。",
-				NULL, "And what's more, there were powerful organizations and big-name individuals lurking in the shadow behind these deals, so significant media restrictions were in place.", Line_Normal);
+				NULL, "And what's more, there was a megacorporation or a big-name individual lurking in the shadow behind these deals, so significant media restrictions were in place.", Line_Normal);
 		ClearMessage();
 
 	//rしかし、それほどまでの陰謀と暗躍があったとは…さすがに想定外だった。
@@ -225,7 +225,7 @@ void main()
 				NULL, "\"Yeah, Ooishi-san!", Line_WaitForInput);
 		ModPlayVoiceLS(4, 19, "ps2/19/223100002", 540, TRUE);
 		OutputLine(NULL, "　いつものようにもっと元気に、『退職金が惜しいヤツは１０数える間に出てってください』ってやってくださいよ。",
-				NULL, " Why don't you say 'if you don't want to lose your pension, leave while I count to ten' with more oomph in your voice, like you usually do?", Line_WaitForInput);
+				NULL, " Why don't you say \"if you don't want to lose your pension, leave while I count to ten\" with more oomph in your voice, like you usually do?", Line_WaitForInput);
 		ModPlayVoiceLS(4, 19, "ps2/19/223100003", 540, TRUE);
 		OutputLine(NULL, "そうじゃないと調子狂うっす！」",
 				NULL, " Unless you say it that way, it just doesn't sound right!\"", Line_Normal);
@@ -235,7 +235,7 @@ void main()
 				NULL, "\"Yeah, Ooishi-san!", Line_WaitForInput);
 		ModPlayVoiceLS(4, 19, "ps3/s14/19/vtd_kumagai_0002", 256, TRUE);
 		OutputLine(NULL, "　いつものようにもっと元気に、『退職金が惜しいヤツは１０数える間に出てってください』ってやってくださいよ。",
-				NULL, " Why don't you say 'if you don't want to lose your pension, leave while I count to ten' with more oomph in your voice, like you usually do?", Line_WaitForInput);
+				NULL, " Why don't you say \"if you don't want to lose your pension, leave while I count to ten\" with more oomph in your voice, like you usually do?", Line_WaitForInput);
 		ModPlayVoiceLS(4, 19, "ps3/s14/19/vtd_kumagai_0003", 256, TRUE);
 		OutputLine(NULL, "そうじゃないとなんか変な感じっす！」",
 				NULL, " Unless you say it that way, it just doesn't sound right!\"", Line_Normal);
@@ -478,7 +478,7 @@ void main()
 				NULL, "\"...I'll have to make some preparations first.", Line_WaitForInput);
 		ModPlayVoiceLS(4, 0, "ps2/00/223000016", 540, TRUE);
 		OutputLine(NULL, "今の面子と機材じゃ、薬物系まで調べるのは難しいからな。",
-				NULL, " It's difficult to investigate with our current personnel and equipment.", Line_WaitForInput);
+				NULL, " It's difficult to analyze the drugs with our current personnel and equipment.", Line_WaitForInput);
 		ModPlayVoiceLS(4, 0, "ps2/00/223000017", 540, TRUE);
 		OutputLine(NULL, "急いで知り合いの鑑識の中から、手の空いた連中を呼びつけるか」",
 				NULL, " Maybe I'll call in my acquaintances in forensics to lend a hand.\"", Line_Normal);
@@ -488,7 +488,7 @@ void main()
 				NULL, "\"...I'll have to make some preparations first.", Line_WaitForInput);
 		ModPlayVoiceLS(4, 0, "ps3/s14/00/223000016", 256, TRUE);
 		OutputLine(NULL, "今の面子と機材じゃ、薬物系まで調べるのは難しいからな。",
-				NULL, " It's difficult to investigate with our current personnel and equipment.", Line_WaitForInput);
+				NULL, " It's difficult to analyze the drugs with our current personnel and equipment.", Line_WaitForInput);
 		ModPlayVoiceLS(4, 0, "ps3/s14/00/223000017", 256, TRUE);
 		OutputLine(NULL, "急いで知り合いの鑑識の中から、手の空いた連中を呼びつけるか」",
 				NULL, " Maybe I'll call in my acquaintances in forensics to lend a hand.\"", Line_Normal);
@@ -653,13 +653,13 @@ void main()
 		ClearMessage();
 
 		if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-		OutputLine(NULL, "本当の命日は少し前だが、毎年、綿流しの警備のためその日は丸一日張り付くので、一日遅くお参りをして、そして終わった後もう一度、ここに来ていた。",
-				NULL, "The real anniversary was some time ago, but as Ooishi had to work on Watanagashi every year, he usually commemorated it on a later date. And here he was once again.", Line_Normal);
+		OutputLine(NULL, "本当の命日は少し前だが、毎年、綿流しの警備のためその日は丸一日張り付くので、一日早くお参りをして、そして終わった後もう一度、ここに来ていた。",
+				NULL, "The real anniversary was some time ago, but as Ooishi had to work on Watanagashi every year, he usually commemorated it on the previous day instead. And he came here once again after the festival.", Line_Normal);
 		ClearMessage();
 
 		if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 		OutputLine(NULL, "……そうすることで、いつか墓前に報告を持っていけると願をかけていたのだが、……結局、今年も謝罪の報告をする羽目になってしまった。",
-				NULL, "...He was hoping to one day deliver a report at this grave... but in the end, he came to deliver another apology this year.", Line_Normal);
+				NULL, "...He was hoping to one day deliver a report at this grave after Watanagashi... but in the end, he came to deliver another apology this year.", Line_Normal);
 		ClearMessage();
 
 		if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -891,7 +891,7 @@ void main()
 
 		if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 		OutputLine(NULL, "茜は墓前にしゃがむと、葛西から花を受け取って手馴れた様子で花束を開くと、すでに桔梗の花の飾られた花立ての横に並ぶ、少しくたびれた紫陽花と交換して添える。",
-				NULL, "Kasai took the bouquet from Akane, then knelt down in front of the grave and got the flowers ready. He replaced the slightly worn hydrangeas in the vase and sat them alongside the balloon flowers.", Line_Normal);
+				NULL, "Akane took the bouquet from Kasai, then knelt down in front of the grave and got the flowers ready. She replaced the slightly worn hydrangeas in the vase and sat them alongside the balloon flowers.", Line_Normal);
 		ClearMessage();
 
 		if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -935,7 +935,7 @@ void main()
 		if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6bd09f>茜</color>", NULL, "<color=#6bd09f>Akane</color>", NULL, Line_ContinueAfterTyping); }
 		ModPlayVoiceLS(4, 16, "ps2/16/222200014", 540, TRUE);
 		OutputLine(NULL, "「……どうしたんだい、今日は愛想がいいねえ。",
-				NULL, "\"...What's the matter? You're less cordial than usual.", Line_WaitForInput);
+				NULL, "\"...What's the matter? You're more cordial than usual.", Line_WaitForInput);
 		ModPlayVoiceLS(4, 16, "ps2/16/222200015", 540, TRUE);
 		OutputLine(NULL, "ひよっとして医者に不支治の病でも宣告されたのかい？",
 				NULL, " Perhaps you recently got a terminal diagnosis?", Line_WaitForInput);
