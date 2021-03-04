@@ -1634,7 +1634,7 @@ void main()
 //r一通り、俺と梨花ちゃんの説明を聞き終えてから、魅音はゆっくりと頷いた。そして、つかつかと俺に近寄り、にっこりと微笑みながら俺と向き合う。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "一通り、俺と梨花ちゃんの説明を聞き終えてから、魅音はゆっくりと頷いた。そして、つかつかと俺に近寄り、にっこりと微笑みながら俺と向き合う。",
-			NULL, "Mion slowly nodded her head after listening to me and Rika-chan provide our explanation. Then she approached me with a determined look on her face, and we smiled at one another.", Line_Normal);
+			NULL, "Mion slowly nodded her head after listening to me and Rika-chan provide our explanation. Then she approached me with a determined look on her face, and she stared at me with smile.", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(4, 3, "sprite/me2_def_a1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
@@ -1856,7 +1856,7 @@ void main()
 			NULL, "\"Mii, and Rena.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s14/05/220500188", 256, TRUE);
 	OutputLine(NULL, "…ボクが圭一に頼んだことなのです。",
-			NULL, " ...I'm the one who turned to Keiichi for help.", Line_WaitForInput);
+			NULL, " ...I'm the one who asked Keiichi to keep it secret from you.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s14/05/220500189", 256, TRUE);
 	OutputLine(NULL, "敵の動きと思惑がわからない間は、変に敵愾心を持たないほうがいい」",
 			NULL, " At that point I didn't know enough about our enemy's movements or intentions, so I thought it would be best to avoid making people feel hostile.\"", Line_Normal);
@@ -1866,7 +1866,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s14/05/220500190", 256, TRUE);
 	OutputLine(NULL, "「そのせいで敵に不穏を気取られたりしたら、かえって危険だと思ったからなのですよ」",
-			NULL, "\"Because doing so could make our enemy restless, heightening the danger of the situation.\"", Line_Normal);
+			NULL, "\"Because doing so could make us incur our enemy's suspicion, heightening the danger of the situation.\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(3, 3, "sprite/me2_majime_a1_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
@@ -1984,7 +1984,7 @@ void main()
 			NULL, " ...In fact, all of this began due to my own carelessness.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 10, "ps3/s14/10/22100257", 256, TRUE);
 	OutputLine(NULL, "詩音さんと沙都子ちゃんには、どれだけ謝っても許されることではないと思っています」",
-			NULL, " I don't think Shion-san and Satoko-chan can ever forgive me for what I've done.\"", Line_Normal);
+			NULL, " Shion-san, Satoko-chan, no matter how much I apologize to you it isn't enough.\"", Line_Normal);
 	ClearMessage();
 
 	FadeBustshot(4, FALSE, 0, 0, 0, 0, 200, TRUE);
@@ -2255,13 +2255,13 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s14/03/220300068", 256, TRUE);
 	OutputLine(NULL, "「……むしろ怒っていい？",
-			NULL, "\"...Shouldn't you be angry?", Line_WaitForInput);
+			NULL, "\"...Or rather, shouldn't we get angry?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s14/03/220300069", 256, TRUE);
 	OutputLine(NULL, "　いや殴っていい？",
-			NULL, " Or ready to smack someone?", Line_WaitForInput);
+			NULL, " Or ready to smack you?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s14/03/220300070", 256, TRUE);
 	OutputLine(NULL, "　この、空気読めない娘が…！！」",
-			NULL, " She can't read the air at all...!!\"", Line_Normal);
+			NULL, " You can't read the air at all...!!\"", Line_Normal);
 	ClearMessage();
 
 //圭一rvS14/01/220100120.「いや、お前が言うな」
@@ -2357,13 +2357,13 @@ void main()
 //r俺はそう言って、魅音たちの顔を見渡す。皆一様に、鼻を棒でくくったような顔で目を丸くしていた。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "俺はそう言って、魅音たちの顔を見渡す。皆一様に、鼻を棒でくくったような顔で目を丸くしていた。",
-			NULL, "I looked around at everyone as I said that. They were all wide eyed, with shocked looks on their faces.", Line_Normal);
+			NULL, "I looked around at everyone as I said that. They were all wide eyed, with brusque looks on their faces.", Line_Normal);
 	ClearMessage();
 
 //r…とはいえ、無理のない話だと思う。何しろ、次の瞬間に俺が『今の嘘～！』といっても自然な流れになるくらい、途方もない話なのだから。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…とはいえ、無理のない話だと思う。何しろ、次の瞬間に俺が『今の嘘～！』といっても自然な流れになるくらい、途方もない話なのだから。",
-			NULL, "...Although, I suppose that's a reasonable reaction. In fact, given how extraordinary this story is, it'd be perfectly natural for them to be shouting, \"You're lying~!\" right now.", Line_Normal);
+			NULL, "...Although, I suppose that's a reasonable reaction. In fact, given how extraordinary this story is, it'd be perfectly natural for me to be shouting, \"I'm just kidding!~!\" right now.", Line_Normal);
 	ClearMessage();
 
 //rもっとも、…本当にそんなことを冗談でも言ったら、全員からタコ殴りだろうな。
