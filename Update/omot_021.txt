@@ -2408,7 +2408,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
 	OutputLine(NULL, "魅音はそう言うと、レナたちをぐるりと見渡してから俺に顔を戻して頷く。とりあえず、俺と梨花ちゃんが真剣だってことは信じるよ。——その目がそう語っていてくれて、俺はなんとも心強かった。",
-			NULL, "Mion looked around at Rena and the others as she said that, then turned back to me and nodded. For now, it seems they believe Rika-chan and I are being sincere. I could tell from the look in her eyes, so it was encouraging to see.", Line_Normal);
+			NULL, "Mion looked around at Rena and the others as she said that, then turned back to me and nodded. For now, it seems she believes Rika-chan and I are being sincere. I could tell from the look in her eyes, so it was encouraging to see.", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(4, 3, "sprite/me2_wink_a1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
