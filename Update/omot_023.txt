@@ -62,7 +62,7 @@ void main()
 			NULL, "\"...Who would've thought I'd be entering my mortal enemy's stronghold like this?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s14/11/220700440", 256, TRUE);
 	OutputLine(NULL, "長生きしてよかったのか、どうなのか」",
-			NULL, " My, I've lived a long life, haven't I?\"", Line_Normal);
+			NULL, " My, is this thanks to my own long life, or not?\"", Line_Normal);
 	ClearMessage();
 
 //rしみじみと、大石さんは誰に言うのでもなくポツリとつぶやく。その言葉には、きっと俺たちの想像もつかない感慨が含まれているように思われて、何も言えなかった。
@@ -144,7 +144,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6bd09f>茜</color>", NULL, "<color=#6bd09f>Akane</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 16, "ps3/s14/16/222200119", 256, TRUE);
 	OutputLine(NULL, "下手に強行すれば犠牲も出る以上、現時点では睨み合いが精一杯ってところだ」",
-			NULL, " If this is handled poorly, there will be casualties. At this point it's an intense standoff.\"", Line_Normal);
+			NULL, " If we choose a daring assault, there will be casualties. At this point it's an intense standoff.\"", Line_Normal);
 	ClearMessage();
 
 //大石rvS14/11/220700441.「なっはっは…お恥ずかしい限りです。kvS14/11/220700442.現場への急行に後手を踏んでしまいまして」
@@ -243,13 +243,13 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s14/03/220300152", 256, TRUE);
 	OutputLine(NULL, "「もし５時までの約束を違えたら…。",
-			NULL, "\"If the demands are met by 5:00...", Line_WaitForInput);
+			NULL, "\"If the demands are not met by 5:00...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s14/03/220300153", 256, TRUE);
 	OutputLine(NULL, "わざわざ説明の必要はありませんね。",
 			NULL, " no further discussion should be necessary.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s14/03/220300154", 256, TRUE);
 	OutputLine(NULL, "それから犯人グループは北条沙都子の解放と同時に、診療所の人質も解放するそうです」",
-			NULL, " Then, the criminal group will simultaneously release Satoko Houjou and the hostages from the clinic.\"", Line_Normal);
+			NULL, " Incidentally, the criminal group will simultaneously release Satoko Houjou and the hostages from the clinic.\"", Line_Normal);
 	ClearMessage();
 
 //年寄りrvS14/00/eldA11002.「ほんなこつ、口だけの約束が信用できるかぁっ！！」
@@ -300,10 +300,10 @@ void main()
 			NULL, "\"What is the opinion of the police department?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 16, "ps3/s14/16/222200122", 256, TRUE);
 	OutputLine(NULL, "　突入といっても相手は武装集団だ、こちらの思惑はおそらく想定の範囲内だろうし、準備も万全と考えたほうがいい。",
-			NULL, " We should assume that our foes are armed and keep that in mind when making our preparations.", Line_WaitForInput);
+			NULL, " We should assume that our foes are armed and they've made enough provision in case they're assaulted.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 16, "ps3/s14/16/222200123", 256, TRUE);
 	OutputLine(NULL, "所轄の人員でなんとかなるとはちょっと思えないんだけどね」",
-			NULL, " I don't believe the staff on hand will be sufficient.\"", Line_Normal);
+			NULL, " I don't believe the police staff on hand will be sufficient.\"", Line_Normal);
 	ClearMessage();
 
 	if (GetLocalFlag(LConsoleArc)==10) {
@@ -313,7 +313,7 @@ void main()
 				NULL, "\"...It's just as you say.", Line_WaitForInput);
 		ModPlayVoiceLS(4, 11, "ps2/11/220700444", 540, TRUE);
 		OutputLine(NULL, "まぁ、大高の大バカヤロ一に頭を下げてでも、機動隊の出動を県警に要請しなければ、太刀打ちは難しいでしょう」",
-				NULL, " Well, even if I bowed to that jackass Ootaka, we'd have a very hard time putting up a fight unless we can convince the prefectural police department to dispatch riot police.\"", Line_Normal);
+				NULL, " Well, even if I needed to go so far as to beg that jackass Ootaka, we'd have a very hard time putting up a fight unless we can convince the prefectural police department to dispatch riot police.\"", Line_Normal);
 		ClearMessage();
 
 		ModDrawCharacter(4, 16, "sprite/aka_warai_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
@@ -358,7 +358,7 @@ void main()
 			NULL, " Hopefully they can safeguard the lives of everyone involved.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s14/11/220700447", 256, TRUE);
 	OutputLine(NULL, "…正直、こればかりは出たとこ勝負になるでしょうな」",
-			NULL, " ...To be honest, I think we don't stand a chance without them.\"", Line_Normal);
+			NULL, " ...To be honest, I think it depends how things go.\"", Line_Normal);
 	ClearMessage();
 
 //圭一rvS14/01/220100199.「…ちきしょう！kvS14/01/220100200.　ここまできて、賭けになるのかよ…！！」
@@ -464,7 +464,7 @@ void main()
 		if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 		ModPlayVoiceLS(4, 11, "ps3/s14/11/vt4bc_oishi1074", 256, TRUE);
 		OutputLine(NULL, "「県警本部に引っ張られないよう、警察庁から手を回してもらったんですが…それが仇になっちまいましてね」",
-				NULL, "\"She was turned over to the National Police Agency to prevent her from being taken by prefectural police HQ... so that part of the plan has fallen apart.\"", Line_Normal);
+				NULL, "\"The National Police Agency helped me prevent her from being taken by prefectural police HQ... but also that made a side effect.\"", Line_Normal);
 		ClearMessage();
 
 	//大石rvS14/11/VT4Bc_oishi1075.「簡単に自由の身にしてあげられない上、もしうかつに釈放すれば、今度は県警本部が彼女を連れていこうとあらゆる手を打ってくるでしょう」
@@ -479,7 +479,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s14/11/220700449", 256, TRUE);
 	OutputLine(NULL, "「相当暴れられて難儀しましたが、今は鎮静剤でおとなしくしてもらっています」",
-			NULL, "\"I was struggling to keep myself from going on a rampage earlier, but I've taken some sedatives so I'm calm now.\"", Line_Normal);
+			NULL, "\"We were struggling to keep her from going on a rampage, but she has taken some sedatives so she's calm now.\"", Line_Normal);
 	ClearMessage();
 
 //r…容易に想像ができる。
@@ -491,7 +491,7 @@ void main()
 //r沙都子がさらわれたなんて、詩音にしてみればなにを引き換えにしても駆けつけるべき事態だろう。おそらくものすごい剣幕と勢いで、担当の刑事と取調室で暴れまわったはずだ。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "沙都子がさらわれたなんて、詩音にしてみればなにを引き換えにしても駆けつけるべき事態だろう。おそらくものすごい剣幕と勢いで、担当の刑事と取調室で暴れまわったはずだ。",
-			NULL, "If they were planning to abduct Satoko, they probably also rushed to grab Shion, hoping to use her for trade. There must've been a huge brawl with the detective in charge of her interrogation.", Line_Normal);
+			NULL, "If Shion hears Satoko was abducted, she'll most surely think she needs to rush here at any cost. She must've made a huge brawl with the detective in charge of her interrogation.", Line_Normal);
 	ClearMessage();
 
 //圭一rvS14/01/220100203.「でも、大丈夫なんですか？kvS14/01/220100204.　大石さんがここに来ていたら、詩音は…」
