@@ -2031,7 +2031,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6bd09f>茜</color>", NULL, "<color=#6bd09f>Akane</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 16, "ps3/s14/16/222200187", 256, TRUE);
 	OutputLine(NULL, "「誰かに責任を肩代わりしてもらって、ただ与えられた椅子に座ることが次期頭首の役目だと漫然と受け止めていただけのお前が！",
-			NULL, "\"The one sitting in the position of the next head can't carelessly ask someone else to take responsibility!", Line_WaitForInput);
+			NULL, "\"You've been thinking the duty of the next head is to make someone else take responsibility and to irresponsibly succeed to the position!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 16, "ps3/s14/16/222200188", 256, TRUE);
 	OutputLine(NULL, "　命を張る痛みと苦しさを理解できるとでも言うのかぁぁあぁッッ！！」",
 			NULL, " Can you truly understand the pain and suffering of putting your life on the liiine?!\"", Line_Normal);
@@ -2061,7 +2061,7 @@ void main()
 //r魅音は首元の日本刀を『がッ！』と握り締めると、刃が食い込み鮮血がどくどくと流れ出すのも構わず、その首筋に当てる。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "魅音は首元の日本刀を『がッ！』と握り締めると、刃が食い込み鮮血がどくどくと流れ出すのも構わず、その首筋に当てる。",
-			NULL, "Mion tightly squeezed the katana and fresh blood began to spill out as the blade dug in.", Line_Normal);
+			NULL, "Mion tightly squeezed the katana and put it to her throat even though fresh blood began to spill out as the blade dug in her hands.", Line_Normal);
 	ClearMessage();
 
 //rそして、勢いよく息を深く吸い込んだかと思うと、そのまま力を込めて鋭く引き下ろした！！
@@ -2074,7 +2074,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s14/01/220100244", 256, TRUE);
 	OutputLine(NULL, "「魅音、やめろ——っっ！！」",
-			NULL, "\"Mion, stop...!!\"", Line_Normal);
+			NULL, "\"Mion, stoooop!!\"", Line_Normal);
 	ClearMessage();
 
 //梨花rvS14/05/220500267.「魅ぃっ！！」
@@ -2118,7 +2118,7 @@ void main()
 //r茜さんの反対側の手で刃を掴まれ、わずかの切り傷を彼女の首に残していた。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "茜さんの反対側の手で刃を掴まれ、わずかの切り傷を彼女の首に残していた。",
-			NULL, "The tip of Akane-san's blade left a slight cut on her neck.", Line_Normal);
+			NULL, "But Akane-san grabbed and stopped the blade with her another hand, so there was left only a slight cut on Mion's throat.", Line_Normal);
 	ClearMessage();
 
 	DrawScene("white", 1000 );
@@ -2310,7 +2310,7 @@ void main()
 			NULL, "\"No, I can't!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s14/02/220200096", 256, TRUE);
 	OutputLine(NULL, "　こんな無茶して、本当ならお仕置きするところなんだからっ！！」",
-			NULL, " Consider this your punishment for doing something so reckless!!\"", Line_Normal);
+			NULL, " If it were usual, your punishment for doing something so reckless would be more terrific!!\"", Line_Normal);
 	ClearMessage();
 
 	FadeAllBustshots( 200, TRUE );
@@ -2436,20 +2436,20 @@ void main()
 			NULL, "\"No matter what the future may hold, I've decided I'm going to believe in you.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s14/03/220300202", 256, TRUE);
 	OutputLine(NULL, "だから、信じてもらいたかった。",
-			NULL, " So, I wanted to trust you.", Line_WaitForInput);
+			NULL, " So, I wanted others to believe in you, too.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s14/03/220300203", 256, TRUE);
 	OutputLine(NULL, "私のこの想い、…命を張った想いをちゃんと汲んで、大切にして」",
-			NULL, " I... really respected your willingness to put your life on the line.\"", Line_Normal);
+			NULL, " You're... the man who really understands and respects my willingness to put my life on the line.\"", Line_Normal);
 	ClearMessage();
 
 //魅音rvS14/03/220300204.「そして、私の大切なものを守るために、命を投げ出して戦ってくれる人だって。kvS14/03/220300205.みんなに…ね」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s14/03/220300204", 256, TRUE);
 	OutputLine(NULL, "「そして、私の大切なものを守るために、命を投げ出して戦ってくれる人だって。",
-			NULL, "\"And everyone else willing to risk their lives for the sake of the things I hold dear.", Line_WaitForInput);
+			NULL, "\"And you dare to risk your life for the sake of the things I hold dear.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s14/03/220300205", 256, TRUE);
 	OutputLine(NULL, "みんなに…ね」",
-			NULL, " Everyone...\"", Line_Normal);
+			NULL, " I want everyone here to believe that...\"", Line_Normal);
 	ClearMessage();
 
 //圭一rvS14/01/220100253.「魅音…お前……っ！」
@@ -2465,7 +2465,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s14/03/220300206", 256, TRUE);
 	OutputLine(NULL, "「沙都子…助け出そうよ。",
-			NULL, "\"I'll... help Satoko.", Line_WaitForInput);
+			NULL, "\"Let's... rescue Satoko.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s14/03/220300207", 256, TRUE);
 	OutputLine(NULL, "私と圭ちゃん、レナと梨花ちゃん。４人でかかれば、きっとなんとかなる。",
 			NULL, " You and I, Kei-chan. Plus Rena and Rika-chan. With the four of us together, I'm sure we'll manage.", Line_WaitForInput);
@@ -2567,8 +2567,8 @@ void main()
 
 		if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 		ModPlayVoiceLS(4, 5, "ps2/05/220500275", 540, TRUE);
-		OutputLine(NULL, "「どうせ最後だから、なんて捨て鉢になってだまるかッッ！！",
-				NULL, "\"This is our last chance, so there's no sense abandoning it out of despair!!", Line_WaitForInput);
+		OutputLine(NULL, "「どうせ最後だから、なんて捨て鉢になってたまるかッッ！！",
+				NULL, "\"I'll never become a self-abandoner again like \"I don't care because this is my last chance!!\"", Line_WaitForInput);
 		ModPlayVoiceLS(4, 5, "ps2/05/220500276", 540, TRUE);
 		OutputLine(NULL, "　私の時間、そして幸せは、私の力と意思で掴み取ってみせるッッ！！！」",
 				NULL, " I'll grab hold of my time and my happiness, using my own strength and will!!!\"", Line_Normal);
@@ -2598,7 +2598,7 @@ void main()
 		if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 		ModPlayVoiceLS(4, 5, "ps3/s14/05/vt4bc_rika1194", 256, TRUE);
 		OutputLine(NULL, "「どうせ最後だから、なんて捨て鉢になってはダメなのです！！",
-				NULL, "\"This is our last chance, so there's no sense abandoning it out of despair!!", Line_WaitForInput);
+				NULL, "\"Don't be self-abandoned like \"I don't care because this is my last chance!!\"", Line_WaitForInput);
 		ModPlayVoiceLS(4, 5, "ps3/s14/05/vt4bc_rika1195", 256, TRUE);
 		OutputLine(NULL, "　僕たちの時間、そして幸せは、僕たち自身の力と意思で掴み取ってみせるのですよッ！！！」",
 				NULL, " We'll grab hold of our time and our happiness, using our own strength and will!!!\"", Line_Normal);
@@ -2704,7 +2704,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6bd09f>茜</color>", NULL, "<color=#6bd09f>Akane</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 16, "ps3/s14/16/222200200", 256, TRUE);
 	OutputLine(NULL, "「それから村の連中の避難と、使えるやつらを駆り出せ。",
-			NULL, "\"Then, evacuate the villagers as fast as you can.", Line_WaitForInput);
+			NULL, "\"Then, evacuate the villagers and call the battle-ready members.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 16, "ps3/s14/16/222200201", 256, TRUE);
 	OutputLine(NULL, "相手は武装集団だ、組の威信かけて村の誰彼にも指一本触れさせるなっ！」",
 			NULL, " Our foes are an armed group. Don't let them lay a finger on anyone in the village!\"", Line_Normal);
@@ -2770,7 +2770,7 @@ void main()
 			NULL, "\"Don't worry, we'll allow you to arrest some of them.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 16, "ps3/s14/16/222200204", 256, TRUE);
 	OutputLine(NULL, "なんだったら私が全員をたきつけたって、ム所に行ってやっても構わないよ？」",
-			NULL, " If you'd like, you're free to show up on the scene after we've kicked things off.\"", Line_Normal);
+			NULL, " If you'd like, you're free to consider this a sedition crime and put me in jail.\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(3, 11, "sprite/oisi1_2_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
@@ -2782,7 +2782,7 @@ void main()
 			NULL, "\"Nfu fu fu!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s14/11/220700465", 256, TRUE);
 	OutputLine(NULL, "　冗談は止めてください、こんな一触即発の人間ニトログリセリン、どこの牢獄だって願い下げですよぉ～！」",
-			NULL, " Please, stop joking around. A delicate situation like this is practically human nitroglycerin. Which prison would you like to end up in~?!\"", Line_Normal);
+			NULL, " Please, stop joking around. You're delicate human nitroglycerin, so how prison could welcome you~?!\"", Line_Normal);
 	ClearMessage();
 
 	FadeAllBustshots( 200, TRUE );
@@ -2790,7 +2790,7 @@ void main()
 //r腹を揺らしてひとしきりおかしそうに笑ってから、大石さんは立ち上がって廊下に出る。そして、気合を入れるように両の頬を『ぱん！』と平手打ちして、こちらに振り返った。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "腹を揺らしてひとしきりおかしそうに笑ってから、大石さんは立ち上がって廊下に出る。そして、気合を入れるように両の頬を『ぱん！』と平手打ちして、こちらに振り返った。",
-			NULL, "Ooishi-san's belly shook as he let out a weird laugh, then he stood up and walked toward the hallway. He slapped both his cheeks to psych himself up, then turned back this way.", Line_Normal);
+			NULL, "Ooishi-san's belly shook as he let out a happy laugh, then he stood up and walked toward the hallway. He slapped both his cheeks to psych himself up, then turned back this way.", Line_Normal);
 	ClearMessage();
 
 //大石rvS14/11/220700466.「…警察としては、とにかく診療所の人質解放に全力を尽くします。kvS14/11/220700467.あとは、富竹氏の残した資料の分析ですね。kvS14/11/220700468.…終わったらそっちにも、できる限りの人間を集めてみせますよ」
@@ -2912,7 +2912,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6bd09f>茜</color>", NULL, "<color=#6bd09f>Akane</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 16, "ps3/s14/16/222200213", 256, TRUE);
 	OutputLine(NULL, "「…示現流って二の太刀要らずの、上段から刀を地面に叩きつけるアレでしょ？",
-			NULL, "\"...Jigen-ryu style? Wielding a second sword has no value here, and doesn't that involve striking the ground from directly above?", Line_WaitForInput);
+			NULL, "\"...Jigen-ryu style? I heard they don't need to swing a sword twice because they forcefully swing it toward the ground from directly above.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 16, "ps3/s14/16/222200214", 256, TRUE);
 	OutputLine(NULL, "　寸止めにならないじゃないか。",
 			NULL, " There's no way you could stop just short of striking distance that way.", GetGlobalFlag(GLinemodeSp));
@@ -2965,13 +2965,13 @@ void main()
 //r全員が意気込んで、退出した園崎家の別室で。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "全員が意気込んで、退出した園崎家の別室で。",
-			NULL, "The people present in another room of the Sonozaki household were still feeling enthusiastic.", Line_Normal);
+			NULL, "Here is another room in the Sonozaki house, where all of us got enthusiastic and headed to the exit earlier.", Line_Normal);
 	ClearMessage();
 
 //rそんなやり取りがあったことを、もちろん俺たちは知るはずもなかった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "そんなやり取りがあったことを、もちろん俺たちは知るはずもなかった。",
-			NULL, "Of course, we had no idea they were having such an exchange.", Line_Normal);
+			NULL, "Of course, we had no idea they were having such a conversation here.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
