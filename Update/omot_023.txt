@@ -1153,7 +1153,7 @@ void main()
 //rそれよりも、と梨花ちゃんはその場に膝を折ると、深々と頭を下げて言った。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "それよりも、と梨花ちゃんはその場に膝を折ると、深々と頭を下げて言った。",
-			NULL, "Instead, Rika-chan knelt down on the spot and bowed down.", Line_Normal);
+			NULL, "Saying \"more importantly,\" Rika-chan knelt down on the spot and bowed down.", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(4, 5, "sprite/ri2_fuman_a1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
@@ -1197,7 +1197,7 @@ void main()
 			NULL, "\"Satoko...?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s14/01/220100233", 256, TRUE);
 	OutputLine(NULL, "　あいつっ…！」",
-			NULL, " Those bastards...!\"", Line_Normal);
+			NULL, " What a girl...!\"", Line_Normal);
 	ClearMessage();
 
 //レナrvS14/02/220200085.「…他のみんなは？」
@@ -1385,14 +1385,14 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6bd09f>茜</color>", NULL, "<color=#6bd09f>Akane</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 16, "ps3/s14/16/222200168", 256, TRUE);
 	OutputLine(NULL, "「はっきり言ってね、あんたたちの思いは単なる自己満足だ」",
-			NULL, "\"I'll be perfectly clear. Your thoughts are purely focused on self-complacency.\"", Line_Normal);
+			NULL, "\"To be perfectly honest, your thoughts are purely focused on self-complacency.\"", Line_Normal);
 	ClearMessage();
 
 //茜rvS14/16/222200169.「人でなしと思われたくない、仲間を見捨てた傷を背負いたくない、kvS14/16/222200170.そんな自分しか見ていないような連中のために、どうしてこっちが命を張らなきゃいけない？」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6bd09f>茜</color>", NULL, "<color=#6bd09f>Akane</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 16, "ps3/s14/16/222200169", 256, TRUE);
 	OutputLine(NULL, "「人でなしと思われたくない、仲間を見捨てた傷を背負いたくない、",
-			NULL, "\"I don't want to consider life without someone. I don't want to carry the scars of abandoning a friend.", Line_WaitForInput);
+			NULL, "\"You don't want to be inhuman. You don't want to carry the scars of abandoning a friend.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 16, "ps3/s14/16/222200170", 256, TRUE);
 	OutputLine(NULL, "そんな自分しか見ていないような連中のために、どうしてこっちが命を張らなきゃいけない？」",
 			NULL, " Why do we need to put our lives on the line for your own selfish whims?\"", Line_Normal);
@@ -1448,7 +1448,7 @@ void main()
 			NULL, " ...But what about all of you?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 16, "ps3/s14/16/222200177", 256, TRUE);
 	OutputLine(NULL, "　それに代わる、もしくは打ち破るだけの覚悟があるのかい？」",
-			NULL, " Do you have the resolution to represent them? Or can you only tear things down?\"", Line_Normal);
+			NULL, " Do you have the resolution to represent, or to overwhelm them?\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(4, 16, "sprite/aka_sakebi_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
@@ -1477,7 +1477,7 @@ void main()
 //r覚悟。責任。冷たいと一蹴することなど決してできない強い意志の力に圧倒されて、俺は腰を浮かせた姿勢のまま微動だにできなくなる。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "覚悟。責任。冷たいと一蹴することなど決してできない強い意志の力に圧倒されて、俺は腰を浮かせた姿勢のまま微動だにできなくなる。",
-			NULL, "Resolution. Responsibility. I was so overwhelmed by her cold, direct refusal that I couldn't even maintain my posture.", Line_Normal);
+			NULL, "Resolution. Responsibility. I was so overwhelmed by her firm will, which no longer has cold heart, that I couldn't even maintain my posture.", Line_Normal);
 	ClearMessage();
 
 //rレナも梨花ちゃんもすっかり意気消沈したようにうなだれ、悔しさと無力感に苛まれて身体を小刻みに震わせるだけだった。
@@ -1491,7 +1491,7 @@ void main()
 //r沙都子を救いたい。それは、仲間として、そして人間として、…当然の思いだった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "沙都子を救いたい。それは、仲間として、そして人間として、…当然の思いだった。",
-			NULL, "I want to save Satoko. She's a friend, and a human being... so it's perfectly natural to feel that way.", Line_Normal);
+			NULL, "I want to save Satoko. I'm her friend, and a human being... so it's perfectly natural to feel that way.", Line_Normal);
 	ClearMessage();
 
 //rしかし、そのために犠牲になる人たちに対しての義務と責任は、どうなるのか？
@@ -1757,7 +1757,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
 	OutputLine(NULL, "ただ闇雲に立ち向かうのではなく、持てる力を振り絞って知恵を捻り出し、自分だけではなく自分にかかわる人たちの命運をもその手に握っていることを忘れずに、敵と戦う覚悟が必要だったのだ。",
-			NULL, "But rather than simply confronting dark clouds while flaunting your strength and applying your wisdom, you have to understand that everyone else's fate is in your hands too, not just your own. You need to have the convictions to fight.", Line_Normal);
+			NULL, "But it doesn't mean all you have to do isn't blindly struggle against them. You have to understand that everyone else's fate is in your hands too, not just your own. Applying all of your wisdom, you need to have the convictions to fight.", Line_Normal);
 	ClearMessage();
 
 	DrawScene("background/ima3", 1000 );
@@ -1853,7 +1853,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s14/05/220500265", 256, TRUE);
 	OutputLine(NULL, "「こちらには鉄さえ貫く固い団結力と、そしてやつら以上に強い信念がある！",
-			NULL, "\"The people here have a bond so strong that not even iron can penetrate it, and stronger beliefs than anyone else!", GetGlobalFlag(GLinemodeSp));
+			NULL, "\"The people here have a strong bond which can penetrate even iron, and stronger beliefs than anyone else!", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s14/05/220500266", 256, TRUE);
 	OutputLine(NULL, "　もう一度、国家権力と戦ったかつての死守同盟の力を見せてほしいのです！！」",
