@@ -31,7 +31,7 @@ void main()
 //r生ぬるく、じっとりと蒸せるような境内の空気に、涼しげな風が時折差し込んでくる。見慣れた境内がやけに広々と感じるのは、…きっと私の心がそうさせているのだろう。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "生ぬるく、じっとりと蒸せるような境内の空気に、涼しげな風が時折差し込んでくる。見慣れた境内がやけに広々と感じるのは、…きっと私の心がそうさせているのだろう。",
-			NULL, "A cool breeze occasionally blew through the lukewarm air of the shrine grounds. The familiar shrine grounds felt so vast... and that was most certainly my heart's doing.", Line_Normal);
+			NULL, "A cool breeze occasionally blew through the lukewarm and humid air of the shrine grounds. The familiar shrine grounds felt so vast... and that was most certainly my heart's doing.", Line_Normal);
 	ClearMessage();
 
 //r本殿には、前手に手錠をかけられた私と、鷹野。…そして、石段から上がってくる相手を待ち構えるように、銃を手に持った武装者たちが数えて９名見える。
@@ -147,8 +147,8 @@ void main()
 
 	if (GetLocalFlag(LConsoleArc)==10) {
 		if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-		OutputLine(NULL, "ヒステリックに当り散らす母や叔母と違って、どこか余裕というか懐の深さに似た抱擁力を感じるからだ。",
-				NULL, "Unlike my mother and aunt who were prone to hysterics and found fault with everyone, somewhere in my heart I sensed a similar embrace of power.", Line_Normal);
+		OutputLine(NULL, "ヒステリックに当り散らす母や叔母と違って、どこか余裕というか懐の深さに似た包容力を感じるからだ。",
+				NULL, "Because somehow I feel she has some emotional leeway like tolerance, unlike my mother and aunt who were prone to hysterics and found fault with everyone.", Line_Normal);
 		ClearMessage();
 
 		if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -166,10 +166,10 @@ void main()
 				NULL, "If Rika had heard that, I'm sure she'd open her eyes wide in shock.", Line_Normal);
 		ClearMessage();
 	} else {
-	//rヒステリックに当り散らす母や叔母と違って、どこか余裕というか懐の深さに似た抱擁力を感じるからだろう。
+	//rヒステリックに当り散らす母や叔母と違って、どこか余裕というか懐の深さに似た包容力を感じるからだろう。
 		if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-		OutputLine(NULL, "ヒステリックに当り散らす母や叔母と違って、どこか余裕というか懐の深さに似た抱擁力を感じるからだろう。",
-				NULL, "Unlike my mother and aunt who were prone to hysterics and found fault with everyone, somewhere in my heart I sensed a similar embrace of power.", Line_Normal);
+		OutputLine(NULL, "ヒステリックに当り散らす母や叔母と違って、どこか余裕というか懐の深さに似た包容力を感じるからだろう。",
+				NULL, "Because somehow I feel she has some emotional leeway like tolerance, unlike my mother and aunt who were prone to hysterics and found fault with everyone.", Line_Normal);
 		ClearMessage();
 
 	//rそして、こんな状況に追い込まれていながら奇妙な話だが…まだ、鷹野を完全に憎むことができない自分がいるのだ。
