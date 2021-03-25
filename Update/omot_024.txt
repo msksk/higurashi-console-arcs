@@ -351,24 +351,24 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 9, "ps3/s14/09/220900050", 256, TRUE);
 	OutputLine(NULL, "「あなたを憎みきれない弱い自分を知れば知るほど、…どうしても認めたくない、むしろ消し去ってやりたい存在がいるの」",
-			NULL, "\"The more I understand my weak self, unable to hate you... I really don't want to admit it, but there is someone I want to disappear.\"", Line_Normal);
+			NULL, "\"The more I understand my weak self, unable to hate you... the more I realize there is someone whose existence value I really want to deny, or rather someone I want to disappear.\"", Line_Normal);
 	ClearMessage();
 
 //鷹野rvS14/09/220900051.「それが私と同じ時間に生きて、同じ空気を吸っていることすら厭わしい。kvS14/09/220900052.…不倶戴天、とでもいうのかしら」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 9, "ps3/s14/09/220900051", 256, TRUE);
 	OutputLine(NULL, "「それが私と同じ時間に生きて、同じ空気を吸っていることすら厭わしい。",
-			NULL, "\"It disgusts me that they're living at the same time as me, breathing the same air.", Line_WaitForInput);
+			NULL, "\"It disgusts me that she's living at the same time as me, breathing the same air.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "ps3/s14/09/220900052", 256, TRUE);
 	OutputLine(NULL, "…不倶戴天、とでもいうのかしら」",
-			NULL, " ...I suppose you could call them a mortal enemy.\"", Line_Normal);
+			NULL, " ...I suppose you could call her a mortal enemy.\"", Line_Normal);
 	ClearMessage();
 
 //鷹野rvS14/09/220900053.「せめて同じ世界にどちらかがいなければ、私もここまで心を闇に侵されることもなかったのかもね…？」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 9, "ps3/s14/09/220900053", 256, TRUE);
 	OutputLine(NULL, "「せめて同じ世界にどちらかがいなければ、私もここまで心を闇に侵されることもなかったのかもね…？」",
-			NULL, "\"If there was nobody like that in this world, maybe my heart wouldn't have darkened so far...?\"", Line_Normal);
+			NULL, "\"If she and I lived in different worlds, maybe my heart wouldn't have darkened so far...?\"", Line_Normal);
 	ClearMessage();
 
 //沙都子rvS14/04/VT4Bc_satoko1037.「…そんなにも、梨花が憎いとお思いですの？」
@@ -422,7 +422,7 @@ void main()
 				NULL, "\"...", Line_WaitForInput);
 		ModPlayVoiceLS(4, 4, "ps3/s14/04/vt4bc_satoko1039", 256, TRUE);
 		OutputLine(NULL, "あなたも、お辛い目に遭ってきたんですのね…」",
-				NULL, "You've seen some terrible things, haven't you...?\"", Line_Normal);
+				NULL, "You've seen some terrible things, too...\"", Line_Normal);
 	}
 	ClearMessage();
 
@@ -454,13 +454,13 @@ void main()
 //r愛されることの意味を、よく理解する機会にも恵まれず。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "愛されることの意味を、よく理解する機会にも恵まれず。",
-			NULL, "I haven't had a lot of opportunities to understand what it means to be loved.", Line_Normal);
+			NULL, "She must've had no opportunity to understand what it means to be loved.", Line_Normal);
 	ClearMessage();
 
 //r人から虐げられ、無視され、疎まれて、…それを他者への敵意にまで昇華することで、自分を保ってきたのだろう。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "人から虐げられ、無視され、疎まれて、…それを他者への敵意にまで昇華することで、自分を保ってきたのだろう。",
-			NULL, "After being oppressed, neglected, and alienated from other people... feeling hostility towards others is the only way to keep yourself going.", Line_Normal);
+			NULL, "And after being oppressed, neglected, and alienated from other people... feeling hostility towards others must've been the only way to keep herself going.", Line_Normal);
 	ClearMessage();
 
 	DrawSceneWithMask( "white", "c", 0, 0, 1000 );
@@ -490,7 +490,7 @@ void main()
 //r母を失ってからは、…その対象は兄へと移った。叔父夫婦が憎いというよりも、兄が自分を守るために構ってもらえることが、嬉しかった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "母を失ってからは、…その対象は兄へと移った。叔父夫婦が憎いというよりも、兄が自分を守るために構ってもらえることが、嬉しかった。",
-			NULL, "And after losing my mother... the target moved to my brother. Rather than hate my aunt and uncle, I was glad to have my brother doing what he could to protect me.", Line_Normal);
+			NULL, "And after losing my mother... the target moved to my brother. Rather than hate my aunt and uncle, I was glad my brother cared me to protect me.", Line_Normal);
 	ClearMessage();
 
 //rそして、兄がいなくなってからは部活メンバー、…そして叔父。
@@ -502,7 +502,7 @@ void main()
 //r散々罵声を浴びせられても、それが自分を構ってもらえる代償だと感じていたのだから、つくづく救われない。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "散々罵声を浴びせられても、それが自分を構ってもらえる代償だと感じていたのだから、つくづく救われない。",
-			NULL, "Even as I suffered that abuse, I thought that was the price of salvation, so I continued to endure it.", Line_Normal);
+			NULL, "Even as I suffered that abuse, I thought that was the price of their caring, so I was a really hopeless case.", Line_Normal);
 	ClearMessage();
 
 	DrawScene("background/gk1", 1000 );
@@ -554,7 +554,7 @@ void main()
 //r雛見沢症候群の研究が彼女にとってどれほどの生きがいだったかはわからないけど、それを奪われるくらいなら自分の手で壊したいと、思い余ってしまったのだろうか。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "雛見沢症候群の研究が彼女にとってどれほどの生きがいだったかはわからないけど、それを奪われるくらいなら自分の手で壊したいと、思い余ってしまったのだろうか。",
-			NULL, "I didn't know if she considered the study of Hinamizawa Syndrome her reason for living, but I imagined she'd want to personally destroy anyone threatening to take it away.", Line_Normal);
+			NULL, "I didn't know how much she considered the study of Hinamizawa Syndrome her reason for living, but I imagined she'd rather destroy it by herself than have it taken away.", Line_Normal);
 	ClearMessage();
 
 //rそして、私は…。
@@ -580,31 +580,31 @@ void main()
 //rどうせ引き裂かれるなら、身を引き裂かされる方がはるかにマシだと思った。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "どうせ引き裂かれるなら、身を引き裂かされる方がはるかにマシだと思った。",
-			NULL, "If I was going to be ripped apart anyways, having my body ripped apart would've been far better.", Line_Normal);
+			NULL, "If anything's going to be torn apart, I'd rather it be my body.", Line_Normal);
 	ClearMessage();
 
 //r信じてた。…いや、信じてる。今この瞬間だって、信じてる。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "信じてた。…いや、信じてる。今この瞬間だって、信じてる。",
-			NULL, "I trusted her. ...No, I still trust her. Even in this very moment, I trust her.", Line_Normal);
+			NULL, "I belived it. ...I still believe it. I still believe it right at this moment.", Line_Normal);
 	ClearMessage();
 
 //r自分にとって、何が大切で、…どれを選ぶべきなんだってことを。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "自分にとって、何が大切で、…どれを選ぶべきなんだってことを。",
-			NULL, "I can see what's important to me... and what choice I need to make.", Line_Normal);
+			NULL, "I believe that I can see what's important to me... and what choice I need to make.", Line_Normal);
 	ClearMessage();
 
 //rでも…薄々は気付いてる。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "でも…薄々は気付いてる。",
-			NULL, "But... I'm starting to realize.", Line_Normal);
+			NULL, "But in fact... I'm starting to become aware.", Line_Normal);
 	ClearMessage();
 
 //r信じたいのは、認めたくないだけだからだ。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "信じたいのは、認めたくないだけだからだ。",
-			NULL, "I only wanted to trust her because I refused to accept the truth.", Line_Normal);
+			NULL, "I want to believe it, because I don't want to accept true self.", Line_Normal);
 	ClearMessage();
 
 //r本当は、梨花のためじゃない。自分が楽になりたいだけの、…私はいまだに弱虫だ。
@@ -616,14 +616,14 @@ void main()
 //rだって。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "だって。",
-			NULL, "So.", Line_Normal);
+			NULL, "Because.", Line_Normal);
 	ClearMessage();
 
 //r私はもはや諦めて、殺される覚悟もできている。なのにその一方で、…梨花がここに来ることを、待っている。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	if (GetLocalFlag(LConsoleArc)==10) {
 		OutputLine(NULL, "私はこんな状況で、もはや諦めて殺される覚悟もできたつもりなのに……梨花がここに来ることを、待っている。",
-				NULL, "Given the situation, I'm no longer holding back. I'm ready to be killed. And yet... I'm still waiting for Rika to arrive.", Line_Normal);
+				NULL, "I'm no longer holding back here. I'm ready to be killed. And yet... I'm still waiting for Rika to arrive.", Line_Normal);
 	} else {
 		OutputLine(NULL, "私はもはや諦めて、殺される覚悟もできている。なのにその一方で、…梨花がここに来ることを、待っている。",
 				NULL, "I'm no longer holding back. I'm ready to be killed. And yet, on the other hand... I'm still waiting for Rika to arrive.", Line_Normal);
@@ -639,7 +639,7 @@ void main()
 //r自分など放っておいたほうが、あの子の命が救われるとわかっているのに…。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "自分など放っておいたほうが、あの子の命が救われるとわかっているのに…。",
-			NULL, "Even though I know that leaving her alone will save her life...", Line_Normal);
+			NULL, "Even though I know that leaving me alone will save her life...", Line_Normal);
 	ClearMessage();
 
 //沙都子rvS14/04/220400167.「……っく…う…！」
@@ -760,7 +760,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s14/01/220100260", 256, TRUE);
 	OutputLine(NULL, "「ずいぶん、期待されてるんだな。",
-			NULL, "\"Seems like you were expecting something extreme.", Line_WaitForInput);
+			NULL, "\"Seems like you rate us so high.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s14/01/220100261", 256, TRUE);
 	OutputLine(NULL, "こんな子供相手にこれだけの人数、恥ずかしいとは思わないのか？」",
 			NULL, " Don't you feel embarrassed using this many soldiers against a couple of kids?\"", Line_Normal);
@@ -788,7 +788,7 @@ void main()
 			NULL, "\"I'm honored.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s14/01/220100263", 256, TRUE);
 	OutputLine(NULL, "…まぁ、いくら追い詰められたからって人質を取るような大人にだけは、絶対になりたくないけどな、俺は」",
-			NULL, " ...Well, I hope I never become the kind of adult who has to take hostages just because I feel cornered.\"", Line_Normal);
+			NULL, " ...Well, I hope I never become the kind of adult who has to take hostages even if they feel cornered.\"", Line_Normal);
 	ClearMessage();
 
 	FadeBustshot(4, FALSE, 0, 0, 0, 0, 200, TRUE);
@@ -974,14 +974,14 @@ void main()
 	if (GetLocalFlag(LConsoleArc)==10) {
 		ModPlayVoiceLS(4, 1, "ps2/01/220100275", 540, TRUE);
 		OutputLine(NULL, "「あんたたちと一緒にするな。",
-				NULL, "\"I'll even let you be there with me when I do it.", Line_WaitForInput);
+				NULL, "\"Don't confuse us with you all.", Line_WaitForInput);
 		ModPlayVoiceLS(4, 1, "ps2/01/220100276", 540, TRUE);
 		OutputLine(NULL, "それだけだ」",
-				NULL, " But that's all.\"", Line_Normal);
+				NULL, " That's all.\"", Line_Normal);
 	} else {
 		ModPlayVoiceLS(4, 1, "ps3/s14/01/vt4bc_keiichi1094", 256, TRUE);
 		OutputLine(NULL, "「あんたたちと一緒にするな。",
-				NULL, "\"I'll even let you be there with me when I do it.", Line_WaitForInput);
+				NULL, "\"Don't confuse us with you all.", Line_WaitForInput);
 		ModPlayVoiceLS(4, 1, "ps3/s14/01/vt4bc_keiichi1095", 256, TRUE);
 		OutputLine(NULL, "俺たちの目的は、沙都子を無事にこちらに返してもらうことだけだ。",
 				NULL, " All I care about is getting Satoko safely out of here.", Line_WaitForInput);
@@ -1085,7 +1085,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 9, "ps3/s14/09/220900075", 256, TRUE);
 	OutputLine(NULL, "「…それじゃ、三文劇はそれくらいでいいかしら。",
-			NULL, "\"...All right then, moving on to Act Three.", Line_WaitForInput);
+			NULL, "\"...All right then, stop the tearjerking movie.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "ps3/s14/09/220900076", 256, TRUE);
 	OutputLine(NULL, "古手梨花をこちらに」",
 			NULL, " Come, Rika Furude.\"", Line_Normal);
@@ -1094,7 +1094,7 @@ void main()
 //r冷然とした笑みを浮かべながら、鷹野はそう言ってあごで招く。梨花ちゃんは、きっ、と目をむいてから沙都子を俺に預け、ゆっくりと前に足を踏み出そうとした――。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "冷然とした笑みを浮かべながら、鷹野はそう言ってあごで招く。梨花ちゃんは、きっ、と目をむいてから沙都子を俺に預け、ゆっくりと前に足を踏み出そうとした——。",
-			NULL, "With a cold smile and a gesture of her chin, Takano beckoned her over. Rika-chan turned her eyes toward Satoko, then to me, and then slowly tried to step forward.", Line_Normal);
+			NULL, "With a cold smile and a gesture of her chin, Takano beckoned her over. Rika-chan glared at her, then brought Satoko to me, and then slowly tried to step forward.", Line_Normal);
 	ClearMessage();
 
 //rしかし。
@@ -1192,7 +1192,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 9, "ps3/s14/09/220900079", 256, TRUE);
 	OutputLine(NULL, "「あのね。",
-			NULL, "\"Umm...", Line_WaitForInput);
+			NULL, "\"Hey,", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "ps3/s14/09/220900080", 256, TRUE);
 	OutputLine(NULL, "…そんな子供の論理が通用するとでも思って？」",
 			NULL, " do you really think that childlike logic is going to work here?\"", Line_Normal);
@@ -1208,7 +1208,7 @@ void main()
 			NULL, " We have enough evidence back at headquarters to shut down all of your support lines.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s14/01/220100289", 256, TRUE);
 	OutputLine(NULL, "ここで俺たちを殺せば、お前たちに残されるのは破滅か、自滅だ」",
-			NULL, " If you kill us here, it'll be the end of you. It's suicide.\"", Line_Normal);
+			NULL, " Even if you kill us here, you guys will end up killed by someone or killing yourselves.\"", Line_Normal);
 	ClearMessage();
 
 //圭一rvS14/01/220100290.「ナポレオンが地獄を味わったロシアの焦土作戦を、体験してみるのもいいけどな」
@@ -1504,7 +1504,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 9, "ps3/s14/09/220900097", 256, TRUE);
 	OutputLine(NULL, "「くすくす…わざと外してあげたのよ、わかってるでしょ？",
-			NULL, "\"Hee hee... You took it out on purpose, didn't you?", Line_WaitForInput);
+			NULL, "\"Hee hee... I missed on purpose. You understand it, right?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "ps3/s14/09/220900098", 256, TRUE);
 	OutputLine(NULL, "——もう一度だけ言うわ、古手梨花を引き渡せ」",
 			NULL, " ...I'll say it again. Hand over Rika Furude.\"", Line_Normal);
@@ -1616,7 +1616,7 @@ void main()
 //r梨花ちゃんは鷹野から三歩手前で立ち止まると、毅然と背を伸ばして睨み返す。鷹野はそれを余裕の笑みで受け流しながら、わざとらしく手を胸に当てて会釈をしてみせた。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "梨花ちゃんは鷹野から三歩手前で立ち止まると、毅然と背を伸ばして睨み返す。鷹野はそれを余裕の笑みで受け流しながら、わざとらしく手を胸に当てて会釈をしてみせた。",
-			NULL, "Rika-chan stopped three steps before reaching Takano, then stood resolute and turned back.", Line_Normal);
+			NULL, "Rika-chan stopped three steps before reaching Takano, then glared at her with a resolute stance. Takano ignored it with a relaxed smile, then ostentatiously bowed with one hand on her chest.", Line_Normal);
 	ClearMessage();
 
 	FadeBustshot(4, FALSE, 0, 0, 0, 0, 200, TRUE);
