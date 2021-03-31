@@ -236,7 +236,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
 	OutputLine(NULL, "鑑識のお爺さんが、真っ赤な顔で騒いでいるのも全員でどこ吹く風。…なんて冷たくあしらって見せてはいるけれど、本当はわかっている。この作戦はお爺さんの言うとおり、彼のおかげだった。",
-			NULL, "The old man from forensics was making a lot of noise and blowing wind everywhere, with his face bright red. ...It might look like I'm treating him coldly, but I do know the truth. It's just as he said: This whole plan is all thanks to him.", Line_Normal);
+			NULL, "The old man from forensics was making a lot of noise with his face bright red, and yet everyone else was indifferent to him. ...It might look like we're treating him coldly, but the truth is that we know it's just as he said: This whole plan is all thanks to him.", Line_Normal);
 	ClearMessage();
 
 	DrawScene("black", 1000 );
@@ -250,7 +250,7 @@ void main()
 //rそして、大石が園崎本家から戻ったちょうどその時に目を覚まして、落ち着いて聞くことを条件に状況の説明をしてもらったのだ。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "そして、大石が園崎本家から戻ったちょうどその時に目を覚まして、落ち着いて聞くことを条件に状況の説明をしてもらったのだ。",
-			NULL, "Then I woke up just after Ooishi got back from the Sonozaki main house, and he calmly listened as I explained the situation to him.", Line_Normal);
+			NULL, "Then I woke up just after Ooishi got back from the Sonozaki main house, and he explained the situation to me on the condition that I calmly listen.", Line_Normal);
 	ClearMessage();
 
 	FadeOutBGM( 1, 200, FALSE  );
@@ -280,7 +280,7 @@ void main()
 			NULL, " But we don't know what kind of numbers the enemy has, or what they're armed with.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s14/11/220700483", 256, TRUE);
 	OutputLine(NULL, "我々としては診療所への突入と人質の確保に努め、その後合流して犯行グループの検挙に当たるつもりです」",
-			NULL, " We'll do our best to rescue the hostages at the clinic, then join in afterwards to arrest the culprits behind this plot.\"", Line_Normal);
+			NULL, " We'll do our best to strom into at the clinic and rescue the hostages there, then join in afterwards to arrest the culprits behind this plot.\"", Line_Normal);
 	ClearMessage();
 
 //大石rvS14/11/220700484.「…正直現状で鷹野たちを逮捕するには、いささか火力不足が否めないわけで」
@@ -296,10 +296,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "ps3/s14/06/220600241", 256, TRUE);
 	OutputLine(NULL, "「…なんか、国家権力が聞いて呆れますね。",
-			NULL, "\"...Wow, I'm surprised to hear the power of the state is so vast.", Line_WaitForInput);
+			NULL, "\"...Wow, I'm disappointed at the power of the state.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 6, "ps3/s14/06/220600242", 256, TRUE);
 	OutputLine(NULL, "凶悪犯にチャカひとつぶっ放すこともできないんですか？」",
-			NULL, " Is there nothing you can do about a dangerous thug armed with a piece?\"", Line_Normal);
+			NULL, "  You can't even fire a piece at a dangerous thug?\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(3, 11, "sprite/oisi1_2_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
@@ -308,14 +308,14 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s14/11/220700485", 256, TRUE);
 	OutputLine(NULL, "「なっはっは、拳銃なんて引き金ひとつかけただけで、自分の進退と引き換えにしなきゃならないもんですから」",
-			NULL, "\"Na ha ha, all it takes is a single pull of the trigger and you're out of here.\"", Line_Normal);
+			NULL, "\"Na ha ha, if we pull the trigger even once, we'll lose our job, you know.\"", Line_Normal);
 	ClearMessage();
 
 //大石rvS14/11/220700486.「正直せこいやり方ですが、園崎組に相手の火力を少しでも減らしてもらえたほうが、こちらとしては大助かりなんですよ」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s14/11/220700486", 256, TRUE);
 	OutputLine(NULL, "「正直せこいやり方ですが、園崎組に相手の火力を少しでも減らしてもらえたほうが、こちらとしては大助かりなんですよ」",
-			NULL, "\"Honestly though, it would be a big help if the Sonozaki Group could do even a little to cut down on their firepower.\"", Line_Normal);
+			NULL, "\"Honestly this is cheating, but it would be a big help if the Sonozaki Group could do even a little to cut down on their firepower.\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(5, 6, "sprite/si1a_majime_a1_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 200, TRUE );
@@ -336,10 +336,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s14/11/220700487", 256, TRUE);
 	OutputLine(NULL, "「まぁ、そうしたいのは山々なんですけど。",
-			NULL, "\"Well, I'd like to but there's a pretty massive issue.", Line_WaitForInput);
+			NULL, "\"Well, I'd like to, of course.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s14/11/220700488", 256, TRUE);
 	OutputLine(NULL, "大高のバカが、ずいぶん根に持ってあんたを狙ってましてね。",
-			NULL, " That idiot Ootaka is still aiming for you, big time.", Line_WaitForInput);
+			NULL, " But that idiot Ootaka is still aiming for you, big time.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s14/11/220700489", 256, TRUE);
 	OutputLine(NULL, "事が片付いてほとぼりが冷めるまでは、しばらくおとなしくしててくださいな」",
 			NULL, " You'll have to stay quiet for a while, until things clear up.\"", Line_Normal);
@@ -354,7 +354,7 @@ void main()
 			NULL, "\"Haah... So in the end, I'm an outlaw?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 6, "ps3/s14/06/220600246", 256, TRUE);
 	OutputLine(NULL, "沙都子の救出に私だって加勢したいのに…くっ——、？」",
-			NULL, " Even after all I did to help Satoko...?\"", Line_Normal);
+			NULL, " I wish I, too, could help rescure Satoko... Damn i...?\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(5, 6, "sprite/si1a_def_a1_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 200, TRUE );
