@@ -50,7 +50,7 @@ void main()
 			NULL, "\"I was injured in the line of duty!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s14/11/220700475", 256, TRUE);
 	OutputLine(NULL, "　ちょっとは思いやりのある治療をしていただいてもバチは当たらないと思うんですけどねぇ？」",
-			NULL, " I just want a little caring treatment, not something that feels like getting stung by a bee, you know?\" ", Line_Normal);
+			NULL, " So even if I ask you for a little more caring treatment, there's no problem, right?\" ", Line_Normal);
 	ClearMessage();
 
 //詩音rvS14/06/220600235.「やってますよぉ？kvS14/06/220600236.　それに積年の恨みを加算してもいいのなら、アルコールじゃなくて練り唐辛子を擦り込んでやってるところですからね～？kvS14/06/220600237.　くっくっくっ！」
@@ -60,7 +60,7 @@ void main()
 			NULL, "\"That's what I'm doing, y'know?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 6, "ps3/s14/06/220600236", 256, TRUE);
 	OutputLine(NULL, "　それに積年の恨みを加算してもいいのなら、アルコールじゃなくて練り唐辛子を擦り込んでやってるところですからね～？",
-			NULL, " Plus, considering your years of resentment against my family, I think it would be perfectly appropriate to soak these in red peppers instead of alcohol, don't you agree~? ", GetGlobalFlag(GLinemodeSp));
+			NULL, " Plus, considering my years of resentment against you, I think it would be perfectly appropriate to soak these in red peppers instead of alcohol, don't you agree~? ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "ps3/s14/06/220600237", 256, TRUE);
 	OutputLine(NULL, "　くっくっくっ！」",
@@ -113,7 +113,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8f6d8f>熊谷</color>", NULL, "<color=#8f6d8f>Kumagai</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 19, "ps3/s14/19/223100052", 256, TRUE);
 	OutputLine(NULL, "「ああ～、ずるいっす！",
-			NULL, "\"Aah~, you sly dog!", Line_WaitForInput);
+			NULL, "\"Aah~, that's not fair!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 19, "ps3/s14/19/223100053", 256, TRUE);
 	OutputLine(NULL, "　俺のほうが重傷なんだから、こっちが先っす！」",
 			NULL, " I was far more seriously injured! I'm next!\"", Line_Normal);
@@ -179,7 +179,7 @@ void main()
 				NULL, " Ooishi, what's with this treatmeeent?!", Line_WaitForInput);
 		ModPlayVoiceLS(4, 0, "ps2/00/223000052", 540, TRUE);
 		OutputLine(NULL, "　そもそも今回の作戦は、ワシの一番手柄じゃろうがっ！！」",
-				NULL, " Besides, this strategy was my crowning achievement!!\"", Line_Normal);
+				NULL, " Besides, I had the largest contribution to this strategy!!\"", Line_Normal);
 	} else {
 		ModPlayVoiceLS(4, 0, "ps3/s14/00/223000050", 256, TRUE);
 		OutputLine(NULL, "「かぁあぁ～～っっ！！",
@@ -189,7 +189,7 @@ void main()
 				NULL, " Ooishi, what's with this treatmeeent?!", Line_WaitForInput);
 		ModPlayVoiceLS(4, 0, "ps3/s14/00/223000052", 256, TRUE);
 		OutputLine(NULL, "　そもそも今回の作戦は、ワシの一番手柄じゃろうがっ！！」",
-				NULL, " Besides, this strategy was my crowning achievement!!\"", Line_Normal);
+				NULL, " Besides, I had the largest contribution to this strategy!!\"", Line_Normal);
 	}
 	ClearMessage();
 
@@ -1066,7 +1066,7 @@ void main()
 	DrawScene("black", 1000 );
 	Wait( 2000 );
 	FadeOutBGM(1, 200, TRUE);
-	
+
 	if (GetLocalFlag(LConsoleArc)==10) {
 		PlayBGM(2, "song_ps2op2", 128, 0);
 	} else {
