@@ -405,7 +405,7 @@ void main()
 //rそして息せき切らした表情で、お爺さんは大石に写真を差し出す。私と熊谷刑事、そして偶然居合わせていた赤坂さんも、それを覗き込んでみた。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "そして息せき切らした表情で、お爺さんは大石に写真を差し出す。私と熊谷刑事、そして偶然居合わせていた赤坂さんも、それを覗き込んでみた。",
-			NULL, "Then, looking short of breath, the old man handed a photo to Ooishi. Detective Kumagai, Akasaka-san, and I all happened to be nearby, so we gave it a look too.", Line_Normal);
+			NULL, "Then, looking short of breath, the old man handed a photo to Ooishi. In addition to detective Kumagai and I, Akasaka-san, who happened to be nearby, gave it a look too.", Line_Normal);
 	ClearMessage();
 
 //r…拡大したせいなのか、ぼやけていまいちはっきりとしない文字。何か、アルファベットのような記号が並んでいるが…化学式だろうか？
@@ -524,7 +524,7 @@ void main()
 			NULL, "\"...Kuma-chan!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s14/11/220700496", 256, TRUE);
 	OutputLine(NULL, "　興宮航空からのヘリ飛行許可の申請は？」",
-			NULL, " What's the status of that helicopter flight permit in Okinomiya airspace?\"", Line_Normal);
+			NULL, " Has Okinomiya Airlines applied for helicopter flight permit?\"", Line_Normal);
 	ClearMessage();
 
 	FadeAllBustshots( 200, TRUE );
@@ -535,7 +535,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8f6d8f>熊谷</color>", NULL, "<color=#8f6d8f>Kumagai</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 19, "ps3/s14/19/223100056", 256, TRUE);
 	OutputLine(NULL, "「申請は確かまだっす！",
-			NULL, "\"The application is still pending!", Line_WaitForInput);
+			NULL, "\"Not yet if I'm not mistaken!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 19, "ps3/s14/19/223100057", 256, TRUE);
 	OutputLine(NULL, "　ただ、農薬散布は祭明けすぐに行われるから、先行して配備されていてもおかしくないっす！」",
 			NULL, " However, pesticide spraying is done right after the festival, so it wouldn't be strange at all for them to be deployed in advance!\"", Line_Normal);
@@ -591,13 +591,13 @@ void main()
 //r大石はそう言って、後ろを振り返る。が、熊谷は黙ってかぶりを振り、赤坂に至っては聞くまでもない。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "大石はそう言って、後ろを振り返る。が、熊谷は黙ってかぶりを振り、赤坂に至っては聞くまでもない。",
-			NULL, "Ooishi turned back as he said that, but Kumagai was silently shaking his head. And there was no point in even asking Akasaka.", Line_Normal);
+			NULL, "Ooishi turned back as he said that, but Kumagai was silently shaking his head. And of course there was no point in asking Akasaka.", Line_Normal);
 	ClearMessage();
 
 //r誰か、詳しいやつを…道に迷ってタイムロスでもしたら、それこそ一巻の終わりだ。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "誰か、詳しいやつを…道に迷ってタイムロスでもしたら、それこそ一巻の終わりだ。",
-			NULL, "Unless they had someone who knew the area... they'd waste a lot of time getting lost on the way, and that would be the end of this story.", Line_Normal);
+			NULL, "Is there anyone who knows the area...? If we waste a lot of time getting lost on the way, that'll be the end of this story.", Line_Normal);
 	ClearMessage();
 
 //rならば……！
@@ -659,7 +659,7 @@ void main()
 //rいくら釈放を前提としているとはいえ、私は逮捕された人間だ。それを外に連れ出したとなれば、責任を問われたとしてもおかしくはない。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "いくら釈放を前提としているとはいえ、私は逮捕された人間だ。それを外に連れ出したとなれば、責任を問われたとしてもおかしくはない。",
-			NULL, "Even if my release is a pretty safe assumption at this point, I'm still a suspect currently under arrest. He could be held liable for taking me outside.", Line_Normal);
+			NULL, "Even though they'll release me at this rate, I'm still a suspect currently under arrest. He could be held liable for taking me outside.", Line_Normal);
 	ClearMessage();
 
 	FadeBustshot(4, FALSE, 0, 0, 0, 0, 200, TRUE);
@@ -686,7 +686,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 13, "ps3/s14/13/221300138", 256, TRUE);
 	OutputLine(NULL, "「月並みだが、迷ってる時間が惜しい。",
-			NULL, "\"There's no time to deal with this by the book.", Line_WaitForInput);
+			NULL, "\"I know it's just so obvious but, there's no time to make slow decicion.", Line_WaitForInput);
 	if (GetLocalFlag(LConsoleArc)==10) {
 		ModPlayVoiceLS(4, 13, "ps2/13/221300139", 540, TRUE);
 		OutputLine(NULL, "ならば、興宮署に連行するという名目で、彼女を連れ出してはいかがですか？」",
@@ -723,7 +723,7 @@ void main()
 			NULL, " Just paying back the difference?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 6, "ps3/s14/06/220600256", 256, TRUE);
 	OutputLine(NULL, "いっそ倍にしろ、くらい言ってください！」",
-			NULL, " I'll tell them to pay you back double!\"", Line_Normal);
+			NULL, " Tell them to pay you back double!\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(5, 6, "sprite/si1a_wink_a1_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 200, TRUE );
@@ -732,7 +732,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "ps3/s14/06/220600257", 256, TRUE);
 	OutputLine(NULL, "「…言うのはただですけどね～？」",
-			NULL, "\"...Although, there's not much more I can do beyond saying that, huh~?\"", Line_Normal);
+			NULL, "\"...it's easy just to tell, huh~?\"", Line_Normal);
 	ClearMessage();
 
 	DrawSceneWithMask( "black", "left", 0, 0, 1500 );
@@ -793,13 +793,13 @@ void main()
 			NULL, " In the end, I couldn't even step foot on the battlefield.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 6, "ps3/s14/06/220600261", 256, TRUE);
 	OutputLine(NULL, "なんだか、性に合わないことしているなぁ」",
-			NULL, " I suppose that's more appropriate for a girl like me.\"", Line_Normal);
+			NULL, " I wonder if that's more appropriate for a girl like me.\"", Line_Normal);
 	ClearMessage();
 
 //r赤坂さんの頭に絆創膏を貼り付けながら、なんだか今の自分がおかしくて愚痴が出る。本当はお姉や圭ちゃんたちみたく、鉄火場に乗り込んで大暴れするほうが私らしくて気分がいいのだけど。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "赤坂さんの頭に絆創膏を貼り付けながら、なんだか今の自分がおかしくて愚痴が出る。本当はお姉や圭ちゃんたちみたく、鉄火場に乗り込んで大暴れするほうが私らしくて気分がいいのだけど。",
-			NULL, "Somehow, I found myself making weird complaints as I pasted a bandage to Akasaka-san's head. I really did want to see Sis and Kei-chan on the battlefield, and I'd feel better going on a rampage over there with them.", Line_Normal);
+			NULL, "Somehow, I found myself making weird complaints as I pasted a bandage to Akasaka-san's head. Actually, I'd feel better going on a rampage on the battlefield like Sis and Kei-chan and it suits me though.", Line_Normal);
 	ClearMessage();
 
 	DrawSceneWithMask( "white", "c", 0, 0, 1000 );
@@ -873,7 +873,7 @@ void main()
 			NULL, " ...I was just thinking that treating the injured really suits you.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 13, "ps3/s14/13/221300142", 256, TRUE);
 	OutputLine(NULL, "どうだい、ナースさんを本気で目指してみたら？」",
-			NULL, " Have you ever considered becoming a nurse?\"", Line_Normal);
+			NULL, " Why don't you become a nurse?\"", Line_Normal);
 	ClearMessage();
 
 //詩音rvS14/06/220600264.「…赤坂さんまで。kvS14/06/220600265.このぐへへオヤジのそばにいたら、悪玉ウィルスに侵されてすけべぇ根性が染み付いちゃいますよ～？」
@@ -883,7 +883,7 @@ void main()
 			NULL, "\"...You too, Akasaka-san?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 6, "ps3/s14/06/220600265", 256, TRUE);
 	OutputLine(NULL, "このぐへへオヤジのそばにいたら、悪玉ウィルスに侵されてすけべぇ根性が染み付いちゃいますよ～？」",
-			NULL, " Hearing you say that right next to this chuckling old dude makes me think maybe you've been infected with whatever he has~?\"", Line_Normal);
+			NULL, " Hearing you say that right next to this dirty old dude makes me think maybe you've been infected with whatever he has~?\"", Line_Normal);
 	ClearMessage();
 
 	FadeBustshot(4, FALSE, 0, 0, 0, 0, 200, TRUE);
@@ -950,7 +950,7 @@ void main()
 //rそれを、気づかせてくれたのは……。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "それを、気づかせてくれたのは……。",
-			NULL, "And what made me realize that was...", Line_Normal);
+			NULL, "And who made me realize that was...", Line_Normal);
 	ClearMessage();
 
 //大石rvS14/11/220700511.「…さて、あっちの方も心配ですね。kvS14/11/220700512.そろそろ私たちも向かいますか。kvS14/11/220700513.詩音さんも、魅音さんたちのことが心配でしょう？」
@@ -1001,13 +1001,13 @@ void main()
 //rだって、わかっているから。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "だって、わかっているから。",
-			NULL, "Because, I know.", Line_Normal);
+			NULL, "Because, we know.", Line_Normal);
 	ClearMessage();
 
 //rお互い、対象は違った大切なものを持って、それを守るためならどこまでも一生懸命になれるって、わかりあっているから。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "お互い、対象は違った大切なものを持って、それを守るためならどこまでも一生懸命になれるって、わかりあっているから。",
-			NULL, "I understand that she and I each have something precious that we'll do everything we can to protect.", Line_Normal);
+			NULL, "We understand that she and I each have something precious that we'll do everything we can to protect.", Line_Normal);
 	ClearMessage();
 
 //rそう、私はもう、あの子にはなれない。
