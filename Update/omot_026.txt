@@ -50,7 +50,7 @@ void main()
 			NULL, "\"I was injured in the line of duty!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s14/11/220700475", 256, TRUE);
 	OutputLine(NULL, "　ちょっとは思いやりのある治療をしていただいてもバチは当たらないと思うんですけどねぇ？」",
-			NULL, " I just want a little caring treatment, not something that feels like getting stung by a bee, you know?\" ", Line_Normal);
+			NULL, " So there's nothing wrong with asking for a little more caring treatment, right?\" ", Line_Normal);
 	ClearMessage();
 
 //詩音rvS14/06/220600235.「やってますよぉ？kvS14/06/220600236.　それに積年の恨みを加算してもいいのなら、アルコールじゃなくて練り唐辛子を擦り込んでやってるところですからね～？kvS14/06/220600237.　くっくっくっ！」
@@ -60,7 +60,7 @@ void main()
 			NULL, "\"That's what I'm doing, y'know?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 6, "ps3/s14/06/220600236", 256, TRUE);
 	OutputLine(NULL, "　それに積年の恨みを加算してもいいのなら、アルコールじゃなくて練り唐辛子を擦り込んでやってるところですからね～？",
-			NULL, " Plus, considering your years of resentment against my family, I think it would be perfectly appropriate to soak these in red peppers instead of alcohol, don't you agree~? ", GetGlobalFlag(GLinemodeSp));
+			NULL, " Plus, considering my years of resentment toward you, I think it would be perfectly appropriate to soak these in red peppers instead of alcohol, don't you agree~? ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "ps3/s14/06/220600237", 256, TRUE);
 	OutputLine(NULL, "　くっくっくっ！」",
@@ -113,7 +113,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8f6d8f>熊谷</color>", NULL, "<color=#8f6d8f>Kumagai</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 19, "ps3/s14/19/223100052", 256, TRUE);
 	OutputLine(NULL, "「ああ～、ずるいっす！",
-			NULL, "\"Aah~, you sly dog!", Line_WaitForInput);
+			NULL, "\"Aah~, that's not fair!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 19, "ps3/s14/19/223100053", 256, TRUE);
 	OutputLine(NULL, "　俺のほうが重傷なんだから、こっちが先っす！」",
 			NULL, " I was far more seriously injured! I'm next!\"", Line_Normal);
@@ -179,7 +179,7 @@ void main()
 				NULL, " Ooishi, what's with this treatmeeent?!", Line_WaitForInput);
 		ModPlayVoiceLS(4, 0, "ps2/00/223000052", 540, TRUE);
 		OutputLine(NULL, "　そもそも今回の作戦は、ワシの一番手柄じゃろうがっ！！」",
-				NULL, " Besides, this strategy was my crowning achievement!!\"", Line_Normal);
+				NULL, " Besides, I had the largest contribution to this strategy!!\"", Line_Normal);
 	} else {
 		ModPlayVoiceLS(4, 0, "ps3/s14/00/223000050", 256, TRUE);
 		OutputLine(NULL, "「かぁあぁ～～っっ！！",
@@ -189,7 +189,7 @@ void main()
 				NULL, " Ooishi, what's with this treatmeeent?!", Line_WaitForInput);
 		ModPlayVoiceLS(4, 0, "ps3/s14/00/223000052", 256, TRUE);
 		OutputLine(NULL, "　そもそも今回の作戦は、ワシの一番手柄じゃろうがっ！！」",
-				NULL, " Besides, this strategy was my crowning achievement!!\"", Line_Normal);
+				NULL, " Besides, I had the largest contribution to this strategy!!\"", Line_Normal);
 	}
 	ClearMessage();
 
@@ -236,7 +236,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
 	OutputLine(NULL, "鑑識のお爺さんが、真っ赤な顔で騒いでいるのも全員でどこ吹く風。…なんて冷たくあしらって見せてはいるけれど、本当はわかっている。この作戦はお爺さんの言うとおり、彼のおかげだった。",
-			NULL, "The old man from forensics was making a lot of noise and blowing wind everywhere, with his face bright red. ...It might look like I'm treating him coldly, but I do know the truth. It's just as he said: This whole plan is all thanks to him.", Line_Normal);
+			NULL, "The old man from forensics was making a lot of noise with his face bright red, and yet everyone else paid him no heed. ...It might look like we're treating him coldly, but the truth is we know it's just as he said: This whole plan is all thanks to him.", Line_Normal);
 	ClearMessage();
 
 	DrawScene("black", 1000 );
@@ -250,7 +250,7 @@ void main()
 //rそして、大石が園崎本家から戻ったちょうどその時に目を覚まして、落ち着いて聞くことを条件に状況の説明をしてもらったのだ。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "そして、大石が園崎本家から戻ったちょうどその時に目を覚まして、落ち着いて聞くことを条件に状況の説明をしてもらったのだ。",
-			NULL, "Then I woke up just after Ooishi got back from the Sonozaki main house, and he calmly listened as I explained the situation to him.", Line_Normal);
+			NULL, "Then I woke up just after Ooishi got back from the Sonozaki main house, and he asked that I calmly listen as he explained the situation to me.", Line_Normal);
 	ClearMessage();
 
 	FadeOutBGM( 1, 200, FALSE  );
@@ -267,7 +267,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "ps3/s14/06/220600240", 256, TRUE);
 	OutputLine(NULL, "「…ということは、梨花ちゃまを囮にお姉と葛西たちが迂回路を通って背後を突く、ってことですね」",
-			NULL, "\"...Which means, Sis and Kasai are going to take a detour and attack from behind while using Rika-chama as a decoy.\"", Line_Normal);
+			NULL, "\"...Which means, Sis and Kasai are going to take a detour and attack from behind while using Rika-chama as a decoy, right?\"", Line_Normal);
 	ClearMessage();
 
 //大石rvS14/11/220700481.「ええ。kvS14/11/220700482.ですが、敵もどれだけの兵装と人数を揃えているかわかりません。kvS14/11/220700483.我々としては診療所への突入と人質の確保に努め、その後合流して犯行グループの検挙に当たるつもりです」
@@ -280,7 +280,7 @@ void main()
 			NULL, " But we don't know what kind of numbers the enemy has, or what they're armed with.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s14/11/220700483", 256, TRUE);
 	OutputLine(NULL, "我々としては診療所への突入と人質の確保に努め、その後合流して犯行グループの検挙に当たるつもりです」",
-			NULL, " We'll do our best to rescue the hostages at the clinic, then join in afterwards to arrest the culprits behind this plot.\"", Line_Normal);
+			NULL, " We'll do our best to storm into the clinic and rescue the hostages there, then join in afterwards to arrest the culprits behind this plot.\"", Line_Normal);
 	ClearMessage();
 
 //大石rvS14/11/220700484.「…正直現状で鷹野たちを逮捕するには、いささか火力不足が否めないわけで」
@@ -296,10 +296,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "ps3/s14/06/220600241", 256, TRUE);
 	OutputLine(NULL, "「…なんか、国家権力が聞いて呆れますね。",
-			NULL, "\"...Wow, I'm surprised to hear the power of the state is so vast.", Line_WaitForInput);
+			NULL, "\"...Wow, I'm disappointed at the power of the state.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 6, "ps3/s14/06/220600242", 256, TRUE);
 	OutputLine(NULL, "凶悪犯にチャカひとつぶっ放すこともできないんですか？」",
-			NULL, " Is there nothing you can do about a dangerous thug armed with a piece?\"", Line_Normal);
+			NULL, " You can't even fire a piece at a dangerous thug?\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(3, 11, "sprite/oisi1_2_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
@@ -308,14 +308,14 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s14/11/220700485", 256, TRUE);
 	OutputLine(NULL, "「なっはっは、拳銃なんて引き金ひとつかけただけで、自分の進退と引き換えにしなきゃならないもんですから」",
-			NULL, "\"Na ha ha, all it takes is a single pull of the trigger and you're out of here.\"", Line_Normal);
+			NULL, "\"Na ha ha, if we pull the trigger even once, we'll lose our job, you know.\"", Line_Normal);
 	ClearMessage();
 
 //大石rvS14/11/220700486.「正直せこいやり方ですが、園崎組に相手の火力を少しでも減らしてもらえたほうが、こちらとしては大助かりなんですよ」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s14/11/220700486", 256, TRUE);
 	OutputLine(NULL, "「正直せこいやり方ですが、園崎組に相手の火力を少しでも減らしてもらえたほうが、こちらとしては大助かりなんですよ」",
-			NULL, "\"Honestly though, it would be a big help if the Sonozaki Group could do even a little to cut down on their firepower.\"", Line_Normal);
+			NULL, "\"Honestly this is a dirty tactic, but it would be a big help if the Sonozaki Group could do even a little to cut down on their firepower.\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(5, 6, "sprite/si1a_majime_a1_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 200, TRUE );
@@ -336,10 +336,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s14/11/220700487", 256, TRUE);
 	OutputLine(NULL, "「まぁ、そうしたいのは山々なんですけど。",
-			NULL, "\"Well, I'd like to but there's a pretty massive issue.", Line_WaitForInput);
+			NULL, "\"Well, I'd like to, of course.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s14/11/220700488", 256, TRUE);
 	OutputLine(NULL, "大高のバカが、ずいぶん根に持ってあんたを狙ってましてね。",
-			NULL, " That idiot Ootaka is still aiming for you, big time.", Line_WaitForInput);
+			NULL, " But that idiot Ootaka is still aiming for you, big time.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s14/11/220700489", 256, TRUE);
 	OutputLine(NULL, "事が片付いてほとぼりが冷めるまでは、しばらくおとなしくしててくださいな」",
 			NULL, " You'll have to stay quiet for a while, until things clear up.\"", Line_Normal);
@@ -351,10 +351,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "ps3/s14/06/220600245", 256, TRUE);
 	OutputLine(NULL, "「はぁ、…結局私はのけ者かぁ。",
-			NULL, "\"Haah... So in the end, I'm an outlaw?", Line_WaitForInput);
+			NULL, "\"Haah... So in the end, I'm left out of the loop?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 6, "ps3/s14/06/220600246", 256, TRUE);
 	OutputLine(NULL, "沙都子の救出に私だって加勢したいのに…くっ——、？」",
-			NULL, " Even after all I did to help Satoko...?\"", Line_Normal);
+			NULL, " I want to help rescue Satoko, too... Shit... Hmm?\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(5, 6, "sprite/si1a_def_a1_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 200, TRUE );
@@ -405,7 +405,7 @@ void main()
 //rそして息せき切らした表情で、お爺さんは大石に写真を差し出す。私と熊谷刑事、そして偶然居合わせていた赤坂さんも、それを覗き込んでみた。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "そして息せき切らした表情で、お爺さんは大石に写真を差し出す。私と熊谷刑事、そして偶然居合わせていた赤坂さんも、それを覗き込んでみた。",
-			NULL, "Then, looking short of breath, the old man handed a photo to Ooishi. Detective Kumagai, Akasaka-san, and I all happened to be nearby, so we gave it a look too.", Line_Normal);
+			NULL, "Then, looking short of breath, the old man handed a photo to Ooishi. In addition to detective Kumagai and I, Akasaka-san, who happened to be nearby, gave it a look too.", Line_Normal);
 	ClearMessage();
 
 //r…拡大したせいなのか、ぼやけていまいちはっきりとしない文字。何か、アルファベットのような記号が並んでいるが…化学式だろうか？
@@ -426,14 +426,14 @@ void main()
 	if (GetLocalFlag(LConsoleArc)==10) {
 		ModPlayVoiceLS(4, 0, "ps2/00/223000056", 540, TRUE);
 		OutputLine(NULL, "「これがよく読めんのか、貴様ら！！",
-				NULL, "\"Everyone, look closely!!", Line_WaitForInput);
+				NULL, "\"I'm shocked none of you can read this!!", Line_WaitForInput);
 		ModPlayVoiceLS(4, 0, "ps2/00/223000057", 540, TRUE);
 		OutputLine(NULL, "　こりゃ国際法で禁止されてる、細菌兵器用の散布ボンベじゃっ！！」",
 				NULL, " This is a biological weapon dispersal canister! It's prohibited by international law!!\"", Line_Normal);
 	} else {
 		ModPlayVoiceLS(4, 0, "ps3/s14/00/223000056", 256, TRUE);
 		OutputLine(NULL, "「これがよく読めんのか、貴様ら！！",
-				NULL, "\"Everyone, look closely!!", Line_WaitForInput);
+				NULL, "\"I'm shocked none of you can read this!!", Line_WaitForInput);
 		ModPlayVoiceLS(4, 0, "ps3/s14/00/223000057", 256, TRUE);
 		OutputLine(NULL, "　こりゃ国際法で禁止されてる、細菌兵器用の散布ボンベじゃっ！！」",
 				NULL, " This is a biological weapon dispersal canister! It's prohibited by international law!!\"", Line_Normal);
@@ -455,7 +455,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 13, "ps3/s14/13/221300136", 256, TRUE);
 	OutputLine(NULL, "「さ、細菌兵器って…、あの、貧者の核兵器と言われるアレですかっ？！」",
-			NULL, "\"B-biological weapons...? They call those the nuclear weapons of the poor!\"", Line_Normal);
+			NULL, "\"B-biological weapons...? You mean what they call the nuclear weapons of the poor?!\"", Line_Normal);
 	ClearMessage();
 
 //鑑識rvS14/00/223000058.「そうじゃっ！kvS14/00/223000059.　どんなヤツを使うつもりかわからんが、ウィルスは毒ガスと違って拡散力と浸透力が格段に高い！kvS14/00/223000060.　もし万一村に散布でもされたら、人口２千人の小村などひとたまりもないぞっ！！」
@@ -524,7 +524,7 @@ void main()
 			NULL, "\"...Kuma-chan!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s14/11/220700496", 256, TRUE);
 	OutputLine(NULL, "　興宮航空からのヘリ飛行許可の申請は？」",
-			NULL, " What's the status of that helicopter flight permit in Okinomiya airspace?\"", Line_Normal);
+			NULL, " Has Okinomiya Aviation applied for a helicopter flight permit?\"", Line_Normal);
 	ClearMessage();
 
 	FadeAllBustshots( 200, TRUE );
@@ -535,7 +535,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8f6d8f>熊谷</color>", NULL, "<color=#8f6d8f>Kumagai</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 19, "ps3/s14/19/223100056", 256, TRUE);
 	OutputLine(NULL, "「申請は確かまだっす！",
-			NULL, "\"The application is still pending!", Line_WaitForInput);
+			NULL, "\"Not yet if I'm not mistaken!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 19, "ps3/s14/19/223100057", 256, TRUE);
 	OutputLine(NULL, "　ただ、農薬散布は祭明けすぐに行われるから、先行して配備されていてもおかしくないっす！」",
 			NULL, " However, pesticide spraying is done right after the festival, so it wouldn't be strange at all for them to be deployed in advance!\"", Line_Normal);
@@ -591,13 +591,13 @@ void main()
 //r大石はそう言って、後ろを振り返る。が、熊谷は黙ってかぶりを振り、赤坂に至っては聞くまでもない。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "大石はそう言って、後ろを振り返る。が、熊谷は黙ってかぶりを振り、赤坂に至っては聞くまでもない。",
-			NULL, "Ooishi turned back as he said that, but Kumagai was silently shaking his head. And there was no point in even asking Akasaka.", Line_Normal);
+			NULL, "Ooishi turned back as he said that, but Kumagai was silently shaking his head. And of course there was no point in asking Akasaka.", Line_Normal);
 	ClearMessage();
 
 //r誰か、詳しいやつを…道に迷ってタイムロスでもしたら、それこそ一巻の終わりだ。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "誰か、詳しいやつを…道に迷ってタイムロスでもしたら、それこそ一巻の終わりだ。",
-			NULL, "Unless they had someone who knew the area... they'd waste a lot of time getting lost on the way, and that would be the end of this story.", Line_Normal);
+			NULL, "Is there anyone who knows the area...? If we waste a lot of time getting lost on the way, that'll be the end of this story.", Line_Normal);
 	ClearMessage();
 
 //rならば……！
@@ -686,7 +686,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 13, "ps3/s14/13/221300138", 256, TRUE);
 	OutputLine(NULL, "「月並みだが、迷ってる時間が惜しい。",
-			NULL, "\"There's no time to deal with this by the book.", Line_WaitForInput);
+			NULL, "\"I know this is cliche, but there's no time to waste making slow decicions.", Line_WaitForInput);
 	if (GetLocalFlag(LConsoleArc)==10) {
 		ModPlayVoiceLS(4, 13, "ps2/13/221300139", 540, TRUE);
 		OutputLine(NULL, "ならば、興宮署に連行するという名目で、彼女を連れ出してはいかがですか？」",
@@ -720,10 +720,10 @@ void main()
 			NULL, "\"Ahahaha!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 6, "ps3/s14/06/220600255", 256, TRUE);
 	OutputLine(NULL, "　差額なんてみみっちい。",
-			NULL, " Just paying back the difference?", Line_WaitForInput);
+			NULL, " Just paying back the difference? Think bigger.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 6, "ps3/s14/06/220600256", 256, TRUE);
 	OutputLine(NULL, "いっそ倍にしろ、くらい言ってください！」",
-			NULL, " I'll tell them to pay you back double!\"", Line_Normal);
+			NULL, " Tell them to pay you back double!\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(5, 6, "sprite/si1a_wink_a1_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 200, TRUE );
@@ -732,7 +732,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "ps3/s14/06/220600257", 256, TRUE);
 	OutputLine(NULL, "「…言うのはただですけどね～？」",
-			NULL, "\"...Although, there's not much more I can do beyond saying that, huh~?\"", Line_Normal);
+			NULL, "\"...It's easy to just say that though, huh~?\"", Line_Normal);
 	ClearMessage();
 
 	DrawSceneWithMask( "black", "left", 0, 0, 1500 );
@@ -744,7 +744,7 @@ void main()
 //rその後は、まさに時間との戦い。――だが、私たちはそれに勝った。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "その後は、まさに時間との戦い。——だが、私たちはそれに勝った。",
-			NULL, "After that, it became a race against time. ...But we were going to win it.", Line_Normal);
+			NULL, "After that, it became a race against time. ...But we won it.", Line_Normal);
 	ClearMessage();
 
 	FadeOutBGM(1, 200, TRUE);
@@ -768,7 +768,7 @@ void main()
 //r…それでも、危ないところだった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…それでも、危ないところだった。",
-			NULL, "...Still, it was a dangerous situation.", Line_Normal);
+			NULL, "...Still, it was a close call.", Line_Normal);
 	ClearMessage();
 
 //r鑑識のお爺さんの見立て通り恐るべき細菌兵器のボンベは、ヘリの中に積み込まれてあったのだ。
@@ -793,13 +793,13 @@ void main()
 			NULL, " In the end, I couldn't even step foot on the battlefield.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 6, "ps3/s14/06/220600261", 256, TRUE);
 	OutputLine(NULL, "なんだか、性に合わないことしているなぁ」",
-			NULL, " I suppose that's more appropriate for a girl like me.\"", Line_Normal);
+			NULL, " I wonder if that's more appropriate for a girl like me.\"", Line_Normal);
 	ClearMessage();
 
 //r赤坂さんの頭に絆創膏を貼り付けながら、なんだか今の自分がおかしくて愚痴が出る。本当はお姉や圭ちゃんたちみたく、鉄火場に乗り込んで大暴れするほうが私らしくて気分がいいのだけど。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "赤坂さんの頭に絆創膏を貼り付けながら、なんだか今の自分がおかしくて愚痴が出る。本当はお姉や圭ちゃんたちみたく、鉄火場に乗り込んで大暴れするほうが私らしくて気分がいいのだけど。",
-			NULL, "Somehow, I found myself making weird complaints as I pasted a bandage to Akasaka-san's head. I really did want to see Sis and Kei-chan on the battlefield, and I'd feel better going on a rampage over there with them.", Line_Normal);
+			NULL, "Somehow, I found myself making weird complaints as I pasted a bandage to Akasaka-san's head. Really, I'd feel better going on a rampage on the battlefield like Sis and Kei-chan, and it would suit me.", Line_Normal);
 	ClearMessage();
 
 	DrawSceneWithMask( "white", "c", 0, 0, 1000 );
@@ -858,7 +858,7 @@ void main()
 			NULL, "\"Wh-what is it, Akasaka-san?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 6, "ps3/s14/06/220600263", 256, TRUE);
 	OutputLine(NULL, "　にやにや人の顔を見ないでくださいよ～！」",
-			NULL, " Don't grin like that when you look at people~!\"", Line_Normal);
+			NULL, " Don't smirk at me~!\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(4, 13, "sprite/aks1_def_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
@@ -873,7 +873,7 @@ void main()
 			NULL, " ...I was just thinking that treating the injured really suits you.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 13, "ps3/s14/13/221300142", 256, TRUE);
 	OutputLine(NULL, "どうだい、ナースさんを本気で目指してみたら？」",
-			NULL, " Have you ever considered becoming a nurse?\"", Line_Normal);
+			NULL, " Hey, why not try becoming a nurse?\"", Line_Normal);
 	ClearMessage();
 
 //詩音rvS14/06/220600264.「…赤坂さんまで。kvS14/06/220600265.このぐへへオヤジのそばにいたら、悪玉ウィルスに侵されてすけべぇ根性が染み付いちゃいますよ～？」
@@ -883,7 +883,7 @@ void main()
 			NULL, "\"...You too, Akasaka-san?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 6, "ps3/s14/06/220600265", 256, TRUE);
 	OutputLine(NULL, "このぐへへオヤジのそばにいたら、悪玉ウィルスに侵されてすけべぇ根性が染み付いちゃいますよ～？」",
-			NULL, " Hearing you say that right next to this chuckling old dude makes me think maybe you've been infected with whatever he has~?\"", Line_Normal);
+			NULL, " Hearing you say that right next to this dirty old dude makes me think maybe you've been infected with whatever he has~.\"", Line_Normal);
 	ClearMessage();
 
 	FadeBustshot(4, FALSE, 0, 0, 0, 0, 200, TRUE);
@@ -914,7 +914,7 @@ void main()
 //rこれまで私は、…いつも攻撃的だった。攻めなきゃ勝てない、前に進まなきゃなにも始まらないって、いつも信じていた。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "これまで私は、…いつも攻撃的だった。攻めなきゃ勝てない、前に進まなきゃなにも始まらないって、いつも信じていた。",
-			NULL, "Up until now... I was always aggressive. I always believed I couldn't move forward unless I was the one on the attack.", Line_Normal);
+			NULL, "Up until now... I was always aggressive. I always believed I couldn't move forward unless I was the one on the offensive.", Line_Normal);
 	ClearMessage();
 
 //rだから。
@@ -950,7 +950,7 @@ void main()
 //rそれを、気づかせてくれたのは……。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "それを、気づかせてくれたのは……。",
-			NULL, "And what made me realize that was...", Line_Normal);
+			NULL, "And who made me realize that was...", Line_Normal);
 	ClearMessage();
 
 //大石rvS14/11/220700511.「…さて、あっちの方も心配ですね。kvS14/11/220700512.そろそろ私たちも向かいますか。kvS14/11/220700513.詩音さんも、魅音さんたちのことが心配でしょう？」
@@ -1001,13 +1001,13 @@ void main()
 //rだって、わかっているから。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "だって、わかっているから。",
-			NULL, "Because, I know.", Line_Normal);
+			NULL, "Because, we know.", Line_Normal);
 	ClearMessage();
 
 //rお互い、対象は違った大切なものを持って、それを守るためならどこまでも一生懸命になれるって、わかりあっているから。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "お互い、対象は違った大切なものを持って、それを守るためならどこまでも一生懸命になれるって、わかりあっているから。",
-			NULL, "I understand that she and I each have something precious that we'll do everything we can to protect.", Line_Normal);
+			NULL, "We understand that she and I each have something precious that we'll do everything we can to protect.", Line_Normal);
 	ClearMessage();
 
 //rそう、私はもう、あの子にはなれない。
@@ -1066,7 +1066,7 @@ void main()
 	DrawScene("black", 1000 );
 	Wait( 2000 );
 	FadeOutBGM(1, 200, TRUE);
-	
+
 	if (GetLocalFlag(LConsoleArc)==10) {
 		PlayBGM(2, "song_ps2op2", 128, 0);
 	} else {
@@ -1193,7 +1193,7 @@ void main()
 //r俺たちはそれを沙都子に逐一確認し熟知した上で次々転戦して、時には潜み、時には自ら攻撃し着実に追撃戦力を削ぎ落としていた。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "俺たちはそれを沙都子に逐一確認し熟知した上で次々転戦して、時には潜み、時には自ら攻撃し着実に追撃戦力を削ぎ落としていた。",
-			NULL, "We confirmed it with Satoko and familiarized ourselves with it, then one by one, sometimes fighting back, sometimes lying hidden, and sometimes launching the attacks ourselves, we steadily cut down our pursuers.", Line_Normal);
+			NULL, "We confirmed it with Satoko and familiarized ourselves with it, then we steadily cut down on our pursuers one by one, sometimes fighting back, sometimes lying hidden, and sometimes launching the attacks ourselves.", Line_Normal);
 	ClearMessage();
 
 //鶯８rvS14/00/adugu08003.「ど、どこだ？！　出てきやが――、k|yvS14/00/adugu08004.げはっ、ぎゃはぁぁっっ？！」
@@ -1248,13 +1248,13 @@ void main()
 //r彼らが相互通信する無線も、実は混乱をより助長させる一因となっていた。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "彼らが相互通信する無線も、実は混乱をより助長させる一因となっていた。",
-			NULL, "Their radio communication actually added to their confusion.", Line_Normal);
+			NULL, "Their radio communications had actually made things much worse for them.", Line_Normal);
 	ClearMessage();
 
 //r続々と耳に入ってくる他班のダメージ状況は彼らを不安に落としいれ、ますますに足を遅く、そして思考を単純にしていく。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "続々と耳に入ってくる他班のダメージ状況は彼らを不安に落としいれ、ますますに足を遅く、そして思考を単純にしていく。",
-			NULL, "Hearing about the damage other groups were suffering one after another was making them nervous, slowing them down and forcing them to keep their thoughts simple.", Line_Normal);
+			NULL, "The more they heard about damage done to the other units, the more worried they got. That slowed them down, and made them think less strategically.", Line_Normal);
 	ClearMessage();
 
 //rその心理状態に陥っては、山狗など殻を剥いてまな板に乗せた剥きエビも同然なのだ。
@@ -1293,7 +1293,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
 	OutputLine(NULL, "俺とレナはすでに何度鳴らしたかわからなくなっていたが、地図を広げて情報をまとめあげている魅音は、それを正確に把握した上で敵の動向への対処を練り上げていた。",
-			NULL, "Rena and I had already lost track of how many times they rang out, but Mion was keeping an eye on the map and organizing the information, so she knew exactly what we were doing and was able to work out how to handle the enemy movements.", Line_Normal);
+			NULL, "Rena and I had already lost track of how many times we signaled, but Mion was keeping an eye on the map and organizing the information, so she knew exactly where and how many times we did and was able to work out how to handle the enemy movements.", Line_Normal);
 	ClearMessage();
 
 	DrawSceneWithMask( "black", "left", 0, 0, 250 );
@@ -1309,7 +1309,7 @@ void main()
 			NULL, " Keiichi-san and Rena-san have made excellent progress.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 4, "ps3/s14/04/220400248", 256, TRUE);
 	OutputLine(NULL, "あと少しで、南からの連中は予定通りの場所に移動する構えですわ！」",
-			NULL, " Just a few more, then we can move to the next location as scheduled and deal with the enemies from the south!\"", Line_Normal);
+			NULL, " In a little while, the enemies from the south will move to the location just we expected!\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(4, 3, "sprite/me2_huteki_a1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
@@ -1321,7 +1321,7 @@ void main()
 			NULL, "\"Roger.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s14/03/220300256", 256, TRUE);
 	OutputLine(NULL, "残存兵力は…おそらくここに集結するね？」",
-			NULL, " The remaining forces are... probably gathered right around here?\"", Line_Normal);
+			NULL, " The remaining forces are... probably gathered right around there?\"", Line_Normal);
 	ClearMessage();
 
 //魅音rvS14/03/220300257.「くっくっく！kvS14/03/220300258.　どうするよ敵さん」
@@ -1351,14 +1351,14 @@ void main()
 			NULL, "\"Heh heh heh. Tactically speaking, this'll be a crushing defeat, right?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s14/03/220300262", 256, TRUE);
 	OutputLine(NULL, "　負傷者の対応に通常１人から２人。",
-			NULL, " They should've left one or two people behind to deal with the injured.", Line_WaitForInput);
+			NULL, " At least one or two men have to respond to calls from injured soldiers.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s14/03/220300263", 256, TRUE);
 	OutputLine(NULL, "ってことは手の空いた兵士はゼロってわけだ。",
 			NULL, " Which means there are no more available soldiers. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s14/03/220300264", 256, TRUE);
 	OutputLine(NULL, "まっとうな指揮官なら本部に撤退を申し入れるねぇ！」",
-			NULL, "A respectable commander would request permission to retreat to headquarters!\"", Line_Normal);
+			NULL, "Any decent commander would order a retreat around now!\"", Line_Normal);
 	ClearMessage();
 
 	DrawSceneWithMask( "black", "right", 0, 0, 250 );
@@ -1368,26 +1368,26 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>雲雀１</color>", NULL, "<color=#f5e6d3>Skylark 1</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/hiba0111033", 256, TRUE);
 	OutputLine(NULL, "「こちら雲雀１…、隊員に負傷者多数。",
-			NULL, "\"This is Skylark 1... There are multiple injured squad members here.", Line_WaitForInput);
+			NULL, "\"This is Skylark 1... We have too many injured men in our unit.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/hiba0111034", 256, TRUE);
 	OutputLine(NULL, "負傷者への対応で追撃に手が回らない！",
-			NULL, " I can't continue following them if I'm going to tend to the injured!", Line_WaitForInput);
+			NULL, " We don't have anyone to continue the pursuit!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/hiba0111035", 256, TRUE);
 	OutputLine(NULL, "　これ以上の追撃は断念せざるを得ない…！！」",
-			NULL, " So, I'll have to give up on pursuit...!!\"", Line_Normal);
+			NULL, " We have no other choice but to give up!!\"", Line_Normal);
 	ClearMessage();
 
 //小此木rvS14/14/223400135.「雲雀１、損害は大きいが我が方は確実に敵の行動圏を狭めているぞ。kvS14/14/223400136.撤退は認めない。kvS14/14/223400137.現状兵力で戦線を維持せよ！」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#3e5745>小此木</color>", NULL, "<color=#3e5745>Okonogi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 14, "ps3/s14/14/223400135", 256, TRUE);
 	OutputLine(NULL, "「雲雀１、損害は大きいが我が方は確実に敵の行動圏を狭めているぞ。",
-			NULL, "\"Skylark 1, we've taken significant damage but we're definitely narrowing our enemy's mobility.", Line_WaitForInput);
+			NULL, "\"Skylark 1, we might have been badly damaged, but we're definitely narrowing the enemy's range of action.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 14, "ps3/s14/14/223400136", 256, TRUE);
 	OutputLine(NULL, "撤退は認めない。",
-			NULL, " Retreat is not permitted.", Line_WaitForInput);
+			NULL, " You may not withdraw.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 14, "ps3/s14/14/223400137", 256, TRUE);
 	OutputLine(NULL, "現状兵力で戦線を維持せよ！」",
-			NULL, " Hold the front line with your current forces!\"", Line_Normal);
+			NULL, " Maintain the front with what you've got!\"", Line_Normal);
 	ClearMessage();
 
 //雲雀１rvS14/00/hiba0111036.「…く、くそ…！！kvS14/00/hiba0111037.　雲雀１より全員！kvS14/00/hiba0111038.　本部から死ねと命令だ。kvS14/00/hiba0111039.装備を再点検しろ、進軍を再開するぞッ！！！」
@@ -1397,13 +1397,13 @@ void main()
 			NULL, "\"...Sh-shit...!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/hiba0111037", 256, TRUE);
 	OutputLine(NULL, "　雲雀１より全員！",
-			NULL, " Skylark 1 to all squad members!", Line_WaitForInput);
+			NULL, " Skylark 1 to all units!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/hiba0111038", 256, TRUE);
 	OutputLine(NULL, "　本部から死ねと命令だ。",
-			NULL, " HQ just ordered us on a death march.", Line_WaitForInput);
+			NULL, " The commander is basically telling us to die.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/hiba0111039", 256, TRUE);
 	OutputLine(NULL, "装備を再点検しろ、進軍を再開するぞッ！！！」",
-			NULL, " Double-check your gear, then we'll resume the march!!!\"", Line_Normal);
+			NULL, " Check your supplies once more, and we'll resume the march!!!\"", Line_Normal);
 	ClearMessage();
 
 	DrawSceneWithMask( "black", "left", 0, 0, 250 );
@@ -1417,10 +1417,10 @@ void main()
 			NULL, "\"...Heh heh heh!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s14/03/220300266", 256, TRUE);
 	OutputLine(NULL, "　でも鷹野さんたちは頭に血が上ってるから、それを許可しない。",
-			NULL, " But Takano-san and the others let the blood run to their heads, so they'll never allow it.", Line_WaitForInput);
+			NULL, " Takano-san is so mad that she won't allow it.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s14/03/220300267", 256, TRUE);
 	OutputLine(NULL, "指揮官は撤退を却下され、士気が低下したまま追撃を再開」",
-			NULL, " The commander's withdrawal request will be denied, and they'll resume pursuit with reduced morale.\"", Line_Normal);
+			NULL, " The morale of the unit commander is down, because his request to withdraw was denied, and they have to resume the march.\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(4, 3, "sprite/me2_def_a1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
@@ -1429,7 +1429,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s14/03/220300268", 256, TRUE);
 	OutputLine(NULL, "「…こいつは叩く絶好のチャンスだね！！」",
-			NULL, "\"...This is the perfect opportunity to strike!!\"", Line_Normal);
+			NULL, "\"Here's our chance!!\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(4, 3, "sprite/me2_wink_a1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
@@ -1441,17 +1441,17 @@ void main()
 			NULL, "\"Satoko!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s14/03/220300270", 256, TRUE);
 	OutputLine(NULL, "　レナと一緒に、Ｚ地区に誘い込んで！！",
-			NULL, " Go with Rena and lure them to point Z on the map!!", Line_WaitForInput);
+			NULL, " Go with Rena and lure them to Section Z on the map!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s14/03/220300271", 256, TRUE);
 	OutputLine(NULL, "　あそこのトラップはだいぶごっついよぅ！！」",
-			NULL, " The traps over there should be really intense!!\"", Line_Normal);
+			NULL, " The traps there are something else!!\"", Line_Normal);
 	ClearMessage();
 
 //魅音rvS14/03/220300272.「それから圭ちゃんは、Ｘ地区に転戦を！！」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s14/03/220300272", 256, TRUE);
 	OutputLine(NULL, "「それから圭ちゃんは、Ｘ地区に転戦を！！」",
-			NULL, "\"And Kei-chan, fight as much as you can on the way to point X!!\"", Line_Normal);
+			NULL, "\"And Kei-chan, fight as much as you can on the way to Section X!!\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(4, 3, "sprite/me2_warai_a1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
@@ -1460,7 +1460,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s14/03/220300273", 256, TRUE);
 	OutputLine(NULL, "「くっくっくっく、こんな面白いゲームはないねぇ、くっくっくっくっく！！！」",
-			NULL, "\"Heh heh heh heh. Now this game is really getting fun. Heh heh heh heh!!!\"", Line_Normal);
+			NULL, "\"Heh heh heh, what a fun game, heh heh heh!!!\"", Line_Normal);
 	ClearMessage();
 
 //圭一rvS14/01/220100371.「…さすが魅音ってところだな。kvS14/01/220100372.生まれてくる時代を間違えたんじゃねぇか？」
@@ -1498,13 +1498,13 @@ void main()
 			NULL, " So if Kei-chan is a magician, I'll be the \"Invincible Kaiser!!\"", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s14/03/220300276", 256, TRUE);
 	OutputLine(NULL, "　もう裏山全体が手に取るようだよ、くっくっくっく！！！」",
-			NULL, " It seems we've already taken this entire mountain area in our hands! Heh heh heh!!!\"", Line_Normal);
+			NULL, "  It's like I can see this mountain inside and out, heh heh heh!!!\"", Line_Normal);
 	ClearMessage();
 
 //r魅音は自分の力を二乗するタイプなのだ。…落ち込む時はとことん落ち込むが、…絶好調の時はとにかく大変なことになる…！
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "魅音は自分の力を二乗するタイプなのだ。…落ち込む時はとことん落ち込むが、…絶好調の時はとにかく大変なことになる…！",
-			NULL, "Mion was the type to have her strength shift around exponentially. ...When she's feeling depressed, she gets seriously depressed... but when she's in great shape, she turns into something incredible...!", Line_Normal);
+			NULL, "Mion was the type to display exponential ability. ...When she's down, she's at rock bottom... but when she's in perfect form, it's just terrifying...!", Line_Normal);
 	ClearMessage();
 
 //rそして、魅音にとってこの裏山の戦いは、所詮、陽動。主力である園崎組や警察隊が到着するまでの時間稼ぎに過ぎないのだ。
@@ -1521,13 +1521,13 @@ void main()
 //r鷹野はこんな山地を歩くほどの体力はなく、息も絶え絶えになりながらも、無線で山狗たちを怒鳴り続けていた。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "鷹野はこんな山地を歩くほどの体力はなく、息も絶え絶えになりながらも、無線で山狗たちを怒鳴り続けていた。",
-			NULL, "Takano didn't have enough strength to walk through this steep mountainous area, so she was constantly screaming at the Mountain Dogs over the radio, even as she was running out of breath.", Line_Normal);
+			NULL, "Takano didn't have enough stamina to walk around in the mountains. She was running out of breath, but even so she continued to scream at the Mountain Dogs on the radio.", Line_Normal);
 	ClearMessage();
 
 //r彼女は他の山狗たちのようなインカムではなく、隊員の背負った通信機で怒鳴るから、背負っている隊員は背中越しに延々と鷹野の怒鳴りを聞かねばならず、辟易としていた。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "彼女は他の山狗たちのようなインカムではなく、隊員の背負った通信機で怒鳴るから、背負っている隊員は背中越しに延々と鷹野の怒鳴りを聞かねばならず、辟易としていた。",
-			NULL, "She wasn't wearing a headset like the other Mountain Dogs, so she yelled into the communicator that another squad member was carrying, and he was tired of enduring her endless shouting.", Line_Normal);
+			NULL, "She wasn't using an intercom like the Mountain Dogs were. Instead, she was using the communication unit on the back of one of the Dogs, so he constantly had to listen to her yelling.", Line_Normal);
 	ClearMessage();
 
 	PlaySE(3, "dsse103", 256, 64);
@@ -1536,34 +1536,34 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 9, "ps3/s14/09/220900204", 256, TRUE);
 	OutputLine(NULL, "「……く！",
-			NULL, "\"...Gh!", Line_WaitForInput);
+			NULL, "\"......Damn!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "ps3/s14/09/220900205", 256, TRUE);
 	OutputLine(NULL, "　どいつもこいつも頼りないったらありゃしない…！",
-			NULL, " You can't depend on me for everything...!", Line_WaitForInput);
+			NULL, " Everyone is so useless!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "ps3/s14/09/220900206", 256, TRUE);
 	OutputLine(NULL, "　それでも特殊部隊なの？！",
-			NULL, " And you call yourselves a special forces unit?!", Line_WaitForInput);
+			NULL, " How can they call themselves a special unit?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "ps3/s14/09/220900207", 256, TRUE);
 	OutputLine(NULL, "　天下の山狗はどうしたというのよ…！！」",
-			NULL, " What happened to the unparalleled power of the Mountain Dogs...?!\"", Line_Normal);
+			NULL, " Whatever happened to the famous Mountain Dogs, huh?\"", Line_Normal);
 	ClearMessage();
 
 //rイラつきながら下唇を噛み、左の腕を握り締めながら爪をぎゅうっと立てる…。よく見れば、腕のあちこちが爪の跡だらけになっていた。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "イラつきながら下唇を噛み、左の腕を握り締めながら爪をぎゅうっと立てる…。よく見れば、腕のあちこちが爪の跡だらけになっていた。",
-			NULL, "She bit her lower lip in irritation, then clung to her left arm and squeezed her nails in... Looking closely, you could see nail marks all over her arm.", Line_Normal);
+			NULL, "Takano bit her lower lip and squeezed her left arm with her nails... Her arms had nail marks all over them.", Line_Normal);
 	ClearMessage();
 
 //r…その左手には、…祖父の研究スクラップが一冊。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…その左手には、…祖父の研究スクラップが一冊。",
-			NULL, "...In her left hand was... the scrapbook containing her grandfather's research.", Line_Normal);
+			NULL, "She was holding her grandfather's research scrapbook in her left hand.", Line_Normal);
 	ClearMessage();
 
 //rいつの間にこんなものを小脇に抱えていたのかわからない。…せめて祖父の助けとぬくもりが欲しいと、無意識の内に手にしていたのかもしれない。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "いつの間にこんなものを小脇に抱えていたのかわからない。…せめて祖父の助けとぬくもりが欲しいと、無意識の内に手にしていたのかもしれない。",
-			NULL, "She wasn't sure why she was holding it at a time like this. ...Perhaps she subconsciously wanted to receive her grandfather's help and feel his warmth.", Line_Normal);
+			NULL, "Even Takano didn't even know why she was holding it. ...Maybe she grabbed it unconsciously because she wanted her grandfather to comfort her.", Line_Normal);
 	ClearMessage();
 
 	PlayBGM(2, "hm08_36", 128, 0);
@@ -1572,23 +1572,23 @@ void main()
 //r山狗たちはすでに壊滅的な打撃を受けていた。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "山狗たちはすでに壊滅的な打撃を受けていた。",
-			NULL, "The Mountain Dogs had already suffered a catastrophic blow.", Line_Normal);
+			NULL, "The Mountain Dogs had already suffered devastating damage.", Line_Normal);
 	ClearMessage();
 
 //r土地勘のない山中をぐるぐると引っ張りまわされ、十重二十重のトラップ地帯で幾度も消耗を強いられ、強靭な彼らにも音をあげさせるほどだった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "土地勘のない山中をぐるぐると引っ張りまわされ、十重二十重のトラップ地帯で幾度も消耗を強いられ、強靭な彼らにも音をあげさせるほどだった。",
-			NULL, "They were pushing through mountainous terrain with no landscape awareness, and repeatedly being worn out by the thick web of traps. It was enough to even make strong men like themselves give in.", Line_Normal);
+			NULL, "They had to walk around in an area they weren't familiar with, and they wasted their energy on the multitude of traps that had been set. Although they were as tough as can be, they were getting exhausted.", Line_Normal);
 	ClearMessage();
 
 //鶯１３rvS14/00/ugu1311001.「……くそ、…うちの三佐にゃ、kvS14/00/ugu1311002.…突撃以外に知ってる言葉はねぇのか…。kvS14/00/ugu1311003.…はぁ、……はぁ…！！」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>鶯１３</color>", NULL, "<color=#f5e6d3>Nightingale 13</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/ugu1311001", 256, TRUE);
 	OutputLine(NULL, "「……くそ、…うちの三佐にゃ、",
-			NULL, "\"...Shit... Major...", Line_WaitForInput);
+			NULL, "\"...Shit... Does the Major even know", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/ugu1311002", 256, TRUE);
 	OutputLine(NULL, "…突撃以外に知ってる言葉はねぇのか…。",
-			NULL, " ...Do you not know a single word other than attack...?", Line_WaitForInput);
+			NULL, " ...any commands other than \"attack\"...?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/ugu1311003", 256, TRUE);
 	OutputLine(NULL, "…はぁ、……はぁ…！！」",
 			NULL, " ...Haah... haah...!!\"", Line_Normal);
@@ -1598,50 +1598,50 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>鶯１</color>", NULL, "<color=#f5e6d3>Nightingale 1</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/ugu0111016", 256, TRUE);
 	OutputLine(NULL, "「鶯１より鶯１３…、用心しろ、お前の左翼が沈黙した。",
-			NULL, "\"Nightingale 1 to Nightingale 13... Be on guard, your left wing has gone silent.", Line_WaitForInput);
+			NULL, "\"Nightingale 1 to Nightingale 13... Watch out, watch out, your left wing is down.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/ugu0111017", 256, TRUE);
 	OutputLine(NULL, "今度はお前が狙われるぞ…！」",
-			NULL, " Next time, you'll be the target...!\"", Line_Normal);
+			NULL, " You're next...!\"", Line_Normal);
 	ClearMessage();
 
 //鶯１３rvS14/00/ugu1311004.「ふ、…ふざけるなよ、kvS14/00/ugu1311005.…何だってんだよ…俺かよ畜生！！」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>鶯１３</color>", NULL, "<color=#f5e6d3>Nightingale 13</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/ugu1311004", 256, TRUE);
 	OutputLine(NULL, "「ふ、…ふざけるなよ、",
-			NULL, "\"D...don't give me that shit!", Line_WaitForInput);
+			NULL, "\"Y-You've got to be kidding me!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/ugu1311005", 256, TRUE);
 	OutputLine(NULL, "…何だってんだよ…俺かよ畜生！！」",
-			NULL, " ...What do you expect me to do...? God damn it!!\"", Line_Normal);
+			NULL, " Why me... Damn it!!\"", Line_Normal);
 	ClearMessage();
 
 //r彼が焦るのも無理はない。…先ほどから繰り返しなのだ。１人ずつ左から徐々に削られていく…！！　そして今度は…自分の番なのかッ！！
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "彼が焦るのも無理はない。…先ほどから繰り返しなのだ。１人ずつ左から徐々に削られていく…！！　そして今度は…自分の番なのかッ！！",
-			NULL, "He was understandably getting impatient. ...It was a repeat of what happened just a moment ago. They were gradually being scraped off from the left, one by one...!! And next up... would be him!!", Line_Normal);
+			NULL, "He panicked. The same thing kept happening.. His team members had been going down one at a time, starting from the left flank! And he was next!!", Line_Normal);
 	ClearMessage();
 
 //rなら９時方向から敵は来るのか…？！　いやそんなのあの悪魔たちには通用しない…！！
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "なら９時方向から敵は来るのか…？！　いやそんなのあの悪魔たちには通用しない…！！",
-			NULL, "So the enemy will be coming from 9 o'clock...?! No, that sort of reasoning won't work on these demons...!!", Line_Normal);
+			NULL, "Did that mean the enemy was coming from his nine o'clock? No, those demons didn't think normally!!", Line_Normal);
 	ClearMessage();
 
 //rそもそもこの山中じゃ、前後３６０度でも警戒が足りない！　足元から頭上まで全ての全てに警戒してもなお足りないってんだぞ！！
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "そもそもこの山中じゃ、前後３６０度でも警戒が足りない！　足元から頭上まで全ての全てに警戒してもなお足りないってんだぞ！！",
-			NULL, "In mountainous terrain like this, even scanning all 360 degrees isn't enough! Even if you watch everything, from down at your feet to overhead, it's still not enough!!", Line_Normal);
+			NULL, "On this mountain, being aware of 360 degrees around yourself wasn't enough! Even being cautious of the ground below your feet and sky above your head wasn't enough!!", Line_Normal);
 	ClearMessage();
 
 //rど、どこから来やがるんだッ？！　くそったれ、来やがれ来やがれ来やがれッ！！！
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "ど、どこから来やがるんだッ？！　くそったれ、来やがれ来やがれ来やがれッ！！！",
-			NULL, "Wh-where are they coming from?! Come on, you piece of shit!! Come on!!!", Line_Normal);
+			NULL, "W-Where are they fucking coming from? Those bastards! Come here, come here, come the fuck at me!!", Line_Normal);
 	ClearMessage();
 
 //r男は軍用拳銃を構え前後を怯えながら振り向く。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "男は軍用拳銃を構え前後を怯えながら振り向く。",
-			NULL, "The man held his pistol up and looked back and forth, terrified.", Line_Normal);
+			NULL, "Nightingale 13 held his pistol in front of him as he looked around timidly.", Line_Normal);
 	ClearMessage();
 
 //r…飛び道具の有無が、地理上の不利を覆す形で圧倒的な優勢を形成するはずだった。
@@ -1665,7 +1665,7 @@ void main()
 //r…しかも、情報では連中は各個に分散し、一番のターゲットである古手梨花の所在がわからないのだ。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…しかも、情報では連中は各個に分散し、一番のターゲットである古手梨花の所在がわからないのだ。",
-			NULL, "...And moreover, he knew that other squad members were scattered all around, and the soldiers still had no idea where their primary target, Rika Furude, was located.", Line_Normal);
+			NULL, "...And moreover, the enemies were apparently scattered all around, so the soldiers still had no idea where their primary target, Rika Furude, was located.", Line_Normal);
 	ClearMessage();
 
 //rその居場所を聞き出すため、上からは即時射殺を禁じられている。そんな条件下で、おいそれと狙い撃ちなんかできるわけがなかった…！
@@ -1690,7 +1690,7 @@ void main()
 //r男の背後でがさごそッと茂みが動く音がした。そこに人影を見た気がして、男は反射的に発砲する！！
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "男の背後でがさごそッと茂みが動く音がした。そこに人影を見た気がして、男は反射的に発砲する！！",
-			NULL, "A rustling sound came from the bushes behind the man. He thought he saw someone, so he fired without thinking!!", Line_Normal);
+			NULL, "Nightingale 13 heard a noise behind him from a bush. He thought he saw something, so he fired his pistol!!", Line_Normal);
 	ClearMessage();
 
 	PlaySE(3, "mc071", 256, 64);
@@ -1706,7 +1706,7 @@ void main()
 //r…き、気のせいか？！　その時、足元に妙な手応え。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…き、気のせいか？！　その時、足元に妙な手応え。",
-			NULL, " ...W-was it his just imagination?! That moment, a strange response came from at his feet.", Line_Normal);
+			NULL, " ...Did he just imagine it? That moment, a strange response came from at his feet.", Line_Normal);
 	ClearMessage();
 
 //r…見るとそこには、まるで図ったかのように足止めのトラップ！　そしてそれを外そうとした瞬間、頭上から網が降ってきて上体を絡めとった！！
@@ -1732,7 +1732,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
 	OutputLine(NULL, "その時、彼の後に再びがさがさっと音がして、今度こそ人影が飛び出る！！　だが、頼みの綱の武器は手元が引っかかって照準が定められない！　その人影が吼えるッ！！！",
-			NULL, "The next moment, he heard the rustling sound from behind him again, but this time a humanoid figure popped out!! However, his reliable weapon was caught in the ropes, so he couldn't properly aim! And then, the figure let out a roar!!!", Line_Normal);
+			NULL, "Then he heard a noise behind him again, and this time, he saw someone coming at him!! However, his reliable weapon was useless because he couldn't properly aim with his stuck hands! And then, the figure let out a roar!!!", Line_Normal);
 	ClearMessage();
 
 //圭一rvS14/01/220100373.「死神が戻ってきたぞぉぉおぉッ！！！」
@@ -1755,13 +1755,13 @@ void main()
 //rそれで充分だった！　恐怖に駆られ飛びかかろうとしたその瞬間、彼の思考は完全に単純化し、…沙都子の読みに完全にはまる！！
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "それで充分だった！　恐怖に駆られ飛びかかろうとしたその瞬間、彼の思考は完全に単純化し、…沙都子の読みに完全にはまる！！",
-			NULL, "That was all it took! The moment he jumped up in fear, his thought process became completely basic... just as Satoko predicted!!", Line_Normal);
+			NULL, "That was all it took! Because he was so scared, he didn't think. ...That was exactly what Satoko expected!!", Line_Normal);
 	ClearMessage();
 
 //r頭上の枝の上にいる沙都子が下にブリキバケツを落とす。…それは、戦略弾頭も裸足で逃げ出す正確さで男の頭にはまるッ！！
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "頭上の枝の上にいる沙都子が下にブリキバケツを落とす。…それは、戦略弾頭も裸足で逃げ出す正確さで男の頭にはまるッ！！",
-			NULL, "Satoko was waiting on a branch overhead and dropped a metal bucket down on him. ...And that strategic warhead slipped over the man's head with perfect precision!!", Line_Normal);
+			NULL, "Satoko, who was up in the tree, dropped a metal bucket on his head. ...It landed perfectly!!", Line_Normal);
 	ClearMessage();
 
 	PlaySE(3, "tataku", 256, 64);
@@ -1783,7 +1783,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
 	OutputLine(NULL, "そのブリキバケツには、妙なラクガキがされていた。…何だろう。妙な謎生物のラクガキだ。…ほら、あれだ、よく教育番組のお姉さんが絵描き歌で描くような得体の知れないマスコットキャラ！！",
-			NULL, "The bucket had some peculiar drawing on the side. ...What was that supposed to be? Some mysterious creature? ...Oh, that's it. It's that weird-looking mascot character from some educational program that sings songs and draws pictures with girls.", Line_Normal);
+			NULL, "The bucket had some drawings on it. What were they? They were drawings of strange unknown creatures. ...They somehow resembled those strange characters you see on educational TV programs.", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(4, 2, "sprite/re2b_kaii_b1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, FALSE );
@@ -1793,7 +1793,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s14/02/220200130", 256, TRUE);
 	OutputLine(NULL, "「かぁいいよぉおぉおおお～～」",
-			NULL, "\"So kyuuuuuuuuuuute~~.\"", Line_Normal);
+			NULL, "\"Aren't they just shoooooooo kyute?\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(4, 2, "sprite/re2b_hig_okoru_b1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
@@ -1802,7 +1802,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s14/02/220200131", 256, TRUE);
 	OutputLine(NULL, "「おッ持ち帰りぃいいぃッ！！！」",
-			NULL, "\"I wanna take it home with meeee!!!\"", Line_Normal);
+			NULL, "\"Take it home with you!!!\"", Line_Normal);
 	ClearMessage();
 
 	PlaySE(3, "dageki", 256, 64);
@@ -1815,7 +1815,7 @@ void main()
 //r別の茂みから飛び出したレナの、萌える拳の一撃がブリキバケツごと男を打つッ！！！　いや、その鋭さは打つと形容するのは妥当じゃない。…穿つというべきだッ！！
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "別の茂みから飛び出したレナの、萌える拳の一撃がブリキバケツごと男を打つッ！！！　いや、その鋭さは打つと形容するのは妥当じゃない。…穿つというべきだッ！！",
-			NULL, "Rena jumped out from another bush and slammed her fist into the man in the bucket!!! No, \"slammed\" wasn't the proper word to describe just how sharp the strike was. ...Her fist drilled right through him!!", Line_Normal);
+			NULL, "As Rena jumped out from another bush, she hit the bucket with a stick!!! No, maybe it should be described as a strike... instead of a hit.", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(4, 1, "sprite/kei2_ikari1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, FALSE );
@@ -1831,19 +1831,19 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
 	OutputLine(NULL, "その姿はまるで、…全身のチャクラを解放したオーラの大魔神！！　そしてヒノキの棒を限界まで振りかぶって振り上げるそのサマは、まさに伝説にもうたわれた幕末志士の必殺剣ッッ？！",
-			NULL, "An intense aura was radiating from his entire body... like that of a fearsome magical beast!! And he began to swinging a stick of cypress wood around as hard as he could, like a Tokugawa-era soldier wielding the sword of certain death!", Line_Normal);
+			NULL, "An intense aura was radiating from his entire body... like that of a fearsome magical beast!! And he began swinging a stick of cypress wood around as hard as he could, like a Tokugawa-era soldier wielding the sword of certain death!", Line_Normal);
 	ClearMessage();
 
 //r破壊力は一方だけでは決まらない。双方の衝突の相対速度で決まる！！
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "破壊力は一方だけでは決まらない。双方の衝突の相対速度で決まる！！",
-			NULL, "Destructive power can't be determined from a single object. It's based on the relative speed of both colliding objects!!", Line_Normal);
+			NULL, "Destructive force can't be measured from just one direction. It's a function of both speeds added together!!", Line_Normal);
 	ClearMessage();
 
 //r圭一の一撃と、レナに吹き飛ばされたそのスピードが、驚異的な破壊力を生むのだッ！！！
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "圭一の一撃と、レナに吹き飛ばされたそのスピードが、驚異的な破壊力を生むのだッ！！！",
-			NULL, "Rena launching the man at high speed, combined with Keiichi's fierce strike, produced an attack with unbelievable destructive potential!!!", Line_Normal);
+			NULL, "Both Keiichi's strike and the speed of his opponent created a truly amazing destructive force!!!", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(4, 1, "sprite/kei2_ikari2_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
@@ -1863,13 +1863,13 @@ void main()
 //rグワァアアァァアン…、あまりに壮絶かつ爽快な快音が響き渡り、レナに吹き飛ばされたのとは１８０度逆の方向に錐揉み状態で男は空を飛んでいた。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "グワァアアァァアン…、あまりに壮絶かつ爽快な快音が響き渡り、レナに吹き飛ばされたのとは１８０度逆の方向に錐揉み状態で男は空を飛んでいた。",
-			NULL, "An exhilaratingly pleasant \"gwaaaaaa\" sound echoed around as the man went flying in the complete opposite direction that Rena's blow had originally sent him.", Line_Normal);
+			NULL, "With an exhilarating and magnificent sound, the Mountain Dog flew into the air in the opposite direction.", Line_Normal);
 	ClearMessage();
 
 //r倒れた男は、そのまま目を回して完全に沈黙。その隙に、待ってましたとばかりに俺とレナが飛び掛り、後手に針金で締めてしまった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "倒れた男は、そのまま目を回して完全に沈黙。その隙に、待ってましたとばかりに俺とレナが飛び掛り、後手に針金で締めてしまった。",
-			NULL, "The main fainted and fell silent as soon as he landed. As soon as that opportunity presented itself, Rena and I leapt out and tied his hands behind his back.", Line_Normal);
+			NULL, "The man fainted and fell silent as soon as he landed. As soon as that opportunity presented itself, Rena and I leapt out and tied his hands behind his back.", Line_Normal);
 	ClearMessage();
 
 //r俺とレナが隊員を縛り上げる間、沙都子は五感を研ぎ澄まし、四方の気配を探り出す。そして魅音にレーダー要員のように、周囲の状況を伝えていった。
@@ -1891,26 +1891,26 @@ void main()
 			NULL, "\"Heh heh heh!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s14/03/220300278", 256, TRUE);
 	OutputLine(NULL, "　何だいみんなのその目はぁ。",
-			NULL, " I've got everyone's eyes on my side.", Line_WaitForInput);
+			NULL, " Why are you looking at me that way?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s14/03/220300279", 256, TRUE);
 	OutputLine(NULL, "まぁだまだ食い足りないってぇ？",
-			NULL, " You guys still haven't had enough?", Line_WaitForInput);
+			NULL, " You haven't had enough fun yet?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s14/03/220300280", 256, TRUE);
 	OutputLine(NULL, "　確かにねぇ。",
-			NULL, " Seriously.", Line_WaitForInput);
+			NULL, " Yeah.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s14/03/220300281", 256, TRUE);
 	OutputLine(NULL, "我が部としちゃあようやく体が温まってきた程度だしねぇ！！」",
-			NULL, " Our team is just getting warmed up!!\"", Line_Normal);
+			NULL, " I guess we're just getting warmed up, huh?\"", Line_Normal);
 	ClearMessage();
 
 //魅音rvS14/03/220300282.「行っちまう？kvS14/03/220300283.　この山で、みんなやっちまうかあぁあぁ！！！」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s14/03/220300282", 256, TRUE);
 	OutputLine(NULL, "「行っちまう？",
-			NULL, "\"So let's get going?", Line_WaitForInput);
+			NULL, "\"Shall we continue?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s14/03/220300283", 256, TRUE);
 	OutputLine(NULL, "　この山で、みんなやっちまうかあぁあぁ！！！」",
-			NULL, " Here on this mountain, we're going to do thiiis!!!\"", Line_Normal);
+			NULL, " Let's get them all!!!\"", Line_Normal);
 	ClearMessage();
 
 	PlaySE(3, "daidageki", 256, 64);
@@ -1977,31 +1977,31 @@ void main()
 //r小此木はようやく、悟っていた。…この包囲戦を始める前は、自分は彼ら１人をよく訓練された１個小隊などとたとえたが、…もうそれは適当ではない。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "小此木はようやく、悟っていた。…この包囲戦を始める前は、自分は彼ら１人をよく訓練された１個小隊などとたとえたが、…もうそれは適当ではない。",
-			NULL, "Okonogi finally realized it. ...Before this siege operation began, he said that one of them was equivalent to one platoon... but that was clearly no longer the case.", Line_Normal);
+			NULL, "Okonogi finally realized it. ...Before they started this siege, he likened one of them to a well trained platoon... but that didn't fit anymore.", Line_Normal);
 	ClearMessage();
 
 //r…連中は、最精鋭の１個機甲師団に匹敵する。…機甲師団に歩兵が勝てるわけがない。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…連中は、最精鋭の１個機甲師団に匹敵する。…機甲師団に歩兵が勝てるわけがない。",
-			NULL, "...One of them was equivalent to an elite tank division. ...There's simply no way an infantry division can take on a tank division.", Line_Normal);
+			NULL, "...They were on par with an elite armored division. ...Foot soldiers couldn't beat an armored division.", Line_Normal);
 	ClearMessage();
 
 //rましてやこっちはせいぜい中隊規模なんだぞ！！　重爆の航空支援、さもなきゃ艦砲射撃、砲兵陣地はどこだよ？！
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "ましてやこっちはせいぜい中隊規模なんだぞ！！　重爆の航空支援、さもなきゃ艦砲射撃、砲兵陣地はどこだよ？！",
-			NULL, "Even better would be an entire squadron!! Where was their air support for heavy bombardment?! Or their artillery base for fire support?!", Line_Normal);
+			NULL, "What Okonogi had was just a company!! Where was the air support, or a bombardment from a warship, or an artillery base?", Line_Normal);
 	ClearMessage();
 
 //rこの山を野戦砲で地図の書き換えがいるほどに穴だらけにしろ！！　それができないってんなら潜水艦に頼んで戦術核をブチ込んでくれ！！
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "この山を野戦砲で地図の書き換えがいるほどに穴だらけにしろ！！　それができないってんなら潜水艦に頼んで戦術核をブチ込んでくれ！！",
-			NULL, "They needed field artillery capable of rewriting the landscape of this mountain by punching it full of holes!! And if that's not possible, then how about a submarine to deploy tactical nuclear weapons!!", Line_Normal);
+			NULL, "Okonogi needed someone to pump the mountain full of holes!! If he couldn't have that, he needed a submarine to fire a nuclear weapon!!", Line_Normal);
 	ClearMessage();
 
 //rそれが駄目なら退却させろぉおぉおぉぉッ！！！
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "それが駄目なら退却させろぉおぉおぉぉッ！！！",
-			NULL, "And if even that isn't enough, then retreeeeeat!!!", Line_Normal);
+			NULL, "If he couldn't have that, he wanted to retreat!!!", Line_Normal);
 	ClearMessage();
 
 //rもう小此木は疑わなかった。敵は強大で、しかも狡猾。しかも流れは明らかにあちら側だ。
@@ -2019,19 +2019,19 @@ void main()
 //rせめて顔を拝ませろ、どんな悪魔なのかせめて教えてくれッ！！
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "せめて顔を拝ませろ、どんな悪魔なのかせめて教えてくれッ！！",
-			NULL, "At the very least, he wanted to look upon their faces to see for himself what sort of demons they were!!", Line_Normal);
+			NULL, "He wanted to see the face of the commander, or at least he wanted to know their name!", Line_Normal);
 	ClearMessage();
 
 //rあぁ、雛見沢って鬼の住む村ってぇことになってたんだよな…。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "あぁ、雛見沢って鬼の住む村ってぇことになってたんだよな…。",
-			NULL, "That's right, they say Hinamizawa is the village where demons dwell...", Line_Normal);
+			NULL, "But then Okonogi remembered that demons used to live in Hinamizawa.", Line_Normal);
 	ClearMessage();
 
 //r……今ならわかるぜ、…こいつが、…鬼ってヤツかッ！！！
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "……今ならわかるぜ、…こいつが、…鬼ってヤツかッ！！！",
-			NULL, "...Then he understood... These guys... were demons!!!", Line_Normal);
+			NULL, "...He also realized... These guys... were demons!!!", Line_Normal);
 	ClearMessage();
 
 	PlaySE(3, "bb", 256, 64);
@@ -2042,7 +2042,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>鶯１</color>", NULL, "<color=#f5e6d3>Nightingale 1</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/ugu0111018", 256, TRUE);
 	OutputLine(NULL, "「鶯１３、沈黙！」",
-			NULL, "\"Nightingale 13 has gone silent!\"", Line_Normal);
+			NULL, "\"Nightingale 13 is down!!\"", Line_Normal);
 	ClearMessage();
 
 	PlaySE(3, "down3", 256, 64);
@@ -2053,7 +2053,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>鳳２</color>", NULL, "<color=#f5e6d3>Phoenix 2</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/oto0211001", 256, TRUE);
 	OutputLine(NULL, "「鳳４、沈黙！！」",
-			NULL, "\"Phoenix 4 has gone silent!!\"", Line_Normal);
+			NULL, "\"Phoenix 4 is down!!\"", Line_Normal);
 	ClearMessage();
 
 //雲雀１０rvS14/00/hiba1011001_01.「こ、こちら雲雀１０…！kvS14/00/hiba1011002.　こ、子供の笑い声が聞こえる…、ほほ、包囲された！！kvS14/00/hiba1011003.　た、頼む助けてくれッ！！！」
@@ -2063,27 +2063,27 @@ void main()
 			NULL, "\"Th-this is Skylark 10...!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/hiba1011002", 256, TRUE);
 	OutputLine(NULL, "　こ、子供の笑い声が聞こえる…、ほほ、包囲された！！",
-			NULL, " I... I can hear the laughter of children... all around me!!", Line_WaitForInput);
+			NULL, " I-I can hear the voices of children... I'm surrounded!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/hiba1011003", 256, TRUE);
 	OutputLine(NULL, "　た、頼む助けてくれッ！！！」",
-			NULL, " P-please, help!!!\"", Line_Normal);
+			NULL, " Help, help me!!!\"", Line_Normal);
 	ClearMessage();
 
 //雲雀１rvS14/00/hiba0111040.「雲雀１０、退却しろ退却しろ！！」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>雲雀１</color>", NULL, "<color=#f5e6d3>Skylark 1</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/hiba0111040", 256, TRUE);
 	OutputLine(NULL, "「雲雀１０、退却しろ退却しろ！！」",
-			NULL, "\"Skylark 10, retreat, retreat!!\"", Line_Normal);
+			NULL, "\"Skylark 10, fall back, fall back!!\"", Line_Normal);
 	ClearMessage();
 
 //雲雀１０rvS14/00/hiba1011004.「退却ってどっちにだよ？！kvS14/00/hiba1011005.　うッうわあああああああ！！！」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>雲雀１０</color>", NULL, "<color=#f5e6d3>Skylark 10</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/hiba1011004", 256, TRUE);
 	OutputLine(NULL, "「退却ってどっちにだよ？！",
-			NULL, "\"Retreat? To where?!", Line_WaitForInput);
+			NULL, "\"To where?!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/hiba1011005", 256, TRUE);
 	OutputLine(NULL, "　うッうわあああああああ！！！」",
-			NULL, " U-uwaaaaaaaahh!!!\"", Line_Normal);
+			NULL, " Whahhhhhh!!!\"", Line_Normal);
 	ClearMessage();
 
 	PlaySE(3, "daidageki", 256, 64);
@@ -2104,40 +2104,40 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>鳳２</color>", NULL, "<color=#f5e6d3>Phoenix 2</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/oto0211002", 256, TRUE);
 	OutputLine(NULL, "「鳳９、どこにいるんだ、所在地がわからない！",
-			NULL, "\"Phoenix 9, I don't know your exact location!", Line_WaitForInput);
+			NULL, "\"Phoenix 9, where are you? I don't know where you are!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/oto0211003", 256, TRUE);
 	OutputLine(NULL, "　周辺の状況を送られたし！！」",
-			NULL, " Please describe your surroundings!!\"", Line_Normal);
+			NULL, " Give me your current location!!\"", Line_Normal);
 	ClearMessage();
 
 //鳳９rvS14/00/oto0911003.「…き、霧が出てる、kvS14/00/oto0911004.…寒い寒い…、kvS14/00/oto0911005.…こ、ここは河原？！」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>鳳９</color>", NULL, "<color=#f5e6d3>Phoenix 9</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/oto0911003", 256, TRUE);
 	OutputLine(NULL, "「…き、霧が出てる、",
-			NULL, "\"...Th-there's a fog starting to develop.", Line_WaitForInput);
+			NULL, "\"There is... a fog,", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/oto0911004", 256, TRUE);
 	OutputLine(NULL, "…寒い寒い…、",
-			NULL, " ...It's cold, it's cold...", Line_WaitForInput);
+			NULL, " it's cold...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/oto0911005", 256, TRUE);
 	OutputLine(NULL, "…こ、ここは河原？！」",
-			NULL, " ...I-is that a riverbank?!\"", Line_Normal);
+			NULL, " Is this a riverbank?\"", Line_Normal);
 	ClearMessage();
 
 //鳳２rvS14/00/oto0211004.「鳳９、地図上ありえない、落ち着いて状況を確認しろ！！」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>鳳２</color>", NULL, "<color=#f5e6d3>Phoenix 2</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/oto0211004", 256, TRUE);
 	OutputLine(NULL, "「鳳９、地図上ありえない、落ち着いて状況を確認しろ！！」",
-			NULL, "\"Phoenix 9, I can't pinpoint that on a map! Calm down and check your surroundings!!\"", Line_Normal);
+			NULL, "\"Phoenix 9, there are no rivers anywhere near us. Calm down, where are you?\"", Line_Normal);
 	ClearMessage();
 
 //鳳９rvS14/00/oto0911006.「そ、そんな…河原の向こうに…、kvS14/00/oto0911007.し、死んだ姉ちゃんが…！！」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>鳳９</color>", NULL, "<color=#f5e6d3>Phoenix 9</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/oto0911006", 256, TRUE);
 	OutputLine(NULL, "「そ、そんな…河原の向こうに…、",
-			NULL, "\"N-no way... On the other side of the river...", Line_WaitForInput);
+			NULL, "\"What...? I can see...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/oto0911007", 256, TRUE);
 	OutputLine(NULL, "し、死んだ姉ちゃんが…！！」",
-			NULL, " I-is that a dead girl...?!\"", Line_Normal);
+			NULL, " my dead sister on the other side of the river...!!\"", Line_Normal);
 	ClearMessage();
 
 	PlaySE(3, "bb", 256, 64);
@@ -2151,43 +2151,43 @@ void main()
 			NULL, "\"Phoenix 9, Phoenix 9!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/oto0211006", 256, TRUE);
 	OutputLine(NULL, "　応答しろッ！！",
-			NULL, " Respond!!", Line_WaitForInput);
+			NULL, " Answer me!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/oto0211007", 256, TRUE);
 	OutputLine(NULL, "　お、鳳９、沈黙ッ！！」",
-			NULL, " Ph-Phoenix 9 has gone silent!!\"", Line_Normal);
+			NULL, " Ph-Phoenix 9 is down!!\"", Line_Normal);
 	ClearMessage();
 
 //鳳３rvS14/00/oto0311001.「無理だ、やつらはこの山の鬼だッ！！kvS14/00/oto0311002.　俺は知ってる、これは鬼隠しなんだ！！kvS14/00/oto0311003.　俺たちは全員この山で消されちまうんだッ！！」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>鳳３</color>", NULL, "<color=#f5e6d3>Phoenix 3</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/oto0311001", 256, TRUE);
 	OutputLine(NULL, "「無理だ、やつらはこの山の鬼だッ！！",
-			NULL, "\"It's impossible. These are the demons of the mountain!!", Line_WaitForInput);
+			NULL, "\"This is impossible! They must be the demons of this mountain!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/oto0311002", 256, TRUE);
 	OutputLine(NULL, "　俺は知ってる、これは鬼隠しなんだ！！",
-			NULL, " We're going to get demoned away!! I know it!!", Line_WaitForInput);
+			NULL, " I know, they're all being demoned away!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/oto0311003", 256, TRUE);
 	OutputLine(NULL, "　俺たちは全員この山で消されちまうんだッ！！」",
-			NULL, " All of us are going to disappear on this mountain!!\"", Line_Normal);
+			NULL, " None of us are making it out of here alive tonight!!\"", Line_Normal);
 	ClearMessage();
 
 //小此木rvS14/14/223400138.「ば、馬鹿なことを口走るのはやめろ！！kvS14/14/223400139.　各班長は再点呼で状況把握と士気高揚に努めろ！！kvS14/14/223400140.　敵は悪魔なんかじゃない！！kvS14/14/223400141.　ただの子供だ！！kvS14/14/223400142.　ビビるな、格の違いを見せてやれッ！！」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#3e5745>小此木</color>", NULL, "<color=#3e5745>Okonogi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 14, "ps3/s14/14/223400138", 256, TRUE);
 	OutputLine(NULL, "「ば、馬鹿なことを口走るのはやめろ！！",
-			NULL, "\"S-stop with that nonsense!!", Line_WaitForInput);
+			NULL, "\"St-Stop saying things like that!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 14, "ps3/s14/14/223400139", 256, TRUE);
 	OutputLine(NULL, "　各班長は再点呼で状況把握と士気高揚に努めろ！！",
-			NULL, " All team leaders, try to get a grip on the situation and perform a roll call to increase morale!!", Line_WaitForInput);
+			NULL, " All unit leaders, conduct a roll call and give your members some encouragement!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 14, "ps3/s14/14/223400140", 256, TRUE);
 	OutputLine(NULL, "　敵は悪魔なんかじゃない！！",
-			NULL, " The enemies are not demons!!", Line_WaitForInput);
+			NULL, " Our enemies aren't demons!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 14, "ps3/s14/14/223400141", 256, TRUE);
 	OutputLine(NULL, "　ただの子供だ！！",
 			NULL, " They're just kids!! ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#3e5745>小此木</color>", NULL, "<color=#3e5745>Okonogi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 14, "ps3/s14/14/223400142", 256, TRUE);
 	OutputLine(NULL, "　ビビるな、格の違いを見せてやれッ！！」",
-			NULL, "Don't cower back!! Show them our superior strength!!\"", Line_Normal);
+			NULL, "Show them what we've got!!\"", Line_Normal);
 	ClearMessage();
 
 //rそして、その惑乱の中。
@@ -2219,10 +2219,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>鳳４</color>", NULL, "<color=#f5e6d3>Phoenix 4</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/oto0411004", 256, TRUE);
 	OutputLine(NULL, "「き、聞こえる、誰のインカムから聞こえてるんだッ？！",
-			NULL, "\"I-I heard that! Is that coming from someone's radio?!", Line_WaitForInput);
+			NULL, "\"I-I hear that, whose intercom is it coming from?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/oto0411005", 256, TRUE);
 	OutputLine(NULL, "　俺じゃない、俺じゃない！！」",
-			NULL, " It's not me! It's not me!!\"", Line_Normal);
+			NULL, " Not mine, it's not coming from mine!!\"", Line_Normal);
 	ClearMessage();
 
 //鳳５rvS14/00/oto0511002.「くッ、誰だ！！！kvS14/00/oto0511003.　う、うわあああああああああああッ！！！」
@@ -2245,7 +2245,7 @@ void main()
 			NULL, " Who was that voice just now?!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/oto0311006", 256, TRUE);
 	OutputLine(NULL, "　インカムには名乗ってから発言しろっ！！",
-			NULL, " Identify yourselves over the radio!!", Line_WaitForInput);
+			NULL, " Identify yourselves over the intercom!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/oto0311007", 256, TRUE);
 	OutputLine(NULL, "　鳳１、一度撤退しフォーメーションの再編を具申する！！」",
 			NULL, " Phoenix 1, let's withdraw immediately and then reorganize our formation!!\"", Line_Normal);
@@ -2297,16 +2297,16 @@ void main()
 		if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>声</color>", NULL, "<color=#f5e6d3>Voice</color>", NULL, Line_ContinueAfterTyping); }
 		ModPlayVoiceLS(4, 12, "ps2/12/221100128", 540, TRUE);
 		OutputLine(NULL, "「…人の身に過ぎたるを知らぬ愚かなる人間たち。",
-				NULL, "\"...Foolish humans who don't know their place,", Line_WaitForInput);
+				NULL, "\"You foolish humans...", Line_WaitForInput);
 		ModPlayVoiceLS(4, 12, "ps2/12/221100129", 540, TRUE);
 		OutputLine(NULL, "穢すことを許されぬ聖地を踏み荒らす罪を知るがいい…」",
-				NULL, " know that you've committed the heinous sin of treading on this holy land...\"", Line_Normal);
+				NULL, " Know your sins for stepping onto this sacred ground...\"", Line_Normal);
 		ClearMessage();
 
 		if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>声</color>", NULL, "<color=#f5e6d3>Voice</color>", NULL, Line_ContinueAfterTyping); }
 		ModPlayVoiceLS(4, 12, "ps2/12/221100130", 540, TRUE);
 		OutputLine(NULL, "「我に感謝せよ、聖地を汚した罪を償う機会を与えしことを感謝せよ、",
-				NULL, "\"Be grateful, I now grant you the opportunity to atone for the sin of defiling this holy land.", Line_WaitForInput);
+				NULL, "\"Be grateful to me, for I am giving you a chance to atone...", Line_WaitForInput);
 		ModPlayVoiceLS(4, 12, "ps2/12/221100131", 540, TRUE);
 		OutputLine(NULL, "…くすくすくす、ぅふふふふふはははははははははは…」",
 				NULL, " ...Hee hee hee, ehehehehehe, hahahahahahahahahaha...\"", Line_Normal);
@@ -2316,17 +2316,17 @@ void main()
 		if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>梨花（羽入）</color>", NULL, "<color=#f5e6d3>Rika (Hanyuu)</color>", NULL, Line_ContinueAfterTyping); }
 		ModPlayVoiceLS(4, 5, "ps3/s14/05/vt4bc_rika1271", 256, TRUE);
 		OutputLine(NULL, "「…人の身に過ぎたるを知らぬ愚かなる人間たち。",
-				NULL, "\"...Foolish humans who don't know their place,", Line_WaitForInput);
+				NULL, "\"You foolish humans...", Line_WaitForInput);
 		ModPlayVoiceLS(4, 5, "ps3/s14/05/vt4bc_rika1272", 256, TRUE);
 		OutputLine(NULL, "穢すことを許されぬ聖地を踏み荒らす罪を知るがいい…」",
-				NULL, " know that you've committed the heinous sin of treading on this holy land...\"", Line_Normal);
+				NULL, " Know your sins for stepping onto this sacred ground...\"", Line_Normal);
 		ClearMessage();
 
 	//梨花（羽入）rvS14/05/VT4Bc_rika1273.「感謝しなさいよ、聖地を汚した罪を償う機会を与えてあげるんだから。kvS14/05/VT4Bc_rika1274.…くすくすくす、ぅふふふふふはははははははははは…」
 		if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>梨花（羽入）</color>", NULL, "<color=#f5e6d3>Rika (Hanyuu)</color>", NULL, Line_ContinueAfterTyping); }
 		ModPlayVoiceLS(4, 5, "ps3/s14/05/vt4bc_rika1273", 256, TRUE);
 		OutputLine(NULL, "「感謝しなさいよ、聖地を汚した罪を償う機会を与えてあげるんだから。",
-				NULL, "\"Be grateful, I now grant you the opportunity to atone for the sin of defiling this holy land.", Line_WaitForInput);
+				NULL, "\"Be grateful to me, for I am giving you a chance to atone.", Line_WaitForInput);
 		ModPlayVoiceLS(4, 5, "ps3/s14/05/vt4bc_rika1274", 256, TRUE);
 		OutputLine(NULL, "…くすくすくす、ぅふふふふふはははははははははは…」",
 				NULL, " ...Hee hee hee, ehehehehehe, hahahahahahahahahaha...\"", Line_Normal);
@@ -2337,10 +2337,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>鳳３</color>", NULL, "<color=#f5e6d3>Phoenix 3</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/oto0311013", 256, TRUE);
 	OutputLine(NULL, "「畜生、誰かのインカムを奪ってやがるんだ！！",
-			NULL, "\"Damn it, they've commandeered someone's radio!!", Line_WaitForInput);
+			NULL, "\"Damn it, she has one of our intercoms!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/oto0311014", 256, TRUE);
 	OutputLine(NULL, "　敵の士気減退戦術に乗るな！！」",
-			NULL, " Don't fall for the enemy's demoralization tactics!!\"", Line_Normal);
+			NULL, " Don't let the enemy fool you!!\"", Line_Normal);
 	ClearMessage();
 
 //鳳４rvS14/00/oto0411006.「い、いや違うっ！kvS14/00/oto0411007.　この無線の周波数は…なんだ、これはぁっ？！kvS14/00/oto0411008.　こんな番号は存在しない、…電波ジャックだ！！」
@@ -2360,26 +2360,26 @@ void main()
 		if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>声</color>", NULL, "<color=#f5e6d3>Voice</color>", NULL, Line_ContinueAfterTyping); }
 		ModPlayVoiceLS(4, 12, "ps2/12/221100132", 540, TRUE);
 		OutputLine(NULL, "「……恐を知ることかなわぬ哀れな人間どもよ。",
-				NULL, "\"...Pathetic humans who know not fear.", Line_WaitForInput);
+				NULL, "\"You, fearless humans.", Line_WaitForInput);
 		ModPlayVoiceLS(4, 12, "ps2/12/221100133", 540, TRUE);
 		OutputLine(NULL, "よかろう。",
 				NULL, " ...Very well.", Line_WaitForInput);
 		ModPlayVoiceLS(4, 12, "ps2/12/221100134", 540, TRUE);
 		OutputLine(NULL, "汝らが我が身でしか知ることができないというなら、我がそれを教えようぞ…」",
-				NULL, " If you can not learn it on your own, I will gladly teach you...\"", Line_Normal);
+				NULL, " If you can only learn by making mistakes, then I shall teach you...\"", Line_Normal);
 		ClearMessage();
 	} else {
 	//梨花（羽入）rvS14/05/VT4Bc_rika1275.「…恐れを知ることかなわぬ哀れな人間たち。kvS14/05/VT4Bc_rika1276.…いいわ。kvS14/05/VT4Bc_rika1277.あんたたちが我が身でしか知ることができないというなら、私がそれを教えてあげましょう…」
 		if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>梨花（羽入）</color>", NULL, "<color=#f5e6d3>Rika (Hanyuu)</color>", NULL, Line_ContinueAfterTyping); }
 		ModPlayVoiceLS(4, 5, "ps3/s14/05/vt4bc_rika1275", 256, TRUE);
 		OutputLine(NULL, "「…恐れを知ることかなわぬ哀れな人間たち。",
-				NULL, "\"...Pathetic humans who know not fear.", Line_WaitForInput);
+				NULL, "\"You, fearless humans.", Line_WaitForInput);
 		ModPlayVoiceLS(4, 5, "ps3/s14/05/vt4bc_rika1276", 256, TRUE);
 		OutputLine(NULL, "…いいわ。",
 				NULL, " ...Very well.", Line_WaitForInput);
 		ModPlayVoiceLS(4, 5, "ps3/s14/05/vt4bc_rika1277", 256, TRUE);
 		OutputLine(NULL, "あんたたちが我が身でしか知ることができないというなら、私がそれを教えてあげましょう…」",
-				NULL, " If you can not learn it on your own, I will gladly teach you...\"", Line_Normal);
+				NULL, " If you can only learn by making mistakes, then I shall teach you...\"", Line_Normal);
 		ClearMessage();
 	}
 
@@ -2390,10 +2390,10 @@ void main()
 			NULL, "\"...Th-this is Nightingale 1...!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/ugu0111020", 256, TRUE);
 	OutputLine(NULL, "　後衛が来ていない…！！",
-			NULL, " The rear guard isn't coming...!", Line_WaitForInput);
+			NULL, " Where is everyone?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/ugu0111021", 256, TRUE);
 	OutputLine(NULL, "　馬鹿な、どこへ行った、応答しろッ！！！」",
-			NULL, " You idiots... Where did you go?! Answer me!!!\"", Line_Normal);
+			NULL, " Where did you all go? Come in, come in!!!\"", Line_Normal);
 	ClearMessage();
 
 	if (GetLocalFlag(LConsoleArc)==10) {
@@ -2403,22 +2403,22 @@ void main()
 				NULL, "\"...Hee hee hee.", Line_WaitForInput);
 		ModPlayVoiceLS(4, 12, "ps2/12/221100136", 540, TRUE);
 		OutputLine(NULL, "哀れな鶯が一羽、踏み込むことを許されぬ地に迷い込む。」",
-				NULL, " A pathetic nightingale has gotten lost in a place it was never meant to enter.\"", Line_Normal);
+				NULL, " I see a helpless bird getting lost in a forbidden forest.\"", Line_Normal);
 		ClearMessage();
 
 		if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>声</color>", NULL, "<color=#f5e6d3>Voice</color>", NULL, Line_ContinueAfterTyping); }
 		ModPlayVoiceLS(4, 12, "ps2/12/221100137", 540, TRUE);
 		OutputLine(NULL, "「…そんなにも知りたいか？",
-				NULL, "\"...Would you like to know more?", Line_WaitForInput);
+				NULL, "\" Do you want to know that badly?", Line_WaitForInput);
 		ModPlayVoiceLS(4, 12, "ps2/12/221100138", 540, TRUE);
 		OutputLine(NULL, "　鬼の世を知りたいか…？",
-				NULL, " About the world of demons...?", Line_WaitForInput);
+				NULL, " Do you want to know about the world of demons?", Line_WaitForInput);
 		ModPlayVoiceLS(4, 12, "ps2/12/221100139", 540, TRUE);
 		OutputLine(NULL, "　告げよ人の世に別れを。",
-				NULL, " Say farewell to the world of man.", Line_WaitForInput);
+				NULL, " Say goodbye to the world of humans.", Line_WaitForInput);
 		ModPlayVoiceLS(4, 12, "ps2/12/221100140", 540, TRUE);
 		OutputLine(NULL, "我が忠告に耳を貸さぬ愚を今より知れ…」",
-				NULL, " Now, learn what a fool you were not to heed my warning...\"", Line_Normal);
+				NULL, " Curse your foolishness for not listening to my warning...\"", Line_Normal);
 		ClearMessage();
 	} else {
 	//梨花（羽入）rvS14/05/VT4Bc_rika1278.「…くすくすくす。kvS14/05/VT4Bc_rika1279.ほら、哀れな鶯が一羽、踏み込むことを許されない地に迷い込んできたわ」
@@ -2435,16 +2435,16 @@ void main()
 		if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>梨花（羽入）</color>", NULL, "<color=#f5e6d3>Rika (Hanyuu)</color>", NULL, Line_ContinueAfterTyping); }
 		ModPlayVoiceLS(4, 5, "ps3/s14/05/vt4bc_rika1280", 256, TRUE);
 		OutputLine(NULL, "「…そんなにも知りたい？",
-				NULL, "\"...Would you like to know more?", Line_WaitForInput);
+				NULL, "\" Do you want to know that badly?", Line_WaitForInput);
 		ModPlayVoiceLS(4, 5, "ps3/s14/05/vt4bc_rika1281", 256, TRUE);
 		OutputLine(NULL, "　鬼の世を知りたい…？",
-				NULL, " About the world of demons...?", Line_WaitForInput);
+				NULL, " Do you want to know about the world of demons?", Line_WaitForInput);
 		ModPlayVoiceLS(4, 5, "ps3/s14/05/vt4bc_rika1282", 256, TRUE);
 		OutputLine(NULL, "　じゃあ、人の世に別れを告げなさい。",
-				NULL, " Then say farewell to the world of man.", Line_WaitForInput);
+				NULL, " Say goodbye to the world of humans.", Line_WaitForInput);
 		ModPlayVoiceLS(4, 5, "ps3/s14/05/vt4bc_rika1283", 256, TRUE);
 		OutputLine(NULL, "私の忠告に耳を貸さなかった愚を、今から思い知ることね…」",
-				NULL, " Now, learn what a fool you were not to heed my warning...\"", Line_Normal);
+				NULL, " Curse your foolishness for not listening to my warning...\"", Line_Normal);
 		ClearMessage();
 	}
 
@@ -2465,10 +2465,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>鳳３</color>", NULL, "<color=#f5e6d3>Phoenix 3</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/oto0311015", 256, TRUE);
 	OutputLine(NULL, "「だ、だだ、誰の悲鳴だ今のは！！",
-			NULL, "\"Wh-wh-who screamed just now?!", Line_WaitForInput);
+			NULL, "\"Wh-Who was that?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/oto0311016", 256, TRUE);
 	OutputLine(NULL, "　鶯、点呼を取れ！！」",
-			NULL, " Nightingale, take a roll call!!\"", Line_Normal);
+			NULL, " Nightingale, roll call!!\"", Line_Normal);
 	ClearMessage();
 
 	PlaySE(3, "thisikuki", 256, 64);
@@ -2488,13 +2488,13 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>鳳４</color>", NULL, "<color=#f5e6d3>Phoenix 4</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/oto0411009", 256, TRUE);
 	OutputLine(NULL, "「またやられた！！",
-			NULL, "\"It happened again!!", Line_WaitForInput);
+			NULL, "\"One more down!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/oto0411010", 256, TRUE);
 	OutputLine(NULL, "　誰が沈黙した？！",
-			NULL, " Who was just taken out?!", Line_WaitForInput);
+			NULL, " Who was it?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/oto0411011", 256, TRUE);
 	OutputLine(NULL, "　それより本部、俺の左肩には誰かいるんだよな？！",
-			NULL, " And more importantly, HQ, is there anyone on my left flank?!", Line_WaitForInput);
+			NULL, " By the way, HQ, I have someone on my left, right?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/oto0411012", 256, TRUE);
 	OutputLine(NULL, "　俺は孤立してるんじゃないよな？！」",
 			NULL, " I'm not alone, am I?!\"", Line_Normal);
@@ -2504,20 +2504,20 @@ void main()
 		if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>声</color>", NULL, "<color=#f5e6d3>Voice</color>", NULL, Line_ContinueAfterTyping); }
 		ModPlayVoiceLS(4, 12, "ps2/12/221100141", 540, TRUE);
 		OutputLine(NULL, "「…くすくすくす、",
-				NULL, "\"...Hee hee hee.", Line_WaitForInput);
+				NULL, "\"Hee hee hee...", Line_WaitForInput);
 		ModPlayVoiceLS(4, 12, "ps2/12/221100142", 540, TRUE);
 		OutputLine(NULL, "………まだ聞きたいか、痛みを伴う声が」",
-				NULL, " ...I wish to hear even more of those screams of agony...\"", Line_Normal);
+				NULL, " do you want to hear more painful voices...?\"", Line_Normal);
 		ClearMessage();
 	} else {
 	//梨花（羽入）rvS14/05/VT4Bc_rika1284.「…くすくすくす、kvS14/05/VT4Bc_rika1285.…まだ聞きたいのね、痛みを伴う声を…」
 		if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>梨花（羽入）</color>", NULL, "<color=#f5e6d3>Rika (Hanyuu)</color>", NULL, Line_ContinueAfterTyping); }
 		ModPlayVoiceLS(4, 5, "ps3/s14/05/vt4bc_rika1284", 256, TRUE);
 		OutputLine(NULL, "「…くすくすくす、",
-				NULL, "\"...Hee hee hee.", Line_WaitForInput);
+				NULL, "\"Hee hee hee...", Line_WaitForInput);
 		ModPlayVoiceLS(4, 5, "ps3/s14/05/vt4bc_rika1285", 256, TRUE);
 		OutputLine(NULL, "…まだ聞きたいのね、痛みを伴う声を…」",
-				NULL, " ...I wish to hear even more of those screams of agony...\"", Line_Normal);
+				NULL, " do you want to hear more painful voices...?\"", Line_Normal);
 		ClearMessage();
 	}
 
@@ -2538,59 +2538,59 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>鳳４</color>", NULL, "<color=#f5e6d3>Phoenix 4</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/oto0411013", 256, TRUE);
 	OutputLine(NULL, "「な、何だよ今の音！！",
-			NULL, "\"Wh-what was that sound?!", Line_WaitForInput);
+			NULL, "\"Wh-what was that?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/oto0411014", 256, TRUE);
 	OutputLine(NULL, "　何がひしゃげたらあんな音になるんだよ…！！」",
-			NULL, " It sounded like something getting squished...!!\"", Line_Normal);
+			NULL, " What made that sound?\"", Line_Normal);
 	ClearMessage();
 
 //鳳５rvS14/00/oto0511004.「俺、昔、電車の飛び込みを見たことある…！kvS14/00/oto0511005.　あん時と同じだ！！kvS14/00/oto0511006.　全身がひしゃげる音だッ！！」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>鳳５</color>", NULL, "<color=#f5e6d3>Phoenix 5</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/oto0511004", 256, TRUE);
 	OutputLine(NULL, "「俺、昔、電車の飛び込みを見たことある…！",
-			NULL, "\"A long time ago, I saw a train derail...!", Line_WaitForInput);
+			NULL, "\"I've seen someone jump in front of a train before...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/oto0511005", 256, TRUE);
 	OutputLine(NULL, "　あん時と同じだ！！",
-			NULL, " And this is just like back then!!", Line_WaitForInput);
+			NULL, " It made the exact same sound!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/oto0511006", 256, TRUE);
 	OutputLine(NULL, "　全身がひしゃげる音だッ！！」",
-			NULL, " That's the sound of a body being crushed!!\"", Line_Normal);
+			NULL, " That's the sound of a human body being crushed!!\"", Line_Normal);
 	ClearMessage();
 
 //鳳４rvS14/00/oto0411015.「嫌だ、そんな死に方ごめんだ！！！kvS14/00/oto0411016.　死にたくねぇ、死にたくねぇ！！！kvS14/00/oto0411017.　やめてくれ山の神さま！！kvS14/00/oto0411018.　俺も好きでやってるわけじゃねぇんだ、給料もらってやってるだけなんだ！！」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>鳳４</color>", NULL, "<color=#f5e6d3>Phoenix 4</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/oto0411015", 256, TRUE);
 	OutputLine(NULL, "「嫌だ、そんな死に方ごめんだ！！！",
-			NULL, "\"Shit, that's a terrible way to die!!", Line_WaitForInput);
+			NULL, "\"No, I don't want to die like that!!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/oto0411016", 256, TRUE);
 	OutputLine(NULL, "　死にたくねぇ、死にたくねぇ！！！",
-			NULL, " I don't wanna die!! I don't wanna die!!!", Line_WaitForInput);
+			NULL, " I don't want to die, I don't want to die!!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/oto0411017", 256, TRUE);
 	OutputLine(NULL, "　やめてくれ山の神さま！！",
-			NULL, " Oh god of the mountain, please stop this!!", Line_WaitForInput);
+			NULL, " Please, god of the mountain, please stop!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/oto0411018", 256, TRUE);
 	OutputLine(NULL, "　俺も好きでやってるわけじゃねぇんだ、給料もらってやってるだけなんだ！！」",
-			NULL, " I never enjoyed doing this! I was only here for a paycheck!!\"", Line_Normal);
+			NULL, " I'm not doing this because I want to, I'm doing this because I get paid for it!!\"", Line_Normal);
 	ClearMessage();
 
 //鶯１rvS14/00/ugu0111022.「う、鶯１より本部！！kvS14/00/ugu0111023.　駄目だ、士気の高揚は困難。kvS14/00/ugu0111024.隊員の脱落と士気低下は深刻！kvS14/00/ugu0111025.　これ以上の戦線維持は困難！！kvS14/00/ugu0111026.　損害が増えるだけだ…！！」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>鶯１</color>", NULL, "<color=#f5e6d3>Nightingale 1</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/ugu0111022", 256, TRUE);
 	OutputLine(NULL, "「う、鶯１より本部！！",
-			NULL, "\"N-Nightingale 1 to HQ!!", Line_WaitForInput);
+			NULL, "\"N-Nightingale 1 to base!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/ugu0111023", 256, TRUE);
 	OutputLine(NULL, "　駄目だ、士気の高揚は困難。",
-			NULL, " It's hopeless. There's no way we can raise morale.", Line_WaitForInput);
+			NULL, " This isn't working. There's no way we can raise morale.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/ugu0111024", 256, TRUE);
 	OutputLine(NULL, "隊員の脱落と士気低下は深刻！",
-			NULL, " The fallen squad members and reduced morale are a serious problem!", Line_WaitForInput);
+			NULL, " Too many unit members are dropping out and it's almost impossible to get them to fight anymore.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/ugu0111025", 256, TRUE);
 	OutputLine(NULL, "　これ以上の戦線維持は困難！！",
-			NULL, " It will be extremely difficult to hold the front lines like this!! ", GetGlobalFlag(GLinemodeSp));
+			NULL, " We can't maintain the battle line!! ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>鶯１</color>", NULL, "<color=#f5e6d3>Nightingale 1</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/ugu0111026", 256, TRUE);
 	OutputLine(NULL, "　損害が増えるだけだ…！！」",
-			NULL, "All we're doing is increasing our losses...!!\"", Line_Normal);
+			NULL, "We are just going to lose more men!!\"", Line_Normal);
 	ClearMessage();
 
 //小此木rvS14/14/223400143.「だから落ち着け鶯１…！kvS14/14/223400144.　他の隊員は野戦の素人ばかりじゃねぇか！！kvS14/14/223400145.　お前はあの地獄の卒業生じゃねぇか！！kvS14/14/223400146.　そのお前が混乱してどうするんだ！！kvS14/14/223400147.　落ち着け、お前が範を示せッ！！」
@@ -2600,17 +2600,17 @@ void main()
 			NULL, "\"Calm down, Nightingale 1...!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 14, "ps3/s14/14/223400144", 256, TRUE);
 	OutputLine(NULL, "　他の隊員は野戦の素人ばかりじゃねぇか！！",
-			NULL, " The other squad members had limited field experience!!", Line_WaitForInput);
+			NULL, " The rest of our soldiers are all amateurs in the field!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 14, "ps3/s14/14/223400145", 256, TRUE);
 	OutputLine(NULL, "　お前はあの地獄の卒業生じゃねぇか！！",
-			NULL, " But you've endured that hell, haven't you?!", Line_WaitForInput);
+			NULL, " You graduated from that hell!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 14, "ps3/s14/14/223400146", 256, TRUE);
 	OutputLine(NULL, "　そのお前が混乱してどうするんだ！！",
-			NULL, " Why is someone in your position getting in such a panic?! ", GetGlobalFlag(GLinemodeSp));
+			NULL, " So what are you doing, getting shook up?! ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#3e5745>小此木</color>", NULL, "<color=#3e5745>Okonogi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 14, "ps3/s14/14/223400147", 256, TRUE);
 	OutputLine(NULL, "　落ち着け、お前が範を示せッ！！」",
-			NULL, "Stay calm! You need to set an example for the others!!\"", Line_Normal);
+			NULL, "Calm down, and set an example!!\"", Line_Normal);
 	ClearMessage();
 
 //鶯１rvS14/00/ugu0111027.「ぐ、ぐあぁぁあぁっ？！kvS14/00/ugu0111028.　あ、悪魔だ…！！kvS14/00/ugu0111029.　悪魔が出たぁぁあぁッッ！！！」
@@ -2666,108 +2666,108 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>鳳４</color>", NULL, "<color=#f5e6d3>Phoenix 4</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/oto0411019", 256, TRUE);
 	OutputLine(NULL, "「…ほ、本部、鶯１が応答しない…！！",
-			NULL, "\"...H-HQ, Nightingale 1 is no longer responding...!!", Line_WaitForInput);
+			NULL, "\"Base... there's no response from Nightingale 1...!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/oto0411020", 256, TRUE);
 	OutputLine(NULL, "　そんな、あの人がやられるなんて、…だめだ、やっぱり悪魔だ！！」",
-			NULL, " There's no way a human could do this! ...It's useless! We're up against demons!!\"", Line_Normal);
+			NULL, " I can't believe it, but he's down... this is impossible, they are demons!!\"", Line_Normal);
 	ClearMessage();
 
 //小此木rvS14/14/223400148.「だ、駄目だ…、くそ！！kvS14/14/223400149.　敵は心理戦も上手だってのかッ！！kvS14/14/223400150.　ガキどもの癖に、俺たちを心理戦で巻くってのかッ！！！」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#3e5745>小此木</color>", NULL, "<color=#3e5745>Okonogi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 14, "ps3/s14/14/223400148", 256, TRUE);
 	OutputLine(NULL, "「だ、駄目だ…、くそ！！",
-			NULL, "\"Th-that's impossible... Shit!!", Line_WaitForInput);
+			NULL, "\"N-No... damn it!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 14, "ps3/s14/14/223400149", 256, TRUE);
 	OutputLine(NULL, "　敵は心理戦も上手だってのかッ！！",
-			NULL, " The enemy is adept at psychological warfare!!", Line_WaitForInput);
+			NULL, " Our enemy is even using psychological warfare!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 14, "ps3/s14/14/223400150", 256, TRUE);
 	OutputLine(NULL, "　ガキどもの癖に、俺たちを心理戦で巻くってのかッ！！！」",
-			NULL, " Are you telling me you're falling prey to psychological warfare tactics from children!?!\"", Line_Normal);
+			NULL, " Those damn punks are winning against a professional unconventional warfare unit!!\"", Line_Normal);
 	ClearMessage();
 
 //r無線は本来、連絡をスムーズにして連携と取らせるための武器となるはずだ。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "無線は本来、連絡をスムーズにして連携と取らせるための武器となるはずだ。",
-			NULL, "The radio was supposed to be a weapon for effective communication and coordination.", Line_Normal);
+			NULL, "Radios are usually helpful communication tools.", Line_Normal);
 	ClearMessage();
 
 //r…だが、著しく減退した士気に付け込まれ、それが裏目に出た。どんな手段を使ったのか皆目見当もつかないが、やつらは味方の無線に割り込んで、盛大に撹乱を図っている…！
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…だが、著しく減退した士気に付け込まれ、それが裏目に出た。どんな手段を使ったのか皆目見当もつかないが、やつらは味方の無線に割り込んで、盛大に撹乱を図っている…！",
-			NULL, "...But it backfired on them, thanks to their significantly reduced morale. Nobody had any information on enemy activities, but they were all constantly interrupting their squadmates with distracting radio chatter...!", Line_Normal);
+			NULL, "But in this case, they backfired. Nobody had any information on enemy activities, but they were all constantly interrupting their squadmates with distracting radio chatter...!", Line_Normal);
 	ClearMessage();
 
 //r落ち着いて考えればチープなそれも、前後左右もわからない敵地の山中で孤立し、徹底的な打撃を受けて消耗している彼らには有効だ。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
 	OutputLine(NULL, "落ち着いて考えればチープなそれも、前後左右もわからない敵地の山中で孤立し、徹底的な打撃を受けて消耗している彼らには有効だ。",
-			NULL, "Even though keeping calm would be ideal, that's difficult to manage when you're isolated in mountainous enemy territory where you can't tell left from right or front from back, and you're feeling exhausted from suffering repeated enemy attacks.", Line_Normal);
+			NULL, "It worked even more effectively because they were in enemy territory and were unfamiliar with the terrain.", Line_Normal);
 	ClearMessage();
 
 //r一番有効な手は全員にインカムの使用をやめさせることだが、それでは敵による各個撃破をさらに招いてしまう！！
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "一番有効な手は全員にインカムの使用をやめさせることだが、それでは敵による各個撃破をさらに招いてしまう！！",
-			NULL, "The most effective way to deal with this would be to order everyone to stop using their radios, but that would give the enemy an opportunity to pick them off one by one!!", Line_Normal);
+			NULL, "The best solution would be to make everyone stop using the intercom, but that would give the enemy more chances to attack them individually.", Line_Normal);
 	ClearMessage();
 
 //r小此木は、その全貌も知らぬ部活メンバーに対し、畏怖の念を抱かずにはいられなかった…。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "小此木は、その全貌も知らぬ部活メンバーに対し、畏怖の念を抱かずにはいられなかった…。",
-			NULL, "Okonogi couldn't help but dread those club members he still didn't have a clear picture of...", Line_Normal);
+			NULL, "Okonogi was growing fearful of the club members, as he still hadn't grasped their true identities...", Line_Normal);
 	ClearMessage();
 
 //rそれに比べ、びくびくするなと、ただ怒鳴り続けるだけの鷹野の現状認識の甘さは、今や滑稽なくらいだった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "それに比べ、びくびくするなと、ただ怒鳴り続けるだけの鷹野の現状認識の甘さは、今や滑稽なくらいだった。",
-			NULL, "Meanwhile, Takano's constant shouting with no regard for the current situation was becoming comical.", Line_Normal);
+			NULL, "However, Takano still hadn't recognized how serious the situation was. She kept yelling at the Mountain Dogs to get their act together.", Line_Normal);
 	ClearMessage();
 
 //r……ひたすら突撃しか言わず、部下を死地に着き落としてきた指揮官ってのは、こういう背広将校なんだろうよ…。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "……ひたすら突撃しか言わず、部下を死地に着き落としてきた指揮官ってのは、こういう背広将校なんだろうよ…。",
-			NULL, "...She was single-mindedly shouting at them to attack. The commander who sent her subordinates into this death zone was such a callous leader...", Line_Normal);
+			NULL, "...Okonogi could tell she was exactly the type of commander who only commanded to attack and let her men die...", Line_Normal);
 	ClearMessage();
 
 //rだが、鷹野のがむしゃらな突撃命令は、皮肉にも多少の効果を上げている。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "だが、鷹野のがむしゃらな突撃命令は、皮肉にも多少の効果を上げている。",
-			NULL, "But ironically enough, Takano's reckless attack orders did have some merit.", Line_Normal);
+			NULL, "But Takano's reckless orders were working in a way.", Line_Normal);
 	ClearMessage();
 
 //r敵は絶大な戦果を挙げつつも確実に後退し、行動範囲を狭めている。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "敵は絶大な戦果を挙げつつも確実に後退し、行動範囲を狭めている。",
-			NULL, "The enemy was achieving overwhelming results, but they were indeed retreating, and their range of mobility was shrinking.", Line_Normal);
+			NULL, "Although the club members were winning, their area of operation was getting smaller.", Line_Normal);
 	ClearMessage();
 
 //r敵はトラップ地帯に誘い込み、そこから撤退し次のトラップ地帯へ誘い込むのを戦略としてる。…つまり、自分たちの陣地と引き換えにこちらに出血を強いているのだ。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "敵はトラップ地帯に誘い込み、そこから撤退し次のトラップ地帯へ誘い込むのを戦略としてる。…つまり、自分たちの陣地と引き換えにこちらに出血を強いているのだ。",
-			NULL, "Their primary strategy was to lure their foes into a trap zone, then retreat from there and lure them into another trap zone. ...In other words, they were bleeding away their defensive territory.", Line_Normal);
+			NULL, "The club members were trying to lure their enemies to one trap area after another. In other words, they were defeating the Mountain Dogs by allowing them to come into their territory.", Line_Normal);
 	ClearMessage();
 
 //r……すでに山狗は壊滅状態だが、…連中の行動範囲もかなり狭まっている。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "……すでに山狗は壊滅状態だが、…連中の行動範囲もかなり狭まっている。",
-			NULL, "...The Mountain Dogs were already in shambles... but the enemy also had a significantly reduced scope of activity.", Line_Normal);
+			NULL, "The Mountain Dogs were about to be annihilated... but the curtains were closing on the club members' theater, too.", Line_Normal);
 	ClearMessage();
 
 //r向こうが心理戦に出てきたのは、決着を急いでいることの表れだ。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "向こうが心理戦に出てきたのは、決着を急いでいることの表れだ。",
-			NULL, "The fact that the other side resorted to psychological warfare indicated that they were in a hurry to settle things.", Line_Normal);
+			NULL, "Okonogi realized his enemies were trying to finish this battle in a hurry.", Line_Normal);
 	ClearMessage();
 
 //r…ここで撤退すれば、むしろこれまでの損害が無意味になる。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…ここで撤退すれば、むしろこれまでの損害が無意味になる。",
-			NULL, "...If they were to retreat now, it would render all the damage they had inflicted thus far meaningless.", Line_Normal);
+			NULL, "If the Mountain Dogs fell back, everything they'd done would be for nothing.", Line_Normal);
 	ClearMessage();
 
 //r…悔しいがお姫様の言う通りにするしかない。…もうじきで連中の首根っこをふん捕まえることができるのだ…！！
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…悔しいがお姫様の言う通りにするしかない。…もうじきで連中の首根っこをふん捕まえることができるのだ…！！",
-			NULL, "...Unfortunately, they had to keep doing as the princess commanded. ...But they'd be able to grab their enemies by the necks soon...!!", Line_Normal);
+			NULL, "He didn't want to, but he had to follow the princess's order. Okonogi figured he was finally about to get his enemies...!", Line_Normal);
 	ClearMessage();
 
 	FadeOutBGM(2, 200, FALSE);
@@ -2803,7 +2803,7 @@ void main()
 //rはっ、と気づいたときにはもう遅く、鷹野はその一撃をわき腹にもろに受け、谷側の斜面を転がり落ちていった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "はっ、と気づいたときにはもう遅く、鷹野はその一撃をわき腹にもろに受け、谷側の斜面を転がり落ちていった。",
-			NULL, "By the time she noticed, it was already too late. Takano took a heavy blow to her side, them tumbled down the slope of the valley.", Line_Normal);
+			NULL, "By the time she noticed, it was already too late. Takano took a heavy blow to her side, then tumbled down the slope of the valley.", Line_Normal);
 	ClearMessage();
 
 	PlayBGM( 1, "semi_r", 128, 0 );
@@ -2972,7 +2972,7 @@ void main()
 			NULL, "\"Do you read me?!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "ps3/s14/09/220900215", 256, TRUE);
 	OutputLine(NULL, "　私は鷹野よ、三等陸佐よ！！",
-			NULL, " This is Major Takano!!!", Line_WaitForInput);
+			NULL, " This is Takano, Major Takano!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "ps3/s14/09/220900216", 256, TRUE);
 	OutputLine(NULL, "　あんた達の最上位の上司よ！！」",
 			NULL, " Your top-level commander!!\"", Line_Normal);
@@ -2982,37 +2982,37 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 9, "ps3/s14/09/220900217", 256, TRUE);
 	OutputLine(NULL, "「聞きなさい、鬼もいないし神さまもいないわ。",
-			NULL, "\"Listen up. There are no demons. No gods.", Line_WaitForInput);
+			NULL, "\"Listen well! There are no gods or demons.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "ps3/s14/09/220900218", 256, TRUE);
 	OutputLine(NULL, "もしいるなら戦いなさい。",
-			NULL, " If you're still out there, keep fighting.", Line_WaitForInput);
+			NULL, " And even if there are, you can still fight.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "ps3/s14/09/220900219", 256, TRUE);
 	OutputLine(NULL, "神などその座から引き摺り下ろしてやるのよ！！」",
-			NULL, " Or I'll drag you down to the seat of God myself!!\"", Line_Normal);
+			NULL, " Drag God down from its pedestal!!\"", Line_Normal);
 	ClearMessage();
 
 //鷹野rvS14/09/220900220.「雲雀と鶯は合流して戦力を立て直しなさい。kvS14/09/220900221.鳳は白鷺の残存と合流」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 9, "ps3/s14/09/220900220", 256, TRUE);
 	OutputLine(NULL, "「雲雀と鶯は合流して戦力を立て直しなさい。",
-			NULL, "\"Skylark, Nightingale, group up and rebuild your strength.", Line_WaitForInput);
+			NULL, "\"Skylark and Nightingale, join up and reorganize your forces.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "ps3/s14/09/220900221", 256, TRUE);
 	OutputLine(NULL, "鳳は白鷺の残存と合流」",
-			NULL, " Phoenix, group up with what remains of Heron.\"", Line_Normal);
+			NULL, " Phoenix, group up with the remainder of Heron.\"", Line_Normal);
 	ClearMessage();
 
 //鷹野rvS14/09/220900222.「敵は山頂付近の、営林署の資材小屋辺りを本拠地にしている模様！kvS14/09/220900223.　高所を取られてるわ、こちらの動きが筒抜けのはず！！kvS14/09/220900224.　奇襲はあって当り前よ、刺し違えてでも倒しなさい！！」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 9, "ps3/s14/09/220900222", 256, TRUE);
 	OutputLine(NULL, "「敵は山頂付近の、営林署の資材小屋辺りを本拠地にしている模様！",
-			NULL, "\"The enemy seems to be based out of a forestry service hut near the summit!", Line_WaitForInput);
+			NULL, "\"The enemies are near the top of the mountain. Their base is probably somewhere by the forestry service's storage shed!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "ps3/s14/09/220900223", 256, TRUE);
 	OutputLine(NULL, "　高所を取られてるわ、こちらの動きが筒抜けのはず！！",
-			NULL, " At that elevation, your movements should be easy to overhear!! ", GetGlobalFlag(GLinemodeSp));
+			NULL, " They have the high ground, so of course they can see our movements!! ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 9, "ps3/s14/09/220900224", 256, TRUE);
 	OutputLine(NULL, "　奇襲はあって当り前よ、刺し違えてでも倒しなさい！！」",
-			NULL, "Be prepared for surprise attacks!! Slaughter them, even if you have to sacrifice yourselves to do it!!\"", Line_Normal);
+			NULL, "They'll be trying to ambush you. Make sure you take them out, even if you have to stab each other to do it!!\"", Line_Normal);
 	ClearMessage();
 
 //小此木rvS14/14/223400160.「三佐、いったん下がってフォーメーションの再編の許可を！！kvS14/14/223400161.　日が暮れたら、敵の追撃どころか脱出も困難になります！！」
@@ -3029,16 +3029,16 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 9, "ps3/s14/09/220900225", 256, TRUE);
 	OutputLine(NULL, "「許可できるわけないでしょ！！",
-			NULL, "\"Request denied!!", Line_WaitForInput);
+			NULL, "\"Absolutely not!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "ps3/s14/09/220900226", 256, TRUE);
 	OutputLine(NULL, "　私たちは今、やつらを完全に包囲して追い詰めているのよ！！",
-			NULL, " They're completely surrounded!! Hunt them down!!", Line_WaitForInput);
+			NULL, " We've finally surrounded them!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "ps3/s14/09/220900227", 256, TRUE);
 	OutputLine(NULL, "　ここで退けば逃がすわよ！！",
-			NULL, " They'll escape if we retreat now!!", Line_WaitForInput);
+			NULL, " If we fall back, they'll escape!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "ps3/s14/09/220900228", 256, TRUE);
 	OutputLine(NULL, "　私たちは両手に手をかけてる、後は絞めるだけなのッ！！！」",
-			NULL, " They're already in our hands!! All that's left to do is squeeze them!!!\"", Line_Normal);
+			NULL, " We almost have our hands around their necks. We just have to squeeze them!!!\"", Line_Normal);
 	ClearMessage();
 
 //鳳２rvS14/00/oto0211010.「さ、三佐…！kvS14/00/oto0211011.　お怪我に触ります、早く治療を…！！」
@@ -3077,13 +3077,13 @@ void main()
 //r無線で部下たちを怒鳴り続ける鷹野を尻目に、小此木へ別の回線で連絡が入った。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "無線で部下たちを怒鳴り続ける鷹野を尻目に、小此木へ別の回線で連絡が入った。",
-			NULL, "While Takano continued shouting at her subordinates over the radio, Okonogi received contact over a different frequency.", Line_Normal);
+			NULL, "At the same time, Okonogi received another radio call.", Line_Normal);
 	ClearMessage();
 
 //r小此木はその意味を理解し、鷹野から少し離れて小声で無線に応えた。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "小此木はその意味を理解し、鷹野から少し離れて小声で無線に応えた。",
-			NULL, "Okonogi already knew what Takano was going to say, so he stepped a short distance away from her and quietly listened to his radio.", Line_Normal);
+			NULL, "Okonogi understood the meaning of that, so he stepped away from Takano and answered quietly.", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(4, 14, "sprite/oko_odoroki_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, FALSE );
@@ -3093,10 +3093,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>白鷺１９</color>", NULL, "<color=#f5e6d3>Heron 19</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/shira1911001", 256, TRUE);
 	OutputLine(NULL, "「指揮車より鳳１。",
-			NULL, "\"Command car to Phoenix 1.", Line_WaitForInput);
+			NULL, "\"Command vehicle to Phoenix 1.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/shira1911002", 256, TRUE);
 	OutputLine(NULL, "…緊急事態です。",
-			NULL, " ...This is an emergency.", Line_WaitForInput);
+			NULL, " ...There's been an emergency.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/shira1911003", 256, TRUE);
 	OutputLine(NULL, "谷河内(やごうち)の特殊部隊が襲撃を受けたようです」",
 			NULL, " The special forces team in Yagouchi has apparently been attacked.\"", Line_Normal);
@@ -3133,13 +3133,13 @@ void main()
 //r小此木は全てを理解した。…完全にやられた。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "小此木は全てを理解した。…完全にやられた。",
-			NULL, "Okonogi understood everything. ...They were utterly defeated.", Line_Normal);
+			NULL, "Okonogi understood everything. He had been fooled.", Line_Normal);
 	ClearMessage();
 
 //r相手が迷彩服を着た兵士の一群だったなら引っ掛からなかった。心のどこかで、所詮ガキの集まりとの見下しが最後まで抜けなかったのだ。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "相手が迷彩服を着た兵士の一群だったなら引っ掛からなかった。心のどこかで、所詮ガキの集まりとの見下しが最後まで抜けなかったのだ。",
-			NULL, "They wouldn't have been taken in like this if the enemy was a group of conventional camouflage-dressed soldiers. Somewhere deep in his heart, he was disconsolate that in the end he was unable to capture that group of kids.", Line_Normal);
+			NULL, "If the enemies were soldiers in camouflage, then he wouldn't have been fooled. He underestimated them because he thought they were kids.", Line_Normal);
 	ClearMessage();
 
 //rあとは、…警察の力を軽く見すぎていたってことか…。
@@ -3180,7 +3180,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>白鷺１９</color>", NULL, "<color=#f5e6d3>Heron 19</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/shira1911007", 256, TRUE);
 	OutputLine(NULL, "「郭公との連絡が、…その、つきません。",
-			NULL, "\"There's... no contact with Tokyo.", Line_WaitForInput);
+			NULL, "\"There's... no contact with Cuckoo.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/shira1911008", 256, TRUE);
 	OutputLine(NULL, "あらゆる緊急ルートを介しても、なしのつぶてです。",
 			NULL, " Even over the emergency channel, nothing is getting through.", Line_WaitForInput);
@@ -3222,7 +3222,7 @@ void main()
 	//r実際のところ彼は、もらった大金分くらいは鷹野の自己満足に付き合って、…そのあとで責任を全部、彼女に押しつけてやるつもりだったのだ。
 		if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 		OutputLine(NULL, "実際のところ彼は、もらった大金分くらいは鷹野の自己満足に付き合って、…そのあとで責任を全部、彼女に押しつけてやるつもりだったのだ。",
-				NULL, "The truth is, he received a lot of money for dealing with Takano's self-complacency... but after this, he was going to push all the responsibility on to her.", Line_Normal);
+				NULL, "In reality, while he'd received a lot of money to go along with Takano's self-complacency... he had been planning to push all the responsibility on to her after this.", Line_Normal);
 		ClearMessage();
 
 	//rそして、東京にいる本当の『ご主人様』から連絡が届き次第、鷹野を殺して投降するよう命令も受けていた。
@@ -3246,7 +3246,7 @@ void main()
 	//r踊り狂うピエロの監視役のつもりが、いつの間にか道化を演じる仲間として扱われていたことを悟ったが、それでも小此木は憤怒に燃える思考を懸命に落ち着けていった。
 		if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 		OutputLine(NULL, "踊り狂うピエロの監視役のつもりが、いつの間にか道化を演じる仲間として扱われていたことを悟ったが、それでも小此木は憤怒に燃える思考を懸命に落ち着けていった。",
-				NULL, "He intended to keep an eye on the dancing clown, but he ended up inadvertently playing the clown himself. Nevertheless, Okonogi did his best to calm his burning, hateful thoughts.", Line_Normal);
+				NULL, "He realized that he, who was supposed to keep an eye on the dancing clown, was inadvertently seen as one of the complicit clowns. Nevertheless, Okonogi did his best to calm his burning, hateful thoughts.", Line_Normal);
 		ClearMessage();
 
 	//rそうだ…このまま終わって、たまるか…！
@@ -3271,7 +3271,7 @@ void main()
 //r――そんなことを考え、小此木は顔を上げてインカム越しの部下に伝えた。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "——そんなことを考え、小此木は顔を上げてインカム越しの部下に伝えた。",
-			NULL, "...With that in mind, Okonogi raised his head and addressed his subordinate over the radio.", Line_Normal);
+			NULL, "...With that in mind, Okonogi raised his head and addressed his subordinate over the intercom.", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(4, 14, "sprite/oko_odoroki_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, FALSE );
@@ -3302,7 +3302,7 @@ void main()
 //r小此木はインカムを切り、まだ怒鳴り散らしている鷹野に歩み寄る。そして、これでこの人と話すのも最後だな、と内心呟いてから敬礼して言った。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "小此木はインカムを切り、まだ怒鳴り散らしている鷹野に歩み寄る。そして、これでこの人と話すのも最後だな、と内心呟いてから敬礼して言った。",
-			NULL, "Okonogi cut off his radio and walked over to Takano, who was still shouting. He muttered to himself that this would be the last time he ever spoke to her, then gave her a salute and spoke up.", Line_Normal);
+			NULL, "Okonogi cut off his intercom and walked over to Takano, who was still shouting. He muttered to himself that this would be the last time he ever spoke to her, then gave her a salute and spoke up.", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(4, 14, "sprite/oko_def_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, FALSE );
@@ -3336,7 +3336,7 @@ void main()
 //r右の足首が、じくじくと痛んで熱っぽい。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "右の足首が、じくじくと痛んで熱っぽい。",
-			NULL, "My right ankle was painful and inflamed.", Line_Normal);
+			NULL, "My right ankle was throbbing and inflamed.", Line_Normal);
 	ClearMessage();
 
 	if (GetLocalFlag(LConsoleArc)==10) {
@@ -3357,7 +3357,7 @@ void main()
 
 		if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 		OutputLine(NULL, "最初は一喜一憂していたが、そもそも部活メンバ一がやられたら逆に、銃声などするわけがない。",
-				NULL, "At first I was delighted to hear it, but then there were long stretches where I couldn't hear any gunfire that made me worry the club members were done for.", Line_Normal);
+				NULL, "At first I was delighted to hear them, but then there were long stretches where I couldn't hear any gunfire that made me worry the club members were done for.", Line_Normal);
 		ClearMessage();
 
 		if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -3434,7 +3434,7 @@ void main()
 
 		if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 		OutputLine(NULL, "……考えるまでもない。そして赤坂が調べたように、それを上辺だけでも慰めようとする人間が現れたら、すがりたくなるのも仕方がないことだろう。",
-				NULL, "...No need to even think about it. And just as Akasaka indicated, if someone offered them surface-level comfort, it would be no consolation.", Line_Normal);
+				NULL, "...No need to even think about it. And just as Akasaka indicated, if someone offered her surface-level comfort, who could blame her for wanting to cling to it?", Line_Normal);
 		ClearMessage();
 
 		DrawScene("background/koya1_01", 1000 );
@@ -3522,19 +3522,19 @@ void main()
 	//r重い手ごたえをこらえながら、私は扉を開いて中を覗き込む。
 		if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 		OutputLine(NULL, "重い手ごたえをこらえながら、私は扉を開いて中を覗き込む。",
-				NULL, "I braced myself, then opened the door and took a peek inside.", Line_Normal);
+				NULL, "I felt the door's heavy resistance as opened it and took a peek inside.", Line_Normal);
 		ClearMessage();
 
 	//r入ってすぐの床は、砂埃で白くなっている。…足跡がないことからみて、鷹野たちはこの中に入らなかったのかもしれない。
 		if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 		OutputLine(NULL, "入ってすぐの床は、砂埃で白くなっている。…足跡がないことからみて、鷹野たちはこの中に入らなかったのかもしれない。",
-				NULL, "The floor immediately inside was covered in a thick layer of white dust. ...Judging by the lack of footprints, Takano must not have gone inside.", Line_Normal);
+				NULL, "The floor immediately inside was covered in a thick layer of white dust. ...Judging by the lack of footprints, Takano and Tomitake must not have gone inside.", Line_Normal);
 		ClearMessage();
 
 	//rその後、二人の話し合いは決裂して富竹は追われる身となり…そして…。
 		if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 		OutputLine(NULL, "その後、二人の話し合いは決裂して富竹は追われる身となり…そして…。",
-				NULL, "Discussions must've broken down between the two of them after they unlocked the door, leading to Tomitake being chased... And then...", Line_Normal);
+				NULL, "The two of them must've had their falling out after they unlocked the door, leading to Tomitake being chased... And then...", Line_Normal);
 		ClearMessage();
 
 	//r…大丈夫。富竹なら、きっと…大丈夫…！
@@ -3561,13 +3561,13 @@ void main()
 	//r最初は一喜一憂していたが、そもそも部活メンバーがやられていたら逆に、何度も発砲音が響くわけがない。
 		if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 		OutputLine(NULL, "最初は一喜一憂していたが、そもそも部活メンバーがやられていたら逆に、何度も発砲音が響くわけがない。",
-				NULL, "At first I was delighted to hear it, but then there were long stretches where I couldn't hear any gunfire that made me worry the club members were done for.", Line_Normal);
+				NULL, "At first hearing them made my emotions swing between happy and sad, but then I realized the gunshots would cease if the club members had been defeated.", Line_Normal);
 		ClearMessage();
 
 	//rだから鳴り続いているのはまだ、彼らが無事であることの証だと思い直して、私は入り口の扉をそっと閉め切った。
 		if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 		OutputLine(NULL, "だから鳴り続いているのはまだ、彼らが無事であることの証だと思い直して、私は入り口の扉をそっと閉め切った。",
-				NULL, "So, I gently closed the entrance door at a time when gunshots were still ringing out, and used that knowledge to convince myself they were still safe.", Line_Normal);
+				NULL, "So I convinced myself that those consecutive gunshots meant they were still alive, and gently closed the entrance door.", Line_Normal);
 		ClearMessage();
 
 		PlayBGM(2, "hm04_18", 128, 0);
@@ -3628,7 +3628,7 @@ void main()
 	//rアルファベットプロジェクトの反対派トップは失脚し、鷹野を扇動していた連中も手を引いた。つまり彼女の活動には、すでに正当性が存在していない。
 		if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 		OutputLine(NULL, "アルファベットプロジェクトの反対派トップは失脚し、鷹野を扇動していた連中も手を引いた。つまり彼女の活動には、すでに正当性が存在していない。",
-				NULL, "The leaders of the faction that opposed the Alphabet Project were already taken down. The people instigating Takano had been neutralized. In other words, her plans had already lost their legitimacy.", Line_Normal);
+				NULL, "The leaders of the faction that opposed the Alphabet Project were already taken down. The people instigating Takano had also pulled out. In other words, her plans had already lost their legitimacy.", Line_Normal);
 		ClearMessage();
 
 	//rゆえに、緊急マニュアルは発動されることもなく…鷹野は更迭の上騒乱罪で逮捕されるか、あるいは陰謀を闇へと葬り去るために『口封じ』されることも考えられる…。
@@ -3641,7 +3641,7 @@ void main()
 		if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>梨花（羽入）</color>", NULL, "<color=#f5e6d3>Rika (Hanyuu)</color>", NULL, Line_ContinueAfterTyping); }
 		ModPlayVoiceLS(4, 5, "ps3/s14/05/vt4bc_rika1289", 256, TRUE);
 		OutputLine(NULL, "「…使い捨て、か」",
-				NULL, "\"...Would they dispose of her?\"", Line_Normal);
+				NULL, "\"...Disposable, huh?\"", Line_Normal);
 		ClearMessage();
 
 	//rいずれにしても、鷹野はその手にしていた全てを奪われ、その願いは永久に実現する機会を失う。
@@ -3691,7 +3691,7 @@ void main()
 	//rそして赤坂が調べたように、それを上辺だけでも慰めようとする人間が現れたら、すがりたくなるのも仕方がないことだろう。
 		if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 		OutputLine(NULL, "そして赤坂が調べたように、それを上辺だけでも慰めようとする人間が現れたら、すがりたくなるのも仕方がないことだろう。",
-				NULL, "And just as Akasaka indicated, if someone offered them surface-level comfort, it would be no consolation.", Line_Normal);
+				NULL, "And just as Akasaka indicated, if someone offered her surface-level comfort, who could blame her for wanting to cling to it?", Line_Normal);
 		ClearMessage();
 
 	//梨花（羽入）rvS14/05/VT4Bc_rika1290.「…その結果が、この破滅。kvS14/05/VT4Bc_rika1291.…因果だな」
@@ -3715,13 +3715,13 @@ void main()
 	//r…さっき境内で、信号弾を目の前で上げられた時などは、その身体を肉片になるまで引き裂いてやりたいと思えるほどに真っ黒な殺意を抱いたというのに。
 		if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 		OutputLine(NULL, "…さっき境内で、信号弾を目の前で上げられた時などは、その身体を肉片になるまで引き裂いてやりたいと思えるほどに真っ黒な殺意を抱いたというのに。",
-				NULL, "...When she fired that signal flare right in front of me in the shrine grounds, she was so full of dark bloodlust that she wanted to tear my body apart like a piece of meat.", Line_Normal);
+				NULL, "...When she fired that signal flare right in front of me in the shrine grounds, I was so full of dark bloodlust that I wanted to tear her body apart like a piece of meat.", Line_Normal);
 		ClearMessage();
 
 	//rあれほどまでに憎くて、おぞましく思えてならなかったはずが…今になって、どういう心の変化だろう。
 		if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 		OutputLine(NULL, "あれほどまでに憎くて、おぞましく思えてならなかったはずが…今になって、どういう心の変化だろう。",
-				NULL, "She shouldn't have needed to feel so horrendously hateful... but what could change her mind that this point?", Line_Normal);
+				NULL, "Although I couldn't help but feel horrendously hateful... what could change my mind that this point?", Line_Normal);
 		ClearMessage();
 	}
 
@@ -3868,7 +3868,7 @@ void main()
 		if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
 		ModPlayVoiceLS(4, 12, "ps2/12/221100145", 540, TRUE);
 		OutputLine(NULL, "「あぅあぅあぅ……。",
-				NULL, "\"Auauau...", Line_WaitForInput);
+				NULL, "\"Au au au...", Line_WaitForInput);
 		ModPlayVoiceLS(4, 12, "ps2/12/221100146", 540, TRUE);
 		OutputLine(NULL, "ごめんなさいなのです、梨花……」",
 				NULL, " I'm sorry, Rika...\"", Line_Normal);
@@ -3883,7 +3883,7 @@ void main()
 				NULL, " I want an explanation! Otherwise I'll never forgive you!", Line_WaitForInput);
 		ModPlayVoiceLS(4, 5, "ps2/05/220500356", 540, TRUE);
 		OutputLine(NULL, "　それと、また黙っていなくなったら本気で怒るわよっ！！」",
-				NULL, " And if you go quiet on me again, I'll be seriously upset!!\"", Line_Normal);
+				NULL, " And if you ghost me again, I'll be seriously upset!!\"", Line_Normal);
 		ClearMessage();
 
 		ModDrawCharacter(4, 12, "sprite/ha1_yowaki_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
@@ -3891,7 +3891,7 @@ void main()
 		if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
 		ModPlayVoiceLS(4, 12, "ps2/12/221100147", 540, TRUE);
 		OutputLine(NULL, "「あぅあぅあぅ……り、梨花が怖いのです……」",
-				NULL, "\"Auauau... R-Rika, you're so scary...\"", Line_Normal);
+				NULL, "\"Au au au... R-Rika, you're so scary...\"", Line_Normal);
 		ClearMessage();
 
 		if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
@@ -3984,7 +3984,7 @@ void main()
 				NULL, " And I didn't break my promise.", Line_WaitForInput);
 		ModPlayVoiceLS(4, 12, "ps2/12/221100153", 540, TRUE);
 		OutputLine(NULL, "……ずっと、梨花たちのそばに僕はいたのですよ……」",
-				NULL, " ...Rika, I've been there for all of you the whole time...\"", Line_Normal);
+				NULL, " ...Rika, I've been there for all of you this whole time...\"", Line_Normal);
 		ClearMessage();
 
 		if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
@@ -4031,7 +4031,7 @@ void main()
 
 		if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 		OutputLine(NULL, "魅音が、自分の弱さを打ち明けたこと。",
-				NULL, "Why Mion recognized her own weakness.", Line_Normal);
+				NULL, "Why Mion confessed her own weakness.", Line_Normal);
 		ClearMessage();
 
 		ModDrawCharacter(4, 12, "sprite/si1a_yowaki_a1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 1000, FALSE );
@@ -4171,7 +4171,7 @@ void main()
 
 		if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 		OutputLine(NULL, "……圭一が一時的に触れることができたのは、そのときの状態を元に戻さないまま、力を使った反動で気を失ってしまったためだった。",
-				NULL, "...Then she fainted after exhausting so much power, without actively undoing the transformation, and that was why Keiichi was temporarily able to touch her.", Line_Normal);
+				NULL, "...Then she fainted after exhausting so much power, without actively undoing the transformation. That was why Keiichi was temporarily able to touch her.", Line_Normal);
 		ClearMessage();
 
 		if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -4218,13 +4218,13 @@ void main()
 		if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
 		ModPlayVoiceLS(4, 12, "ps2/12/221100164", 540, TRUE);
 		OutputLine(NULL, "「それを言えば、梨花。",
-				NULL, "\"Speaking of which, Rika...", Line_WaitForInput);
+				NULL, "\"If I told you that, Rika...", Line_WaitForInput);
 		ModPlayVoiceLS(4, 12, "ps2/12/221100165", 540, TRUE);
 		OutputLine(NULL, "……あなたは僕を頼るだけで、自分で動いたり考えることもなかった。",
 				NULL, " you always relied on me, and never thought or acted on your own.", Line_WaitForInput);
 		ModPlayVoiceLS(4, 12, "ps2/12/221100166", 540, TRUE);
 		OutputLine(NULL, "そして今度こそ、終わってしまっていたのです。",
-				NULL, " If you did that this time, it'd all be over.", Line_WaitForInput);
+				NULL, " So if I told you that this time, it'd all be over.", Line_WaitForInput);
 		ModPlayVoiceLS(4, 12, "ps2/12/221100167", 540, TRUE);
 		OutputLine(NULL, "あなたの生命、生きる意志の力が……」",
 				NULL, " Your life, and the strength of your will to live...\"", Line_Normal);
@@ -4238,7 +4238,7 @@ void main()
 
 		if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
 		ModPlayVoiceLS(4, 12, "ps2/12/221100168", 540, TRUE);
-		OutputLine(NULL, "「あなたはずっと、僕に頼、ていました。",
+		OutputLine(NULL, "「あなたはずっと、僕に頼っていました。",
 				NULL, "\"You always depended on me.", Line_WaitForInput);
 		ModPlayVoiceLS(4, 12, "ps2/12/221100169", 540, TRUE);
 		OutputLine(NULL, "……いえ、そういう言い方はよくないですね。",
@@ -4278,7 +4278,7 @@ void main()
 				NULL, " ...Because I wanted you to grow a strong heart.", Line_WaitForInput);
 		ModPlayVoiceLS(4, 12, "ps2/12/221100175", 540, TRUE);
 		OutputLine(NULL, "ボクが何を言っても、信じ続ける勇気を持てるように——」",
-				NULL, " To have the courage to keep on believing in me, no matter what I said...\"", Line_Normal);
+				NULL, " To have the courage to keep yourself hopeful, no matter what I said...\"", Line_Normal);
 		ClearMessage();
 
 		if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -4302,7 +4302,7 @@ void main()
 
 		if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 		OutputLine(NULL, "かつての羽入は……私が自棄になったり、退廃的なことを口にするたびにたしなめたり、励まそうとしていた。",
-				NULL, "In the past... any time I spoke degenerately or in desperation, Hanyuu would rebuke me and try to cheer me up.", Line_Normal);
+				NULL, "In the past... any time I spoke degenerately or in desperation, Hanyuu would reproach me and try to cheer me up.", Line_Normal);
 		ClearMessage();
 
 		if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -4359,7 +4359,7 @@ void main()
 				NULL, "\"...As time went on, you began to take on a jaded outlook.", Line_WaitForInput);
 		ModPlayVoiceLS(4, 12, "ps2/12/221100177", 540, TRUE);
 		OutputLine(NULL, "頑張れと言い過ぎると、すぐに止めてしまうようになりました」",
-				NULL, " If I told you to keep going strong too often, you'd take that as a reason to stop immediately.\"", Line_Normal);
+				NULL, " Whenever I told you to keep going strong too often, you always immediately stopped trying hard.\"", Line_Normal);
 		ClearMessage();
 
 		if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
@@ -4595,7 +4595,7 @@ void main()
 
 		if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 		OutputLine(NULL, "自分の運命だから、他人に『助けて』もらおうと思う。もしそれでも打ち破れなかったときは、自分の力の不足、そして『助け』の不足を嘆いていた。",
-				NULL, "It was my own fate, so I didn't consider accepting \"help\" from others. If I couldn't overcome it, I'd lament my lack of strength and lack of \"help.\"", Line_Normal);
+				NULL, "It was my own fate, so I desired \"help\" from others. If I couldn't overcome it, I'd lament my lack of strength and lack of \"help.\"", Line_Normal);
 		ClearMessage();
 
 		if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -4639,7 +4639,7 @@ void main()
 
 		if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 		OutputLine(NULL, "……やっぱり、羽入は私の信じる羽入だった。離れていても、姿を見せなくても、私の幸せのためにこの子は力を振り絞って頑張ってくれていたんだ……！",
-				NULL, "...I knew it. Hanyuu always believed in me. Even though we were apart, even though I couldn't see her, she was still working as hard as she could to secure my happiness...!", Line_Normal);
+				NULL, "...I knew it. Hanyuu was the same Hanyuu I believed in. Even though we were apart, even though I couldn't see her, she was still working as hard as she could to secure my happiness...!", Line_Normal);
 		ClearMessage();
 
 		if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -4649,7 +4649,7 @@ void main()
 
 		if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 		OutputLine(NULL, "そう、素直に言葉に出来ずに顔を背けてしまう、自分のへそ曲がりが情けなかったけど、羽入は私のそんな気持ちを感じ取ったのか、くすくすと笑っていた。",
-				NULL, "Right, but I couldn't bring myself to say it out loud so I turned to look away. I was ashamed of myself, but Hanyuu must've sensed my feelings anyway because she giggled at me.", Line_Normal);
+				NULL, "I couldn't bring myself to say it out loud so I turned to look away. I was ashamed of myself, but Hanyuu must've sensed my feelings anyway because she giggled at me.", Line_Normal);
 		ClearMessage();
 
 		if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
@@ -4738,7 +4738,7 @@ void main()
 	//r扉の隙間から中を覗き込んだ時、…私は確かに『彼女』の気配を感じた。
 		if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 		OutputLine(NULL, "扉の隙間から中を覗き込んだ時、…私は確かに『彼女』の気配を感じた。",
-				NULL, "When I looked inside through the gap in the door... I'm certain I could feel <i>her</i> presence.", Line_Normal);
+				NULL, "When I looked inside through the gap in the door... I was certain I could feel <i>her</i> presence.", Line_Normal);
 		ClearMessage();
 
 	//rそれは、ずっと昔から慣れ親しんできた、…どんなに離れていてもそれとわかる、独特の感覚。
@@ -4999,7 +4999,7 @@ void main()
 	//rそして、部活メンバーたちの困難に対しても、常に後手に回って対応が遅れてしまったこと…。
 		if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 		OutputLine(NULL, "そして、部活メンバーたちの困難に対しても、常に後手に回って対応が遅れてしまったこと…。",
-				NULL, "And, even while working to solve the club members' problems, I was always slow to respond like I was falling behind...", Line_Normal);
+				NULL, "And, even while working to solve the club members' problems, I always kept to a reactive approach, and was slow to deal with them...", Line_Normal);
 		ClearMessage();
 
 	//rいや、…おかしい。何かが…違う…？！
@@ -5047,7 +5047,7 @@ void main()
 	//rもっとも、そばに羽入の姿が見えなかったことで…今までのようにやり直しがきかないのではと不安になり、気持ちが後ろ向きになってしまったのは確かだが…。
 		if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 		OutputLine(NULL, "もっとも、そばに羽入の姿が見えなかったことで…今までのようにやり直しがきかないのではと不安になり、気持ちが後ろ向きになってしまったのは確かだが…。",
-				NULL, "But, I didn't have Hanyuu by my side... I was worried that I wouldn't be able to repeat worlds like before, and that thought twisted my emotions all around...", Line_Normal);
+				NULL, "But, I didn't have Hanyuu by my side... So I was definitely worried that I wouldn't be able to repeat worlds like before, and that thought twisted my emotions all around...", Line_Normal);
 		ClearMessage();
 
 	//梨花rvS14/05/VT4Bc_rika1306.「……っ…！」
@@ -5060,7 +5060,7 @@ void main()
 	//rいや…だったら、なおさらじゃないか。意識を取り戻すと同時に圭一たちのもとへと駆けつけ、真相を打ち明けて協力を求めていれば、その不安は解消されていたはずだ。
 		if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 		OutputLine(NULL, "いや…だったら、なおさらじゃないか。意識を取り戻すと同時に圭一たちのもとへと駆けつけ、真相を打ち明けて協力を求めていれば、その不安は解消されていたはずだ。",
-				NULL, "No... it's even more than that. When I regained my will, I rushed to Keiichi and the others. I thought that if I confided with them and sought their help, all my anxiety would be resolved.", Line_Normal);
+				NULL, "No... it's even more strange if that's the case. If I rushed to Keiichi and the others as soon as I regained consciousness, then confided with them and sought their help, all my anxiety would be resolved.", Line_Normal);
 		ClearMessage();
 
 	//rなのに…なぜ、それをしなかった？
@@ -5506,7 +5506,7 @@ void main()
 	//rその後、赤坂に大石、入江から聞かされた言葉から…私はぐちゃぐちゃに混濁した記憶に整合性をつけて、ようやく確信した。
 		if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 		OutputLine(NULL, "その後、赤坂に大石、入江から聞かされた言葉から…私はぐちゃぐちゃに混濁した記憶に整合性をつけて、ようやく確信した。",
-				NULL, "After that, based on what Ooishi and Irie told Akasaka... and after trying to keep my cloudy memories consistent, I was finally convinced.", Line_Normal);
+				NULL, "After that, based on what Akasaka, Ooishi, and Irie told me... and after trying to keep my cloudy memories consistent, I was finally convinced.", Line_Normal);
 		ClearMessage();
 
 	//r……そう。
@@ -5571,7 +5571,7 @@ void main()
 		if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 		ModPlayVoiceLS(4, 5, "ps3/s14/05/vt4bc_rika1321", 256, TRUE);
 		OutputLine(NULL, "「つまり私たちは、『可能性』によって枝分かれした世界…平行世界を数限りなく旅してきたことになる」",
-				NULL, "\"In other words, we've already traveled to a number of parallel words that branched off based on countless \"possibilities.\"\"", Line_Normal);
+				NULL, "\"In other words, we've already traveled to a number of parallel worlds that branched off based on countless \"possibilities.\"\"", Line_Normal);
 		ClearMessage();
 
 	//梨花rvS14/05/VT4Bc_rika1322.「だったら、その横に隣接する世界に次元の壁を踏み越えて移動する力があなたにあったとしても、私は驚かない」
@@ -6096,7 +6096,7 @@ void main()
 	//r梨花とともに、仲間たちのいる幸せな未来へと進みたい。そして今度こそ、自分は傍観者を決め込まずにみんなと一緒に希望を信じて、戦おう。
 		if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 		OutputLine(NULL, "梨花とともに、仲間たちのいる幸せな未来へと進みたい。そして今度こそ、自分は傍観者を決め込まずにみんなと一緒に希望を信じて、戦おう。",
-				NULL, "I want to move on to a happy future, with Rika and our friends. And this time, I won't be sitting by as a bystander. I'll believe alongside everyone else, and I'll fight.", Line_Normal);
+				NULL, "I want to move on to a future where our friends can live happily, with Rika. And this time, I won't be sitting by as a bystander. I'll believe alongside everyone else, and I'll fight.", Line_Normal);
 		ClearMessage();
 
 	//r…姿も形も持たない自分に何ができるか、それはわからない。
@@ -6193,7 +6193,7 @@ void main()
 	//r梨花と最初に出会った時、その容貌を見た私は…久々に息をのんで驚いた。その顔が、まさしく自分のかつての娘…桜花に瓜二つだったからだ。
 		if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 		OutputLine(NULL, "梨花と最初に出会った時、その容貌を見た私は…久々に息をのんで驚いた。その顔が、まさしく自分のかつての娘…桜花に瓜二つだったからだ。",
-				NULL, "When I first met Rika and saw what she looked like... for the first time in years, I was so surprised I gasped. Because her face...looked just like my daughter, Ouka.", Line_Normal);
+				NULL, "When I first met Rika and saw what she looked like... for the first time in years, I was so surprised I gasped. Because her face... looked just like my daughter, Ouka.", Line_Normal);
 		ClearMessage();
 
 		ModSetLayerFilter(4, 256, "sunset");
@@ -6509,7 +6509,7 @@ void main()
 		if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
 		ModPlayVoiceLS(4, 12, "ps3/s14/12/vt4bc_hanyu1054", 256, TRUE);
 		OutputLine(NULL, "「だから、かつての同朋の掟に逆らって…あなたに同化し、時間を巻き戻しました」",
-				NULL, "\"So, I cast aside the rules of my former brethren... and rewound time to put you back.\"", Line_Normal);
+				NULL, "\"So, I cast aside the rules of my former brethren... and assimilated you to rewind time.\"", Line_Normal);
 		ClearMessage();
 
 	//羽入rvS14/12/VT4Bc_hanyu1055.「そして、惨劇に巻き込まれて命を落とすようなことがないよう、その運命の分岐点を一緒に探そうと思いましたのです」
@@ -6652,7 +6652,7 @@ void main()
 	//r言霊とでもいうべきなのだろうか、…口に出しているうち、私自身がその疑心暗鬼にとらわれるようになった。
 		if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 		OutputLine(NULL, "言霊とでもいうべきなのだろうか、…口に出しているうち、私自身がその疑心暗鬼にとらわれるようになった。",
-				NULL, "Could I put that into words? ...When I asked myself that, I became obsessed with that doubt.", Line_Normal);
+				NULL, "I guess you could call this a supernatural power that words have... The more I said those words to her, the more obsessed with that doubt I became.", Line_Normal);
 		ClearMessage();
 
 	//r実際、幾百度となく時間を巻き戻しても…梨花の死は、決して逃れられないものだった。
@@ -6682,13 +6682,13 @@ void main()
 	//rそして、そんな思いが伝わったのだろう、…梨花はまた、運命に挑むことを諦めるように自分の殻へと閉じこもっていった。
 		if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 		OutputLine(NULL, "そして、そんな思いが伝わったのだろう、…梨花はまた、運命に挑むことを諦めるように自分の殻へと閉じこもっていった。",
-				NULL, "And that thought seemed to get transmitted to her... because Rika also hid in her shell, giving up on trying to overcome fate.", Line_Normal);
+				NULL, "And that thought seemed to get transmitted to her... because Rika hid in her shell once again, giving up on trying to overcome fate.", Line_Normal);
 		ClearMessage();
 
 	//r…そうだ。梨花がワインを模したブドウジュースに逃げ始めたのも、その頃だった…。
 		if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 		OutputLine(NULL, "…そうだ。梨花がワインを模したブドウジュースに逃げ始めたのも、その頃だった…。",
-				NULL, "...Right. That was around the time Rika started drinking that wine that looked like grape juice...", Line_Normal);
+				NULL, "...Right. That was around the time Rika started drinking that grape juice that looked like wine...", Line_Normal);
 		ClearMessage();
 
 	//rしかし、それに対して私はもう、彼女にどう言ってあげればいいのかわからなかった。
@@ -6700,7 +6700,7 @@ void main()
 	//r自分でも信じていないことを教え諭すのは、無意味どころか偽善的な行為だ。だから私たち二人は、無限に続く時の繰り返しをただ漫然と過ごすようになってしまったのだ…。
 		if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 		OutputLine(NULL, "自分でも信じていないことを教え諭すのは、無意味どころか偽善的な行為だ。だから私たち二人は、無限に続く時の繰り返しをただ漫然と過ごすようになってしまったのだ…。",
-				NULL, "Teaching her something I didn't believe in myself wouldn't just be meaningless, it would be hypocritical. That's why the two of us just endlessly continued this repeating cycle...", Line_Normal);
+				NULL, "Teaching her something I didn't believe in myself wouldn't just be meaningless, it would be hypocritical. That's why the two of us just aimlessly continued this repeating cycle...", Line_Normal);
 		ClearMessage();
 
 		DrawScene("white", 1000 );
@@ -6798,7 +6798,7 @@ void main()
 		if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 		ModPlayVoiceLS(4, 5, "ps3/s14/05/vt4bc_rika1359", 256, TRUE);
 		OutputLine(NULL, "「きっと、神様のきつい戒めだったのかもね…だからこうやって、自分の身体と心を引きはがされてしまった」",
-				NULL, "\"Maybe this was a firm commandment of God... that my mind and body be separated like this.\"", Line_Normal);
+				NULL, "\"Maybe this was a harsh divine punishment... that my mind and body be separated like this.\"", Line_Normal);
 		ClearMessage();
 
 	//梨花rvS14/05/VT4Bc_rika1360.「中途半端な思いで、命がけになってくれているみんなを巻き込もうとする考えは、とても失礼で非道なことなんだって…」
@@ -7582,7 +7582,7 @@ void main()
 //r密閉空間……一定温度……粉塵……そして、銃の発火剤ッッ？！
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "密閉空間……一定温度……粉塵……そして、銃の発火剤ッッ？！",
-			NULL, "An enclosed space...at constant temperature... with dust... and a gunshot acting as the ignition source?!", Line_Normal);
+			NULL, "An enclosed space... at constant temperature... with dust... and a gunshot acting as the ignition source?!", Line_Normal);
 	ClearMessage();
 
 //沙都子rvS14/04/220400256.「みなさん、伏せてっっ！！」
@@ -7621,7 +7621,7 @@ void main()
 //r必死に山道を下って、衛生隊員を残した神社に足を引きずりながら向かっていた私は、いつの間にか気づかないうちに泣いていた。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "必死に山道を下って、衛生隊員を残した神社に足を引きずりながら向かっていた私は、いつの間にか気づかないうちに泣いていた。",
-			NULL, "As I desperately descended the mountain path and headed toward the shrine where the medical staff was stationed, I began crying without even realizing it.", Line_Normal);
+			NULL, "As I desperately descended the mountain path and headed toward the shrine where the medical staff were stationed, I began crying without even realizing it.", Line_Normal);
 	ClearMessage();
 
 	DrawScene("background/mo4_01", 1000 );
@@ -8013,7 +8013,7 @@ void main()
 //r我こそは祟りなり、肉で出来た身を超越せし者なり。この身がたとえ朽ち果てようとも、我が紡ぎし歴史は永遠に残り続けるであろう。今こそ我は永遠を得たり。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "我こそは祟りなり、肉で出来た身を超越せし者なり。この身がたとえ朽ち果てようとも、我が紡ぎし歴史は永遠に残り続けるであろう。今こそ我は永遠を得たり。",
-			NULL, "I'm the curse itself. Even as my body rots, my legend will endure forever. My existence is now eternal.", Line_Normal);
+			NULL, "I am the curse itself. Even as my body rots, my legend will endure forever. My existence is now eternal.", Line_Normal);
 	ClearMessage();
 
 //r我が身を呪えよ人間たち。身が朽ちれば後には何も残せぬ無力さを呪い悔やみ恐れるがいい。そして我が偉大さを知るがいい。
@@ -8136,7 +8136,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s14/05/220500387", 256, TRUE);
 	OutputLine(NULL, "「…あなたの負けよ。",
-			NULL, "\"...This is your loss.", Line_WaitForInput);
+			NULL, "\"...You've lost.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s14/05/220500388", 256, TRUE);
 	OutputLine(NULL, "あなたにはもう、味方はいない」",
 			NULL, " You've exhausted all your allies.\"", Line_Normal);
@@ -8528,7 +8528,7 @@ void main()
 			NULL, "\"Do you have any idea how hard I worked for that? ...Do you?!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "ps3/s14/09/220900274", 256, TRUE);
 	OutputLine(NULL, "　その私に向かって、意志の力が弱かったなんて侮辱、…その口を引き裂いてでも取り消させてやるッッ！！！」",
-			NULL, " If you're going to insult me by calling me weak of will... I'll tear out your mouth to make you stop!!!\"", Line_Normal);
+			NULL, " If you're going to insult me by calling me weak of will... I'll tear out your tongue to make you stop!!!\"", Line_Normal);
 	ClearMessage();
 
 	FadeOutBGM(1, 200, TRUE);
@@ -8842,7 +8842,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
 	OutputLine(NULL, "その隙を突いて、私は鷹野との距離を一気に詰める。そして、とっさの接近に対応が遅れたその右手の拳銃目がけて、組んだ両手を力の限り振り上げて打ちつけた！！",
-			NULL, "Seizing the opportunity, I quickly shortened the distance between Takano and me. Thanks to my sudden approach, she was slow to aim the pistol in her right hand, so I crossed my arms and swung them up as hard as I could!!", Line_Normal);
+			NULL, "Seizing that opportunity, I quickly shortened the distance between Takano and myself. Thanks to my sudden approach, she was slow to aim the pistol in her right hand, so I crossed my arms and swung them up as hard as I could!!", Line_Normal);
 	ClearMessage();
 
 //梨花rvS14/05/210500788.「…たああぁぁあぁぁっっ！！」
@@ -9850,7 +9850,7 @@ void main()
 			NULL, "\"...Sh...shit, that guy is a crazy good shot!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/shira2211002", 256, TRUE);
 	OutputLine(NULL, "　何者だ、あいつら！！」",
-			NULL, " Who the hell are they?!\"", Line_Normal);
+			NULL, " Who the hell is he?!\"", Line_Normal);
 	ClearMessage();
 
 //白鷺２３rvS14/00/shira2311001.「…………まさか、あれ…。kvS14/00/shira2311002.い、生きていたのか……、富竹二尉っ？！」
@@ -10653,7 +10653,7 @@ void main()
 				NULL, "\"...Ah, au...", Line_WaitForInput);
 		ModPlayVoiceLS(4, 12, "ps2/12/221100207", 540, TRUE);
 		OutputLine(NULL, "ちょ、ちょっと、……無理をしすぎたかもしれないのです……」",
-				NULL, "M-maybe... I pushed myself a little too far...\"", Line_Normal);
+				NULL, " M-maybe... I pushed myself a little too far...\"", Line_Normal);
 		ClearMessage();
 
 		if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -12657,7 +12657,7 @@ void main()
 //rライフルの射撃音が４つ、空を切り裂くように鳴り響く。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_Continue); }
 	OutputLine(NULL, "ライフルの射撃音が４つ、空を切り裂くように鳴り響く。",
-			NULL, "The sound of four rifles firing tore through the sky.", Line_Normal);
+			NULL, "The sound of four rifles firing tore through the air.", Line_Normal);
 	ClearMessage();
 
 //rそれは、あまりにも無情で、残酷で。
@@ -13073,7 +13073,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>富竹</color>", NULL, "<color=#945c44>Tomitake</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 8, "ps3/s14/08/220800054", 256, TRUE);
 	OutputLine(NULL, "「そもそも今回の事件が彼女の意思に基づくものなのか、",
-			NULL, "\"Besides, this incident was caused by her will, wasn't it?", Line_WaitForInput);
+			NULL, "\"Besides, was this incident caused by her will in the first place?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 8, "ps3/s14/08/220800055", 256, TRUE);
 	OutputLine(NULL, "末期症状による妄想、錯乱によって引き起こされ、それを誰かが利用したのか、",
 			NULL, " Isn't it possible she's being manipulated by her confusion and delusions stemming from terminal symptoms? ", GetGlobalFlag(GLinemodeSp));

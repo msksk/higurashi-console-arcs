@@ -236,7 +236,7 @@ void main()
 //rそれでも…知り合ったばかりの頃は、待ち合わせた店で何も注文せずにお冷だけを飲んでいたことを考えれば、少しは遠慮のない関係に近づけたのかもしれない。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "それでも…知り合ったばかりの頃は、待ち合わせた店で何も注文せずにお冷だけを飲んでいたことを考えれば、少しは遠慮のない関係に近づけたのかもしれない。",
-			NULL, "Still... compared to when they first met, even if she didn't order anything other than a cold drink, it seemed like she was feeling a little less reserved than back then.", Line_Normal);
+			NULL, "Still... compared to when they first met, when she didn't order anything at their meetings and just drank water, it seemed like she was feeling a little less reserved.", Line_Normal);
 	ClearMessage();
 
 //rそう思うと…なんだか、嬉しかった。
@@ -287,7 +287,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#9d7f69>巴</color>", NULL, "<color=#9d7f69>Tomoe</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 28, "ps3/s14/28/vt4bb_tomoe1054", 256, TRUE);
 	OutputLine(NULL, "「うーん、そうね。",
-			NULL, "\"Hmm, yeah.", Line_WaitForInput);
+			NULL, "\"Hmm, let me think.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 28, "ps3/s14/28/vt4bb_tomoe1055", 256, TRUE);
 	OutputLine(NULL, "久々に甘いものもいいかな。",
 			NULL, " It'd be nice to have something sweet, since it's been a while.", Line_WaitForInput);
@@ -550,7 +550,7 @@ void main()
 			NULL, "\"P-plus!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/vt4bb_waitfb1010", 256, TRUE);
 	OutputLine(NULL, "　関東地区の春のデザートフェスタで恒例のフードバトルが中止になったのも、その人が冬のフェスタで量、スピード、目利きの三部門で圧勝したからだって聞きましたけど？！」",
-			NULL, " I heard they cancelled the Food Battle at the Kanto spring dessert fest after she won the winter fest in all three categories: Volume, speed, and connoisseur?!\"", Line_Normal);
+			NULL, " I heard they cancelled the Food Battle at the Kanto spring Dessert Festa after she won the winter fest in all three categories: Volume, speed, and connoisseur?!\"", Line_Normal);
 	ClearMessage();
 
 //ウェイトレスrvS14/00/VT4Bb_waitFb1011.「おまけに、その人に負けじと挑んだ男子が全員、救急車で運ばれて…！」
@@ -582,7 +582,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>客</color>", NULL, "<color=#f5e6d3>Customer</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/vt4bb_cusa1001", 256, TRUE);
 	OutputLine(NULL, "『…そもそも赤いなんとかってやつに、ロクなやつがいたためしがない』",
-			NULL, "\"...Even from the start, the red lady showed no signs of struggle.\"", Line_Normal);
+			NULL, "\"...In the first place, I've never met someone dressed in red who turned out to be any good.\"", Line_Normal);
 	ClearMessage();
 
 	PlaySE(3, "furu", 256, 64);
@@ -593,7 +593,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>客</color>", NULL, "<color=#f5e6d3>Customer</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/vt4bb_cusb1001", 256, TRUE);
 	OutputLine(NULL, "『ブラックホールに引き込まれる隕石とか小惑星とかって、きっとああいう風に消えていくんだろうな…』",
-			NULL, "\"Everything vanished, like meteors and asteroids getting sucked into a black hole...\"", Line_Normal);
+			NULL, "\"I'm sure that's what a black hole looks like as it's devouring asteroids and planets...\"", Line_Normal);
 	ClearMessage();
 
 	PlaySE(3, "addse13", 256, 64);
@@ -604,16 +604,16 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>客</color>", NULL, "<color=#f5e6d3>Customer</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/vt4bb_cusc1001", 256, TRUE);
 	OutputLine(NULL, "『鉄の胃袋だとか全身胃袋だとか、そんなチャチなもんじゃあ断じてねぇ。",
-			NULL, "\"It's like she had an iron stomach, or her whole body was a stomach, or something crazy like that.", Line_WaitForInput);
+			NULL, "\"It's not like she had an iron stomach, or her whole body was a stomach, or something cheap like that.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/vt4bb_cusc1002", 256, TRUE);
 	OutputLine(NULL, "もっと恐ろしいものの片鱗を味わったぜ…』",
-			NULL, " I've never seen something so horrifying...\"", Line_Normal);
+			NULL, " What we caught a glimpse of is something far, far more terrifying...\"", Line_Normal);
 	ClearMessage();
 
 //r…その言葉の全てを、彼らはほとんど信じていなかった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…その言葉の全てを、彼らはほとんど信じていなかった。",
-			NULL, "...They hardly believed their own words.", Line_Normal);
+			NULL, "...They'd barely believed any of those words.", Line_Normal);
 	ClearMessage();
 
 //rいや…違う。信じたくなかったのだ。
@@ -625,7 +625,7 @@ void main()
 //rだって、関取とかマッチョな超人とかならともかく、…『女性』と『大食い』は一番混ぜちゃいけない要素でしょぉぉっっ？！
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "だって、関取とかマッチョな超人とかならともかく、…『女性』と『大食い』は一番混ぜちゃいけない要素でしょぉぉっっ？！",
-			NULL, "Because much like how sumo wrestlers and macho supermen were concepts that didn't belong together... \"lady\" and \"glutton\" were concepts that should never be combiiiined?!", Line_Normal);
+			NULL, "Because much like how sumo wrestlers and macho supermen were concepts that didn't belong together... \"lady\" and \"glutton\" were concepts that should never be combined, riiiiiiight?!", Line_Normal);
 	ClearMessage();
 
 	DrawScene("background/res4_01", 250 );
@@ -651,7 +651,7 @@ void main()
 			NULL, "\"A-anyway!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/vt4bb_waitfa1008", 256, TRUE);
 	OutputLine(NULL, "　今休憩に入っているパティシエ、全員呼び戻して！",
-			NULL, " Call in every patissier!", Line_WaitForInput);
+			NULL, " Call in every patissier on break!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/vt4bb_waitfa1009", 256, TRUE);
 	OutputLine(NULL, "　クリスマス商戦と同等のスクランブルシフトで乗り切るわよっ！！」",
 			NULL, " We'll have to pull a scramble shift on the same scale as Christmas sales if we're going to survive this!\"", Line_Normal);
@@ -851,7 +851,7 @@ void main()
 //rきゅっ、と詰まりそうになる胸を手でおさえながら、夏美はしっかりと頷き返す。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "きゅっ、と詰まりそうになる胸を手でおさえながら、夏美はしっかりと頷き返す。",
-			NULL, "Natsumi tightly held her hands against her chest and firmly nodded back to her.", Line_Normal);
+			NULL, "Natsumi tightly held her hand against her chest and firmly nodded back to her.", Line_Normal);
 	ClearMessage();
 
 //rもう夜なのに、視界が眩しいほどに明るく感じられるのは、…決して照明だけのせいではなかった。
@@ -865,7 +865,7 @@ void main()
 //rそう。…夏美が髪型を変えようと決心したのは、ほんの数日前のこと。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "そう。…夏美が髪型を変えようと決心したのは、ほんの数日前のこと。",
-			NULL, "That's right. ...It happened just a few days before Natsumi decided to change up her hairstyle.", Line_Normal);
+			NULL, "That's right. ...It was just a few days ago that Natsumi decided to change up her hairstyle.", Line_Normal);
 	ClearMessage();
 
 //rアルバイト先からの帰り道、急に降り出した雨から逃れようと立ち寄った垣内の駅前で、偶然警察署に戻る途中の巴とばったり会って、その時に交わした言葉がきっかけだった…。
@@ -1008,7 +1008,7 @@ void main()
 //r肩をすくめて恐縮しながら、夏美はこの状態で断って返すほうが失礼と思い、その好意をありがたく受け取る。それに実際、このままだと本当に風邪をひいてしまいそうだった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "肩をすくめて恐縮しながら、夏美はこの状態で断って返すほうが失礼と思い、その好意をありがたく受け取る。それに実際、このままだと本当に風邪をひいてしまいそうだった。",
-			NULL, "Thinking it would be rude to refuse the favor at this point, Natsumi shrugged her shoulders and offered her thanks. And the truth is, she would've caught a cold if she remained the way she was.", Line_Normal);
+			NULL, "Thinking it would be rude to refuse the favor at this point, Natsumi shrugged her shoulders and offered her thanks. And the truth is, she really did think she'd catch a cold if she remained the way she was.", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(4, 36, "sprite/na2_def_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
@@ -1254,7 +1254,7 @@ void main()
 			NULL, "\"Haah... At least say it looks like a snow fairy, or something.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 28, "ps3/s14/28/vt4bb_tomoe1096", 256, TRUE);
 	OutputLine(NULL, "スノーホワイト…は、違ったか。あはは」",
-			NULL, " Or maybe... Snow White? Ahaha.\"", Line_Normal);
+			NULL, " Or maybe... Snow White? No, that doesn't work. Ahaha.\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(4, 36, "sprite/na4b_ikari_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
@@ -1269,14 +1269,14 @@ void main()
 			NULL, " But... I was really gloomy back then, and not as good at talking with people...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 36, "ps3/s14/36/vt4bb_natsu1144", 256, TRUE);
 	OutputLine(NULL, "だから、やめてって強く言い返せなくて、その後もずっと…」",
-			NULL, " So, I wasn't strong enough to tell them to stop, and after that...\"", Line_Normal);
+			NULL, " So, I wasn't strong enough to tell them to stop, and so the name stuck after that...\"", Line_Normal);
 	ClearMessage();
 
 //巴rvS14/28/VT4Bb_tomoe1097.「…そうなんだ。kvS14/28/VT4Bb_tomoe1098.それって、小学校の時？」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#9d7f69>巴</color>", NULL, "<color=#9d7f69>Tomoe</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 28, "ps3/s14/28/vt4bb_tomoe1097", 256, TRUE);
 	OutputLine(NULL, "「…そうなんだ。",
-			NULL, "\"...Right.", Line_WaitForInput);
+			NULL, "\"...I see.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 28, "ps3/s14/28/vt4bb_tomoe1098", 256, TRUE);
 	OutputLine(NULL, "それって、小学校の時？」",
 			NULL, " Were you still in elementary school back then?\"", Line_Normal);
@@ -1294,7 +1294,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#9d7f69>巴</color>", NULL, "<color=#9d7f69>Tomoe</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 28, "ps3/s14/28/vt4bb_tomoe1099", 256, TRUE);
 	OutputLine(NULL, "（ったく…どの世代にもバカ男子はいるものね）",
-			NULL, "(Sheesh... There are stupid boys in every generation.)", Line_Normal);
+			NULL, "(Sheesh... There are stupid boys in every generation, huh?)", Line_Normal);
 	ClearMessage();
 
 //r思春期に差しかかる手前の年頃の子、特に男子は女子に対して妙な言いがかりをつけて、からかったりすることがよくある。
@@ -1312,7 +1312,7 @@ void main()
 //rそれは多くの場合、一種の思慕に近い感情から発する『照れ』の裏返しのようなもので、自分に関心を向けさせたいという思いから生じる行動に他ならない。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "それは多くの場合、一種の思慕に近い感情から発する『照れ』の裏返しのようなもので、自分に関心を向けさせたいという思いから生じる行動に他ならない。",
-			NULL, "In many cases, it's like a reversal of \"shyness\" that emanates from some form of longing. It's nothing more than an act of wanting to make people pay attention to you.", Line_Normal);
+			NULL, "In many cases, it's like the flip side of \"shyness\" that emanates from some form of longing. It's nothing more than an act of wanting to make people pay attention to you.", Line_Normal);
 	ClearMessage();
 
 //r…ただ、精神が未成熟であるゆえにその加減を知らず、時には行き過ぎて相手を深く傷つけてしまう事例も、いくつか存在している。
@@ -1359,7 +1359,7 @@ void main()
 			NULL, " If I was in your shoes, I'd definitely beat the shi...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 28, "ps3/s14/28/vt4bb_tomoe1103", 256, TRUE);
 	OutputLine(NULL, "もとい、ぶっ飛ばしてやってるところなんだけど」",
-			NULL, " At least, I'd knock some sense into them.\"", Line_Normal);
+			NULL, " I mean, I'd knock some sense into them.\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(4, 36, "sprite/na4b_def_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
@@ -1460,7 +1460,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#9d7f69>巴</color>", NULL, "<color=#9d7f69>Tomoe</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 28, "ps3/s14/28/vt4bb_tomoe1106", 256, TRUE);
 	OutputLine(NULL, "（それが、この子の根っこをダメにしているのね…）",
-			NULL, "(So, she's unable to reach the root of the problem...)", Line_Normal);
+			NULL, "(So, that corrupted her down to her core, huh...)", Line_Normal);
 	ClearMessage();
 
 //r傘をさしたり、あるいはたたんだりして改札前を行き交う人の流れに目を向けながら、巴はそっと吐息をつく。
@@ -1484,20 +1484,20 @@ void main()
 //rだけど、と巴は首を振る。…このままだと夏美は、ずっとこの悩みを持ち続けたままじゃないか。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "だけど、と巴は首を振る。…このままだと夏美は、ずっとこの悩みを持ち続けたままじゃないか。",
-			NULL, "But, Tomoe shook her head. ...Natsumi had probably been this troubled for a long time.", Line_Normal);
+			NULL, "But, Tomoe shook her head. ...At this rate, Natsumi would continue to carry these worries for a long time coming.", Line_Normal);
 	ClearMessage();
 
 //巴r-vS14/28/VT4Bb_tomoe1107.（…それで、いいわけがない）
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#9d7f69>巴</color>", NULL, "<color=#9d7f69>Tomoe</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 28, "ps3/s14/28/vt4bb_tomoe1107", 256, TRUE);
 	OutputLine(NULL, "（…それで、いいわけがない）",
-			NULL, "(...And there's no reason for it.)", Line_Normal);
+			NULL, "(...I can't just leave it at that.)", Line_Normal);
 	ClearMessage();
 
 //r…わかっている。お節介かもしれないと、誰に言われるまでもなく理解はしている。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…わかっている。お節介かもしれないと、誰に言われるまでもなく理解はしている。",
-			NULL, "...She already knew that. Even though it might be seen as meddlesome, she recognized that without needing to be told.", Line_Normal);
+			NULL, "...She didn't need anyone saying anything to know that might be considered meddlesome.", Line_Normal);
 	ClearMessage();
 
 //rだけど、この悩みに必要なのは決心を固めるための時間と、きっかけとなる誰かだ。
@@ -1521,7 +1521,7 @@ void main()
 			NULL, "(...It's fine.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 28, "ps3/s14/28/vt4bb_tomoe1109", 256, TRUE);
 	OutputLine(NULL, "お節介、上等よ）",
-			NULL, " Meddling is the right choice.)", Line_Normal);
+			NULL, " Meddling it is.)", Line_Normal);
 	ClearMessage();
 
 	PlaySE(3, "furu", 256, 64);
@@ -1598,10 +1598,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#9d7f69>巴</color>", NULL, "<color=#9d7f69>Tomoe</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 28, "ps3/s14/28/vt4bb_tomoe1117", 256, TRUE);
 	OutputLine(NULL, "「そりゃ、私も学生時代はそれなりに乙女だったからね。",
-			NULL, "\"Of course, I was a maiden myself back in my school days.", Line_WaitForInput);
+			NULL, "\"Of course, I was a maiden in my own way back in my school days.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 28, "ps3/s14/28/vt4bb_tomoe1118", 256, TRUE);
 	OutputLine(NULL, "カッコいい人を好きになって、告白して、…見事玉砕、なんてことが何度もあったわ」",
-			NULL, " There were people I had crushes on... and I died an honorable death confessing to them, countless times.\"", Line_Normal);
+			NULL, " There were people I had crushes on... and I got flat out rejected after confessing to them, countless times.\"", Line_Normal);
 	ClearMessage();
 
 //巴rvS14/28/VT4Bb_tomoe1119.「だから、どうやったら可愛くなれるか、とか、男の人の好みに近づけるのか、kvS14/28/VT4Bb_tomoe1120.なんて今から考えれば笑っちゃうようなことで悩んで、…色々と無理な背伸びをやってみたなぁ」
@@ -1671,7 +1671,7 @@ void main()
 			NULL, "\"Yes.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 28, "ps3/s14/28/vt4bb_tomoe1126", 256, TRUE);
 	OutputLine(NULL, "ありのままに自然体でありつつ、人からも良いと褒められて、自分のいいと信じることをまっすぐに、精一杯表に出していこう、ってね」",
-			NULL, " To put it plainly, continue living life as it naturally comes to you, accept whatever praise you receive from others, and do your best to believe in yourself.\"", Line_Normal);
+			NULL, " To put it plainly, continue living life as it naturally comes to you, accept whatever praise you receive from others, and do your best to believe in yourself and let that confidence show.\"", Line_Normal);
 	ClearMessage();
 
 //巴rvS14/28/VT4Bb_tomoe1127.「もちろん、人に不快感を与えるような欠点は直すように心がけるけど、…そればかりを意識してると、直すよりもむしろ隠すほうに気持ちが行っちゃうから」
@@ -1743,7 +1743,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#9d7f69>巴</color>", NULL, "<color=#9d7f69>Tomoe</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 28, "ps3/s14/28/vt4bb_tomoe1130", 256, TRUE);
 	OutputLine(NULL, "「とりあえず男勝りで頑固一徹…って女性の評価らしくないけど、そこがいいって言ってくれた人がいたから、それを信じてやってみた。",
-			NULL, "\"Anyway, being a stubborn strong-minded woman... may have gotten me some criticism, but other people told me it was a good thing, so I decided to believe them.", Line_WaitForInput);
+			NULL, "\"Anyway, being stubborn and strong-minded... may not have earned me many points as a woman, but other people told me it was a good thing, so I decided to believe them.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 28, "ps3/s14/28/vt4bb_tomoe1131", 256, TRUE);
 	OutputLine(NULL, "自分にとっても無理がないし、楽だったしね」",
 			NULL, " It felt easy, and natural.\"", Line_Normal);
@@ -1777,7 +1777,7 @@ void main()
 //r…自分は。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…自分は。",
-			NULL, "...And.", Line_Normal);
+			NULL, "How...", Line_Normal);
 	ClearMessage();
 
 //r今までの自分は、自身に対してどう向き合ってきたのか。
@@ -1904,7 +1904,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 36, "ps3/s14/36/vt4bb_natsu1164", 256, TRUE);
 	OutputLine(NULL, "「いいところって言われてもなにも思いつかないし、悪いところを人に指摘されて、それがどうした、なんて開き直ることもできない。",
-			NULL, "\"If nobody has anything good to say and people only point out the bad things, how can I stand up to that?", Line_WaitForInput);
+			NULL, "\"I can't think of anything good about myself, and people only point out the bad things, so I can't just brush it off like it's nothing.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 36, "ps3/s14/36/vt4bb_natsu1165", 256, TRUE);
 	OutputLine(NULL, "だから、私は…あなたみたいにはなれない」",
 			NULL, " So, I... can't be like you.\"", Line_Normal);
@@ -1994,7 +1994,7 @@ void main()
 			NULL, "\"Natsumi-san, didn't you notice?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 28, "ps3/s14/28/vt4bb_tomoe1138", 256, TRUE);
 	OutputLine(NULL, "　今あなた、私と同じことを言ったのよ？」",
-			NULL, " Just now, you said the same thing I did?\"", Line_Normal);
+			NULL, " Just now, you said the same thing I did.\"", Line_Normal);
 	ClearMessage();
 
 //夏美rvS14/36/VT4Bb_natsu1169.「えっ？kvS14/36/VT4Bb_natsu1170.　あっ…」
@@ -2095,7 +2095,7 @@ void main()
 //r…さっきまで結んでいたにもかかわらず黒い長髪はまっすぐに伸び、油でも浸したように滑らかな感触をその手に伝えていった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…さっきまで結んでいたにもかかわらず黒い長髪はまっすぐに伸び、油でも浸したように滑らかな感触をその手に伝えていった。",
-			NULL, "...Despite being tied up until a moment ago, her long dark hair was completely straight, and had a smooth feel in Tomoe's hand like it was bathed in oil.", Line_Normal);
+			NULL, "...Despite being tied up until a few minutes ago, her long dark hair was completely straight, and had a smooth feel in Tomoe's hand like it was bathed in oil.", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(4, 28, "sprite/tomo1a_akire_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
@@ -2188,7 +2188,7 @@ void main()
 			NULL, "\"But the important thing isn't focusing on which of those is correct.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 28, "ps3/s14/28/vt4bb_tomoe1159", 256, TRUE);
 	OutputLine(NULL, "自分の身近な人…好きな人たちがどう思ってくれるか。",
-			NULL, " It's about the people close to you... The people you like. What do they think?", Line_WaitForInput);
+			NULL, " It's about how the people close to you... the people you like think.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 28, "ps3/s14/28/vt4bb_tomoe1160", 256, TRUE);
 	OutputLine(NULL, "…そうでしょ？」",
 			NULL, " ...Right?\"", Line_Normal);
@@ -2224,7 +2224,7 @@ void main()
 //rだから夏美は、さっきまで息苦しいほどだった胸の中の淀みが少しずつ消えて、もたげたまま固くなっていた首と肩から力がすぅっ、と抜けていくような感触を覚えていた。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "だから夏美は、さっきまで息苦しいほどだった胸の中の淀みが少しずつ消えて、もたげたまま固くなっていた首と肩から力がすぅっ、と抜けていくような感触を覚えていた。",
-			NULL, "And so, little by little, the breathtaking stagnation that had been accumulating in Natsumi's chest for a while now gradually disappeared. She felt the strength returning to her stiff neck and shoulders.", Line_Normal);
+			NULL, "And so, little by little, the stifling stagnation that had been accumulating in Natsumi's chest for a while now gradually disappeared. She felt the strength returning to her stiff neck and shoulders.", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(4, 28, "sprite/tomo1a_warai2_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, FALSE );
@@ -2240,7 +2240,7 @@ void main()
 			NULL, " I can't say what you think of yourself, but... I think you're kind, honest, and accepting.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 28, "ps3/s14/28/vt4bb_tomoe1163", 256, TRUE);
 	OutputLine(NULL, "…私にはない、あなたが十分に誇ってもいい『いいところ』がある」",
-			NULL, " ...Those are all <i>good qualities</i> you should be proud of.\"", Line_Normal);
+			NULL, " ...Those are all <i>good qualities</i> you should be proud of, qualities I don't have.\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(4, 28, "sprite/tomo1a_warai_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
@@ -2327,7 +2327,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 36, "ps3/s14/36/vt4bb_natsu1183", 256, TRUE);
 	OutputLine(NULL, "「だから、巴さんの言ってくれたいいところが、自分に本当にあるのか…よく、わからなくて…」",
-			NULL, "\"So, even though you tell me these nice things, I still doubt them... I don't really understand...\"", Line_Normal);
+			NULL, "\"So, I don't know... if I really possess all these nice qualities you say I have...\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(4, 28, "sprite/tomo1a_warai2_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
@@ -2336,10 +2336,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#9d7f69>巴</color>", NULL, "<color=#9d7f69>Tomoe</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 28, "ps3/s14/28/vt4bb_tomoe1167", 256, TRUE);
 	OutputLine(NULL, "「だけど、友達は言ってくれたのよね？",
-			NULL, "\"But, didn't your friends tell you that too?", Line_WaitForInput);
+			NULL, "\"But, didn't your friends tell you?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 28, "ps3/s14/28/vt4bb_tomoe1168", 256, TRUE);
 	OutputLine(NULL, "　あなたのそんなところがいいって。",
-			NULL, " They like those things about you.", Line_WaitForInput);
+			NULL, " That they like those things about you, I mean.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 28, "ps3/s14/28/vt4bb_tomoe1169", 256, TRUE);
 	OutputLine(NULL, "…だったらそれを信じるってのは、どうかな？」",
 			NULL, " ...In which case, why not believe it?\"", Line_Normal);
@@ -2358,7 +2358,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#9d7f69>巴</color>", NULL, "<color=#9d7f69>Tomoe</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 28, "ps3/s14/28/vt4bb_tomoe1170", 256, TRUE);
 	OutputLine(NULL, "「自分自身を信じるって、確かに結構勇気がいる。",
-			NULL, "\"You said it earlier, it takes a lot of courage to believe in yourself.", Line_WaitForInput);
+			NULL, "\"It does indeed take a lot of courage to believe in yourself.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 28, "ps3/s14/28/vt4bb_tomoe1171", 256, TRUE);
 	OutputLine(NULL, "それはよくわかる」",
 			NULL, " I understand that well.\"", Line_Normal);
@@ -2370,7 +2370,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#9d7f69>巴</color>", NULL, "<color=#9d7f69>Tomoe</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 28, "ps3/s14/28/vt4bb_tomoe1172", 256, TRUE);
 	OutputLine(NULL, "「…でも、あなたが大好きな人たちはありのままのあなたがいいって言ってくれたのよね？",
-			NULL, "\"...But the people you love tell you you're a good person, right?", Line_WaitForInput);
+			NULL, "\"...But the people you love tell you they like you for who you are, right?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 28, "ps3/s14/28/vt4bb_tomoe1173", 256, TRUE);
 	OutputLine(NULL, "　なら、もう少し力を抜いて、自然になってみたら？」",
 			NULL, " Then, why not relax a little more and let your natural self out?\"", Line_Normal);
@@ -2392,7 +2392,7 @@ void main()
 			NULL, "\"Yes, that's right.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 28, "ps3/s14/28/vt4bb_tomoe1175", 256, TRUE);
 	OutputLine(NULL, "そうして、あなたが今まで隠していた欠点…ううん、『欠点』と思わされていたところを少しずつでも出して、確かめてみたらどうかしら」",
-			NULL, " And then, the shortcomings you've been keeping hidden... or rather, the things you think are \"shortcomings\" can come out, and little by little you can double-check them.\"", Line_Normal);
+			NULL, " And then, the shortcomings you've been keeping hidden... or rather, the things you've been led to believe are \"shortcomings\" can come out, and little by little you can double-check them.\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(4, 28, "sprite/tomo1a_warai2_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
@@ -2404,11 +2404,11 @@ void main()
 			NULL, "\"If it's actually something bad, you can talk it out and try to fix it.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 28, "ps3/s14/28/vt4bb_tomoe1177", 256, TRUE);
 	OutputLine(NULL, "でも勘違いなら、そのままで。",
-			NULL, " But, if it was a misunderstanding on your part... ", GetGlobalFlag(GLinemodeSp));
+			NULL, " But, if it was a misunderstanding, then don't do anything about it. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#9d7f69>巴</color>", NULL, "<color=#9d7f69>Tomoe</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 28, "ps3/s14/28/vt4bb_tomoe1178", 256, TRUE);
 	OutputLine(NULL, "…そうすれば、きっと隠してきた時よりもずっと、前向きな解決策が見つかると思うわ」",
-			NULL, "Then in that case, I think you'll find that letting it out instead of keeping it hidden is the right solution.\"", Line_Normal);
+			NULL, "Do that, and I think you'll find yourself coming up with more positive solutions than when you were constantly hiding them.\"", Line_Normal);
 	ClearMessage();
 
 //夏美rvS14/36/VT4Bb_natsu1186.「…………」
@@ -2435,7 +2435,7 @@ void main()
 //r『もっと甘えてもいい』『素直にふるまってもいいんだよ』と。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "『もっと甘えてもいい』『素直にふるまってもいいんだよ』と。",
-			NULL, "\"Being sweet is fine.\" \"Being honest is fine.\"", Line_Normal);
+			NULL, "\"Relying on us is fine.\" \"Being honest is fine.\"", Line_Normal);
 	ClearMessage();
 
 //r『お互いに悪いところも、ちゃんと言い合って相談して、直していこう』とも約束した。
@@ -2513,7 +2513,7 @@ void main()
 //rそんな心の動きを見透かしてか、巴はちょん、と夏美の鼻先を指で軽くつっ突く。そしてきょとん、と目を丸くする彼女に教え諭すように、目線を合わせていった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "そんな心の動きを見透かしてか、巴はちょん、と夏美の鼻先を指で軽くつっ突く。そしてきょとん、と目を丸くする彼女に教え諭すように、目線を合わせていった。",
-			NULL, "Perhaps sensing the musings in Natsumi's mind, Tomoe gently poked Natsumi on the nose with her finger. And then, stared straight at the wide-eyed girl, as if to offer her guidance.", Line_Normal);
+			NULL, "Perhaps sensing the musings in Natsumi's mind, Tomoe gently poked Natsumi on the nose with her finger. And then, she stared straight at the wide-eyed girl, as if to offer her guidance.", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(4, 28, "sprite/tomo1a_warai2_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
@@ -2554,7 +2554,7 @@ void main()
 			NULL, "\"Plus, a close friend will be able to forgive anything in your heart, right?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 28, "ps3/s14/28/vt4bb_tomoe1185", 256, TRUE);
 	OutputLine(NULL, "　だったら善意の方を何よりも信じてあげないと、むしろ友達がかわいそうだと思うけどな。",
-			NULL, " If you don't believe they'll handle it in good faith, then those are some pitiful friends to begin with. ", GetGlobalFlag(GLinemodeSp));
+			NULL, " If you don't believe they'll handle it in good faith, then I feel bad for those friends. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#9d7f69>巴</color>", NULL, "<color=#9d7f69>Tomoe</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 28, "ps3/s14/28/vt4bb_tomoe1186", 256, TRUE);
 	OutputLine(NULL, "…それが、優しさってものよ」",
@@ -2651,7 +2651,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 36, "ps3/s14/36/vt4bb_natsu1193", 256, TRUE);
 	OutputLine(NULL, "「そ、そんな…っ？！」",
-			NULL, "\"S-seriously...?!\"", Line_Normal);
+			NULL, "\"I-I couldn't...!\"", Line_Normal);
 	ClearMessage();
 
 	DrawScene("black", 1000 );
@@ -2708,7 +2708,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#9d7f69>巴</color>", NULL, "<color=#9d7f69>Tomoe</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 28, "ps3/s14/28/vt4bb_tomoe1195", 256, TRUE);
 	OutputLine(NULL, "「冗談じゃない、こんな可愛い妖怪、あってたまるかっての。",
-			NULL, "\"I'm being serious. Who ever heard of such a cute ghost?", Line_WaitForInput);
+			NULL, "\"Who do you think you're kidding? Who ever heard of such a cute ghost?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 28, "ps3/s14/28/vt4bb_tomoe1196", 256, TRUE);
 	OutputLine(NULL, "今でもそんなこと言うやつがいたら、私の前に連れてきなさい！",
 			NULL, " If someone actually does say that, you bring them straight to me!", Line_WaitForInput);
@@ -3072,7 +3072,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#9d7f69>巴</color>", NULL, "<color=#9d7f69>Tomoe</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 28, "ps3/s14/28/vt4bb_tomoe1225", 256, TRUE);
 	OutputLine(NULL, "「クラスのみんなには寝坊してセットしてくる暇なかった、って言えば、全部チャラになるわ。",
-			NULL, "\"You could even tell them you overslept and didn't have time to put it up. It would be completely in character.", Line_WaitForInput);
+			NULL, "\"You could even tell them you overslept and didn't have time to put it up. Then all would be back to normal.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 28, "ps3/s14/28/vt4bb_tomoe1226", 256, TRUE);
 	OutputLine(NULL, "…もっとも、そんなことは絶対ないと私は断言してもいいけどね」",
 			NULL, " ...But I promise you, there will be no need to say that.\"", Line_Normal);
@@ -3143,7 +3143,7 @@ void main()
 //r…なぜだろう。普段はすごく人見知りして、ましてこんなに強引に言われた時には間違いなく拒絶してしまうはずなのに。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…なぜだろう。普段はすごく人見知りして、ましてこんなに強引に言われた時には間違いなく拒絶してしまうはずなのに。",
-			NULL, "...Why though? She's usually very shy, and she's even more likely to refuse when forcibly told to do something.", Line_Normal);
+			NULL, "...She was usually very shy, and was even more likely to refuse when forcibly told to do something.", Line_Normal);
 	ClearMessage();
 
 //rどういうわけか巴に対しては、全幅の信頼を置いていいような…そんな確信のようなものが、彼女の中にはあった。
@@ -3159,13 +3159,13 @@ void main()
 //r…そして、実際にその通りになって。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…そして、実際にその通りになって。",
-			NULL, "...And, just like that.", Line_Normal);
+			NULL, "...And, everything did indeed play out exactly like Tomoe had predicted.", Line_Normal);
 	ClearMessage();
 
 //r夏美の巴への信頼はますます強く、確かなものとなっていた。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "夏美の巴への信頼はますます強く、確かなものとなっていた。",
-			NULL, "Natsumi's faith in Tomoe was growing stronger and more certain.", Line_Normal);
+			NULL, "Natsumi's faith in her was growing stronger and more certain.", Line_Normal);
 	ClearMessage();
 
 	ModSetLayerFilter(4, 256, "none");
@@ -3294,7 +3294,7 @@ void main()
 			NULL, " From now on, I'm sure good things will happen one after another.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 28, "ps3/s14/28/vt4bb_tomoe1243", 256, TRUE);
 	OutputLine(NULL, "だってあなたは、昔よりも前に踏み出したんだから」",
-			NULL, " Because you've taken a step forward from your past.\"", Line_Normal);
+			NULL, " Because you've taken a step further than you did before.\"", Line_Normal);
 	ClearMessage();
 
 //巴rvS14/28/VT4Bb_tomoe1244.「良いことだらけの人生じゃないけど、努力した人間が全然報われない世の中なんて、私は絶対認めないんだから…ね？」
@@ -3345,7 +3345,7 @@ void main()
 //r綺麗事かもしれない。言葉では何とでもいえることだとも、よくわかっている。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "綺麗事かもしれない。言葉では何とでもいえることだとも、よくわかっている。",
-			NULL, "Maybe it's just lip service. She understood that those were just words.", Line_Normal);
+			NULL, "Maybe it's just lip service. She understood that you could say anything and that would be it.", Line_Normal);
 	ClearMessage();
 
 //rそれでも、信じることを諦めたら…それで終わりだ。
@@ -3568,7 +3568,7 @@ void main()
 //r悪戯半分の気持ちだったとはいえ、さすがに良心が痛んだ巴は懐の財布に入った額を思い出しながら、立てかけてあったテイクアウト用のメニューをちら、と横目で見つめた。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "悪戯半分の気持ちだったとはいえ、さすがに良心が痛んだ巴は懐の財布に入った額を思い出しながら、立てかけてあったテイクアウト用のメニューをちら、と横目で見つめた。",
-			NULL, "Though she said that half-teasingly, Tomoe's conscience did start to hurt, so she began staring at the take-out menu right next to her and thinking about the amount of money in her wallet.", Line_Normal);
+			NULL, "Though she thought that half-teasingly, Tomoe's conscience did start to hurt, so she began staring at the take-out menu right next to her and thinking about the amount of money in her wallet.", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(4, 36, "sprite/na4a_ikari_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, FALSE );
@@ -3729,7 +3729,7 @@ void main()
 			NULL, "\"Wow... that's some convenient medicine.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 28, "ps3/s14/28/vt4bb_tomoe1262", 256, TRUE);
 	OutputLine(NULL, "でも、どんな薬でも飲みすぎたり、頼りすぎたりするのは体に毒よ？」",
-			NULL, " But, isn't it bad for your body to overdose on any medication?\"", Line_Normal);
+			NULL, " But it's bad for your body to take or rely too much on any medication, you know?\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(4, 36, "sprite/na4b_yorokobi_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
@@ -3738,7 +3738,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#94a567>夏美</color>", NULL, "<color=#94a567>Natsumi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 36, "ps3/s14/36/vt4bb_natsu1249", 256, TRUE);
 	OutputLine(NULL, "「はいっ、気をつけます」",
-			NULL, "\"Yes, but I'll be careful.\"", Line_Normal);
+			NULL, "\"Yes, I'll be careful.\"", Line_Normal);
 	ClearMessage();
 
 //rとりあえず、あまり詮索してはかえって気を遣わせるかもしれないと思い直し、巴はそのことをいったん忘れて目の前にあった食器類をテーブルの隅に追いやった。
@@ -3790,10 +3790,10 @@ void main()
 			NULL, "\"Hmm... seems like you have a good foundation on math.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 28, "ps3/s14/28/vt4bb_tomoe1265", 256, TRUE);
 	OutputLine(NULL, "英語は得意分野だから問題な、",
-			NULL, " English is your area of expertise, so that's no problem.", Line_WaitForInput);
+			NULL, " English is your area of expertise, so that's no pro...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 28, "ps3/s14/28/vt4bb_tomoe1266", 256, TRUE);
 	OutputLine(NULL, "…あ、関係詞の訳が間違ってる。ほら」",
-			NULL, " ...Oh, these words are translated wrong. Here, take a look.\"", Line_Normal);
+			NULL, " Oh, these relative clauses are translated wrong. Here, take a look.\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(4, 36, "sprite/na4a_tanoshii_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
@@ -3843,7 +3843,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#9d7f69>巴</color>", NULL, "<color=#9d7f69>Tomoe</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 28, "ps3/s14/28/vt4bb_tomoe1269", 256, TRUE);
 	OutputLine(NULL, "「それにしても、相変わらず英語長文は強いわねぇ。",
-			NULL, "\"Anyway, you have a good grasp on longer English sentences.", Line_WaitForInput);
+			NULL, "\"Still though, your grasp on longer English sentences is as good as ever.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 28, "ps3/s14/28/vt4bb_tomoe1270", 256, TRUE);
 	OutputLine(NULL, "清教徒革命と名誉革命の内容、ここまで的確に訳せるのは大したものよ？」",
 			NULL, " It's impressive that you were able to translate these parts about the Puritan Revolution and the Bloodless Revolution so accurately.\"", Line_Normal);
@@ -3868,7 +3868,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#9d7f69>巴</color>", NULL, "<color=#9d7f69>Tomoe</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 28, "ps3/s14/28/vt4bb_tomoe1271", 256, TRUE);
 	OutputLine(NULL, "「まぁ…私は昔、イギリスのこの時代が特に好きだって人が知り合いにいてね。",
-			NULL, "\"Well... back in the day, I knew some people who were really obsessed with England.", Line_WaitForInput);
+			NULL, "\"Well... back in the day, I knew some people who were really obsessed with this period in England's history.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 28, "ps3/s14/28/vt4bb_tomoe1272", 256, TRUE);
 	OutputLine(NULL, "自分も覚えちゃったっていうか」",
 			NULL, " I guess I ended up remembering some of it.\"", Line_Normal);
@@ -4142,7 +4142,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#9d7f69>巴</color>", NULL, "<color=#9d7f69>Tomoe</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 28, "ps3/s14/28/vt4bb_tomoe1293", 256, TRUE);
 	OutputLine(NULL, "「マラソンとかと違って、高跳びは実業団の枠が少ないから。",
-			NULL, "\"Unlike the marathon, the high jump doesn't fit the stereotypical businessman image.", Line_WaitForInput);
+			NULL, "\"Unlike the marathon, the high jump isn't much of a corporate sport.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 28, "ps3/s14/28/vt4bb_tomoe1294", 256, TRUE);
 	OutputLine(NULL, "そっちで将来を目指す気はあんまりなかったわね」",
 			NULL, " So I didn't think I had much of a future pursuing that.\"", Line_Normal);
@@ -4243,13 +4243,13 @@ void main()
 //rこうやって相談に乗ったり、勉強を見てあげたりしている夏美とそれほど年の変わらない女の子を、巴は重要参考人…いや、犯人と疑って、いまだに追い続けている。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "こうやって相談に乗ったり、勉強を見てあげたりしている夏美とそれほど年の変わらない女の子を、巴は重要参考人…いや、犯人と疑って、いまだに追い続けている。",
-			NULL, "Talking with Natsumi and helping her study like this made Tomoe think of another girl of roughly the same age, who was also a material witness... or rather, a potential suspect that was still being pursued.", Line_Normal);
+			NULL, "Talking with Natsumi and helping her study like this made Tomoe think of another girl of roughly the same age, who Tomoe was still pursuing as a material witness... or rather, a potential suspect.", Line_Normal);
 	ClearMessage();
 
 //rその矛盾を思うと、…いつも、胸が痛かった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "その矛盾を思うと、…いつも、胸が痛かった。",
-			NULL, "Thinking about the absurdity of that juxtaposition... made her chest ache.", Line_Normal);
+			NULL, "Thinking about the absurdity of that juxtaposition... always made her chest ache.", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(4, 36, "sprite/na4a_def_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, FALSE );
@@ -4259,7 +4259,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#9d7f69>巴</color>", NULL, "<color=#9d7f69>Tomoe</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 28, "ps3/s14/28/vt4bb_tomoe1303", 256, TRUE);
 	OutputLine(NULL, "「さぁ、この調子でもうちょっと、ここで頑張ってみよっか！",
-			NULL, "\"Now, you'll have to work hard and keep at it like this!", Line_WaitForInput);
+			NULL, "\"Now, you'll have to work hard and keep at it like this just a little more!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 28, "ps3/s14/28/vt4bb_tomoe1304", 256, TRUE);
 	OutputLine(NULL, "　次の目標は期末テスト、全科目平均点越えでどう？」",
 			NULL, " The next challenge is mid-terms. Do you think you'll be able to score above average in all subjects?\"", Line_Normal);
@@ -4287,10 +4287,10 @@ void main()
 			NULL, "\"All right!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 28, "ps3/s14/28/vt4bb_tomoe1306", 256, TRUE);
 	OutputLine(NULL, "　…って、大丈夫かな？",
-			NULL, " ...But are you sure this is okay?", Line_WaitForInput);
+			NULL, " ...Wait, is this really okay?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 28, "ps3/s14/28/vt4bb_tomoe1307", 256, TRUE);
 	OutputLine(NULL, "　ここってそろそろ混む時間帯でしょう？",
-			NULL, " This shop is about to enter the really busy period, right?", Line_WaitForInput);
+			NULL, " Isn't this shop about to enter its rush hour?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 28, "ps3/s14/28/vt4bb_tomoe1308", 256, TRUE);
 	OutputLine(NULL, "　あんまり長居すると怒られちゃうかもね」",
 			NULL, " If we stay here much longer, they might get upset with us.\"", Line_Normal);
@@ -4382,14 +4382,14 @@ void main()
 //rそして夏美は、やはりその御三家の血を引いていた…。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "そして夏美は、やはりその御三家の血を引いていた…。",
-			NULL, "And Natsumi shared the same blood as the Three Families...", Line_Normal);
+			NULL, "And Natsumi really did share the same blood as the Three Families...", Line_Normal);
 	ClearMessage();
 
 //巴r-vS14/28/VT4Bb_tomoe1312.（変わった名字だから、もしやとは思っていたけど…）
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#9d7f69>巴</color>", NULL, "<color=#9d7f69>Tomoe</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 28, "ps3/s14/28/vt4bb_tomoe1312", 256, TRUE);
 	OutputLine(NULL, "（変わった名字だから、もしやとは思っていたけど…）",
-			NULL, "(I did think it was an unusual last name...)", Line_Normal);
+			NULL, "(It was an unusual last name, so the possibility nagged at me...)", Line_Normal);
 	ClearMessage();
 
 	DrawScene("black", 1000 );
@@ -4397,7 +4397,7 @@ void main()
 //rずっと今まで、夏美本人に聞いて確かめたいと思っていたことだった。そしてその関係者ならば、情報を集めるための協力を求めたいとも…。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "ずっと今まで、夏美本人に聞いて確かめたいと思っていたことだった。そしてその関係者ならば、情報を集めるための協力を求めたいとも…。",
-			NULL, "Up until now, she always wanted to ask Natsumi about it to make certain. And if she was actually connected, she'd like to gather information from her...", Line_Normal);
+			NULL, "Up until now, she always wanted to ask Natsumi about it to make certain. And if she was actually connected, she'd like to ask for her help in gathering information...", Line_Normal);
 	ClearMessage();
 
 //巴rvS14/28/VT4Bb_tomoe1313.「…………」
@@ -4422,19 +4422,19 @@ void main()
 //r巴自身が、殺されかけたこともある。しかし、それよりも捜査線上で常に感じられる不可解な『謎』の存在が、その疑念をさらに強めていた。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "巴自身が、殺されかけたこともある。しかし、それよりも捜査線上で常に感じられる不可解な『謎』の存在が、その疑念をさらに強めていた。",
-			NULL, "Tomoe herself was nearly killed there. But her suspicions were further heightened by the \"mysterious\" presence she felt while on her investigation.", Line_Normal);
+			NULL, "Tomoe herself was nearly killed there. But her suspicions were further heightened by the \"mysterious\" presence she constantly felt while on her investigation.", Line_Normal);
 	ClearMessage();
 
 //rそもそも、ただ誰かが殺された、異常行動を起こしたと片づけるには周辺の動きが不穏すぎる。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "そもそも、ただ誰かが殺された、異常行動を起こしたと片づけるには周辺の動きが不穏すぎる。",
-			NULL, "First off, it wasn't just a single murder. The movements in the background were far too disturbing to write off as abnormal behavior.", Line_Normal);
+			NULL, "In the first place, the movements in the background were far too disturbing to write off as a mere murder and abnormal behavior.", Line_Normal);
 	ClearMessage();
 
 //rそのためにも得られる情報は、すべて手に入れておきたいというのが偽らざる本音だった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "そのためにも得られる情報は、すべて手に入れておきたいというのが偽らざる本音だった。",
-			NULL, "She truly wanted to get all the information she could, so that she might find the truth behind that.", Line_Normal);
+			NULL, "And for that reason she truly wanted to get all the information she could.", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(4, 36, "sprite/na4a_def_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
@@ -4460,13 +4460,13 @@ void main()
 //r少なくとも、彼女は巴のことを信頼している。…それは、決してうぬぼれの範囲ではないはずだ。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "少なくとも、彼女は巴のことを信頼している。…それは、決してうぬぼれの範囲ではないはずだ。",
-			NULL, "At the very least, the girl trusted Tomoe. ...So, she shouldn't be conceited about it.", Line_Normal);
+			NULL, "At the very least, the girl trusted Tomoe. ...And she was confident she wasn't being conceited about that notion.", Line_Normal);
 	ClearMessage();
 
 //rゆえにこの子に協力を求めれば、あるいは何かを聞き出すことも可能かもしれない…。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "ゆえにこの子に協力を求めれば、あるいは何かを聞き出すことも可能かもしれない…。",
-			NULL, "If Tomoe asked for information, it might be possible to get something out of her...", Line_Normal);
+			NULL, "So it might be possible for Tomoe to ask for her assistance, or get something out of her...", Line_Normal);
 	ClearMessage();
 
 //夏美rvS14/36/VT4Bb_natsu1290.「巴さん…？kvS14/36/VT4Bb_natsu1291.　あの、巴さん？」
@@ -4529,7 +4529,7 @@ void main()
 			NULL, "\"Huh?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 36, "ps3/s14/36/vt4bb_natsu1295", 256, TRUE);
 	OutputLine(NULL, "　巴さん、ＴＶに出るんですか？」",
-			NULL, " Tomoe-san, have you been on TV?\"", Line_Normal);
+			NULL, " Tomoe-san, you're going to be on TV?\"", Line_Normal);
 	ClearMessage();
 
 //巴rvS14/28/VT4Bb_tomoe1320.「まぁね。kvS14/28/VT4Bb_tomoe1321.目立つのは嫌いだけど、これも仕事だし…」
@@ -4559,7 +4559,7 @@ void main()
 //r民俗学に興味がある、とでも言えば素直な子だから、きっと隠しもせずに知っていることを教えてくれるだろう。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "民俗学に興味がある、とでも言えば素直な子だから、きっと隠しもせずに知っていることを教えてくれるだろう。",
-			NULL, "She's an honest girl, and she's even interested in folklore, so she'd be willing to share everything she knew without reservations.", Line_Normal);
+			NULL, "She's an honest girl, so she'd probably be willing to share everything she knew without reservations if Tomoe told her she was simply interested in folklore.", Line_Normal);
 	ClearMessage();
 
 //rそう意を決して、巴が顔を上げたその時…。
@@ -4709,7 +4709,7 @@ void main()
 //r雛見沢のことにも、一連の殺人事件のことにも関わらせたりしなければ、平穏に暮らしていたはずなのだ…。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "雛見沢のことにも、一連の殺人事件のことにも関わらせたりしなければ、平穏に暮らしていたはずなのだ…。",
-			NULL, "If she hadn't been connected to the series of murders in Hinamizawa, she'd be living a peaceful life right now... ", Line_Normal);
+			NULL, "If Tomoe hadn't gotten her connected to the series of murders in Hinamizawa, she'd be living a peaceful life right now... ", Line_Normal);
 	ClearMessage();
 
 //巴r-vS14/28/VT4Bb_tomoe1326.（あの子の未来を奪ったのは…私だ）
@@ -4734,7 +4734,7 @@ void main()
 //r…もう、たくさんだ。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…もう、たくさんだ。",
-			NULL, "...It had already claimed many.", Line_Normal);
+			NULL, "...Tomoe had had enough of that.", Line_Normal);
 	ClearMessage();
 
 //r何の罪も咎もない、幸せになる権利を持った子が不幸に陥るさまは、もう見たくなかった。
@@ -4825,7 +4825,7 @@ void main()
 			NULL, "(...I don't want to betray her.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 28, "ps3/s14/28/vt4bb_tomoe1336", 256, TRUE);
 	OutputLine(NULL, "もう、私は…）",
-			NULL, " So, I...)", Line_Normal);
+			NULL, " Never again...)", Line_Normal);
 	ClearMessage();
 
 //r甘いと、巴自身もわかっている。
@@ -4917,7 +4917,7 @@ void main()
 			NULL, " I told my parents I was out studying with an older friend.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 36, "ps3/s14/36/vt4bb_natsu1309", 256, TRUE);
 	OutputLine(NULL, "エンジェルモートで勉強するってことは連絡済みだし、証拠も教材を見せれば平気です」",
-			NULL, " They can even contact Angel Mort to prove it, and I can show them the study materials as evidence. So it'll be fine.\"", Line_Normal);
+			NULL, " I already let them know I was studying at Angel Mort, and I can show them the study materials as evidence. So it'll be fine.\"", Line_Normal);
 	ClearMessage();
 
 //巴rvS14/28/VT4Bb_tomoe1340.「…そう？」
@@ -5129,13 +5129,13 @@ void main()
 //rなのにこうして、まるで幼い頃から面倒を見てきた本当の妹のように心を許して、甘えられるほどに親しくなれるとは、ちょっと意外だった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "なのにこうして、まるで幼い頃から面倒を見てきた本当の妹のように心を許して、甘えられるほどに親しくなれるとは、ちょっと意外だった。",
-			NULL, "And yet, she hadn't felt this heartwarming feeling of looking out for a younger sister since she was a child. She was a little surprised that she could get close enough to fawn over someone like this.", Line_Normal);
+			NULL, "And yet, she hadn't opened her heart to anyone like this apart from the sister she'd been taking care of since she was a child. She was a little surprised that she could get close enough to fawn over someone like this.", Line_Normal);
 	ClearMessage();
 
 //rそして、なぜかそれを自然に受け入れている自分に対しても、若干の違和感があった。職務の関係上、あまり過剰な関与は控えてきたはずなのに…。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "そして、なぜかそれを自然に受け入れている自分に対しても、若干の違和感があった。職務の関係上、あまり過剰な関与は控えてきたはずなのに…。",
-			NULL, "And, even though she was naturally able to accept it, somehow she also felt discomfort. Even though, in consideration of her job, she should've refrained from getting too close...", Line_Normal);
+			NULL, "And for some reason, she was a bit disconcerted by the part of her that was naturally able to accept it. She knew, in consideration of her job, she should've refrained from getting too close, and yet...", Line_Normal);
 	ClearMessage();
 
 //巴rvS14/28/VT4Bb_tomoe1351.「…………」

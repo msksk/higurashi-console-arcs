@@ -43,7 +43,7 @@ void main()
 			NULL, "\"Oh, no, this is nothing.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/vt4bb_okabe1002", 256, TRUE);
 	OutputLine(NULL, "とりあえず、お邪魔な手荷物にならなければと思って体裁だけは整えたつもりでしたが…。",
-			NULL, " Anyway, I didn't want it to be unnecessary baggage. Just a change of perspective...", Line_WaitForInput);
+			NULL, " Anyway, I didn't want it to be unnecessary baggage, so I tried to focus on just the format...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/vt4bb_okabe1003", 256, TRUE);
 	OutputLine(NULL, "お役に立ちそうですか？」",
 			NULL, " So, is it of any use?\"", Line_Normal);
@@ -63,17 +63,17 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>大内</color>", NULL, "<color=#f5e6d3>Oouchi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/vt4bb_oouchi1004", 256, TRUE);
 	OutputLine(NULL, "「高給ばかり取ってまともに働きもしない、どこぞの大学教授どもに爪の垢でも煎じて飲ませてやりたいくらいですよ」",
-			NULL, "\"I'm not just some do-nothing university professor, picking the dirt under my nails while collecting an exorbitant salary.\"", Line_Normal);
+			NULL, "\"So much that I'd like to give those university professors who do nothing but sit back while collecting an exorbitant salary a taste of their medicine.\"", Line_Normal);
 	ClearMessage();
 
 //岡部rvS14/00/VT4Bb_okabe1004.「そりゃどうも。kvS14/00/VT4Bb_okabe1005.そう言っていただけると、気合いを入れて資料づくりに励んだ連中が喜びますよ」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>岡部</color>", NULL, "<color=#f5e6d3>Okabe</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/vt4bb_okabe1004", 256, TRUE);
 	OutputLine(NULL, "「そりゃどうも。",
-			NULL, "\"Indeed, you have my thanks.", Line_WaitForInput);
+			NULL, "\"Why thank you.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/vt4bb_okabe1005", 256, TRUE);
 	OutputLine(NULL, "そう言っていただけると、気合いを入れて資料づくりに励んだ連中が喜びますよ」",
-			NULL, " If you can say that, then I'm pleased to know that you have such passionate people assembling these materials.\"", Line_Normal);
+			NULL, " Everyone who worked so hard to assemble these materials will be pleased to hear that.\"", Line_Normal);
 	ClearMessage();
 
 	DrawScene("black", 1000 );
@@ -87,7 +87,7 @@ void main()
 //r実際、完成したのは朝方だった。おかげでここ数日ほとんど寝る暇もなかったが、大内が明日からしばらく東京に戻ると聞きつけて、無理やりに間に合わせたのだ。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "実際、完成したのは朝方だった。おかげでここ数日ほとんど寝る暇もなかったが、大内が明日からしばらく東京に戻ると聞きつけて、無理やりに間に合わせたのだ。",
-			NULL, "In fact, these materials were only completed this morning. He had very little time for sleep the past few days, but he heard that Oouchi was coming back from Tokyo today so he was forced to compile them.", Line_Normal);
+			NULL, "In fact, these materials were only completed this morning. He had very little time for sleep the past few days, but he heard that Oouchi was returning to Tokyo for a while starting tomorrow, so he was forced to compile them.", Line_Normal);
 	ClearMessage();
 
 //r…もちろん、そのことを恩着せがましく説明する気はない。どうせ言ったところで、理解できないだろう。
@@ -142,20 +142,20 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>大内</color>", NULL, "<color=#f5e6d3>Oouchi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/vt4bb_oouchi1010", 256, TRUE);
 	OutputLine(NULL, "「今回の捜査員のみなさんくらいにできる人ばかりであれば、もう少し有用な資料として用いることができたのですが」",
-			NULL, "\"But if the investigators this time can do a better job of gathering information, it could prove more useful.\"", Line_Normal);
+			NULL, "\"But if we had nothing but competent people like the investigators this time, it could prove more useful.\"", Line_Normal);
 	ClearMessage();
 
 //岡部rvS14/00/VT4Bb_okabe1007.「…恐縮です」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>岡部</color>", NULL, "<color=#f5e6d3>Okabe</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/vt4bb_okabe1007", 256, TRUE);
 	OutputLine(NULL, "「…恐縮です」",
-			NULL, "\"...Sorry for being such a bother.\"", Line_Normal);
+			NULL, "\"...I'm flattered.\"", Line_Normal);
 	ClearMessage();
 
 //r話に相槌をうちながら、失礼な野郎だ、…と一瞬浮かんだ言葉を口の中で噛みつぶす。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "話に相槌をうちながら、失礼な野郎だ、…と一瞬浮かんだ言葉を口の中で噛みつぶす。",
-			NULL, "While chiming in with generally agreeable responses, he let a rude one slip... and suddenly blurted out the thoughts in his head.", Line_Normal);
+			NULL, "While chiming in with generally agreeable responses, he nearly said \"rude bastard\", only to swallow his words.", Line_Normal);
 	ClearMessage();
 
 //rそもそも、過去に現在の価値観を適用させて考えること自体、傲慢で僭越な行為だ。拙いノウハウと技術を駆使して、当時の最大限の努力でもって資料を残していたのだから。
@@ -171,7 +171,7 @@ void main()
 			NULL, "(In that case, try doing it yourself.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/vt4bb_okabe1009", 256, TRUE);
 	OutputLine(NULL, "できもしないくせに…）",
-			NULL, " If you can, that is...)", Line_Normal);
+			NULL, " Not that you even can...)", Line_Normal);
 	ClearMessage();
 
 	DrawScene("black", 1000 );
@@ -179,13 +179,13 @@ void main()
 //rそれに、大内は実際の事件をサンプル扱いして、現場の捜査員をゲームの駒のように動かしているつもりなのだろうが、…死人も出ているというのに不謹慎も甚だしかった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "それに、大内は実際の事件をサンプル扱いして、現場の捜査員をゲームの駒のように動かしているつもりなのだろうが、…死人も出ているというのに不謹慎も甚だしかった。",
-			NULL, "Plus, Oouchi treats actual case investigators like he's simply moving around game pieces... Even though these are serious matters where real people have died.", Line_Normal);
+			NULL, "Plus, Oouchi treats actual investigations like research samples, and likes to think he's controlling the investigators like he's simply moving around game pieces... How imprudent, considering real people have died.", Line_Normal);
 	ClearMessage();
 
 //r実に頭に来る話だが、この手の『秀才君』には自分の発言の中に相手への配慮というか、敬意が著しく欠けている奴が多い。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "実に頭に来る話だが、この手の『秀才君』には自分の発言の中に相手への配慮というか、敬意が著しく欠けている奴が多い。",
-			NULL, "It brings to mind stories about \"prodigies\" who have a remarkable lack of respect for others when speaking with them.", Line_Normal);
+			NULL, "It was rather aggravating, but these sorts of \"prodigies\" have a remarkable lack of respect and consideration for others when speaking of them.", Line_Normal);
 	ClearMessage();
 
 //rおそらく彼らの頭の中では、被害者やその関係者の心情どころか犯人の思考さえも数値化されて、無機質なデータとして収められているに違いない。
@@ -197,26 +197,26 @@ void main()
 //rそしてそれこそが、科警研に対して現場の刑事たちがあまりいい感情を持ってこなかった理由なのだが。…おそらく彼らは気づいていないし、これからも気づかないだろう。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "そしてそれこそが、科警研に対して現場の刑事たちがあまりいい感情を持ってこなかった理由なのだが。…おそらく彼らは気づいていないし、これからも気づかないだろう。",
-			NULL, "That's why detectives in the field don't think highly of NRIPS. ...They probably don't even realize it, and never will.", Line_Normal);
+			NULL, "That's why detectives in the field don't think highly of NRIPS. ...NRIPS probably doesn't even realize it, and never will.", Line_Normal);
 	ClearMessage();
 
 //岡部r-vS14/00/VT4Bb_okabe1010.（失点回復の件がなければ、間違いなくぶっ飛ばしてやるところなんだがな…）
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>岡部</color>", NULL, "<color=#f5e6d3>Okabe</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/vt4bb_okabe1010", 256, TRUE);
 	OutputLine(NULL, "（失点回復の件がなければ、間違いなくぶっ飛ばしてやるところなんだがな…）",
-			NULL, "(...If there are no points to be gained, they'll pass it right by...)", Line_Normal);
+			NULL, "(...If it weren't for all the face I need to save, I'd kick his ass no questions asked...)", Line_Normal);
 	ClearMessage();
 
 //r本音を言えば、彼らにここまでしてやる義理や道理は全くない。そもそも捜査記録は刑事にとっては貴重な事件資料である。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "本音を言えば、彼らにここまでしてやる義理や道理は全くない。そもそも捜査記録は刑事にとっては貴重な事件資料である。",
-			NULL, "To be honest, they have no duty or reason to do so. Investigation materials are valuable records for detectives in the first place.", Line_Normal);
+			NULL, "To be honest, he had no duty or reason to do this much for them. Investigation materials are valuable records for detectives in the first place.", Line_Normal);
 	ClearMessage();
 
 //rにもかかわらず、それをおいそれと他の部署の、それも机上で理屈を組み立てているような科警研の連中に無償で開示するなど、現場のbきょうじ.<矜持>にかけても面白い気分ではなかった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "にもかかわらず、それをおいそれと他の部署の、それも机上で理屈を組み立てているような科警研の連中に無償で開示するなど、現場の矜持(きょうじ)にかけても面白い気分ではなかった。",
-			NULL, "Nevertheless, there wasn't a lot of respect for the NRIPS guys who just take materials from other departments and do their work from the safety of their desks.", Line_Normal);
+			NULL, "Nevertheless, he wasn't proud to be providing free information on a moment's notice to the NRIPS guys who just take materials from other departments and do their work from the safety of their desks.", Line_Normal);
 	ClearMessage();
 
 //岡部r-vS14/00/VT4Bb_okabe1011.（…それでも、だ）
@@ -235,7 +235,7 @@ void main()
 //rその失点回復をこの機会に、と秦副署長に命じられていたため、強く逆らえる立場ではなかったのだ。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "その失点回復をこの機会に、と秦副署長に命じられていたため、強く逆らえる立場ではなかったのだ。",
-			NULL, "This was an opportunity to save face, as Deputy Chief Hata put it, so he wasn't in much of a position to refuse.", Line_Normal);
+			NULL, "Since Deputy Chief Hata had ordered him to take advantage of this opportunity to save face, he wasn't in much of a position to refuse.", Line_Normal);
 	ClearMessage();
 
 //r…………。
@@ -247,7 +247,7 @@ void main()
 //rただ、こんな常識知らずの、しかも自分の実力以上に威張りくさる若造に顎でこき使われるくらいなら、まだ『小娘』と口論しているほうがましだったか…？
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "ただ、こんな常識知らずの、しかも自分の実力以上に威張りくさる若造に顎でこき使われるくらいなら、まだ『小娘』と口論しているほうがましだったか…？",
-			NULL, "But for someone this lacking in common sense, sticking their nose in something far beyond their capabilities, he might as well be arguing with that \"little girl\" again...", Line_Normal);
+			NULL, "But if it meant being pushed around by this youngster so lacking in common sense, acting like a bigger man than he really was, then Okabe would rather be arguing with that \"little girl\" again...", Line_Normal);
 	ClearMessage();
 
 //岡部r-vS14/00/VT4Bb_okabe1012.（バカな、…何を言っている）
@@ -266,19 +266,19 @@ void main()
 //r大内が持ちかけてきた『小娘』への背信行為は、彼女に対して反発心を抱く岡部にとって渡りに船の提案であったはず。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "大内が持ちかけてきた『小娘』への背信行為は、彼女に対して反発心を抱く岡部にとって渡りに船の提案であったはず。",
-			NULL, "Okabe felt betrayed that Oouchi brought that \"little girl\" here. What otherwise could've been a godsend proposal was ruined by his repulsion toward her.", Line_Normal);
+			NULL, "Oouchi's proposal to commit a breach of mistrust against that \"little girl\" should have been a godsend to Okabe, what with his own repulsion of her.", Line_Normal);
 	ClearMessage();
 
 //rなのに今さら、後悔などしてどうするのか…？
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "なのに今さら、後悔などしてどうするのか…？",
-			NULL, "But, what's the point in regretting it now...?", Line_Normal);
+			NULL, "So what's the point in regretting it now...?", Line_Normal);
 	ClearMessage();
 
 //rそんな叱咤を自身にたきつけて、岡部は胸の内にわだかまって仕方がない後ろめたさを懸命に追い出そうと努める。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "そんな叱咤を自身にたきつけて、岡部は胸の内にわだかまって仕方がない後ろめたさを懸命に追い出そうと努める。",
-			NULL, "Okabe tried hard to fight off the resentment in his heart, while scolding himself.", Line_Normal);
+			NULL, "Okabe tried hard to fight off the guilt swelling in his heart, while scolding himself.", Line_Normal);
 	ClearMessage();
 
 //rそうでもしなければ、自身がどんどん矮小に思えて…bきょうじ.<矜持>を保ちえることができなかったのだ。
@@ -306,10 +306,10 @@ void main()
 			NULL, "\"Hmm... there have been difficulties.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/vt4bb_oouchi1012", 256, TRUE);
 	OutputLine(NULL, "なにせ事件発生から半年も経って、有力な手掛かりが見つからなかった状況からのスタートですから。",
-			NULL, " It's been half a year since the incident occurred, but they still haven't found any clues.", Line_WaitForInput);
+			NULL, " After all, it's been half a year since the incident occurred, and they didn't start out with any useful clues.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/vt4bb_oouchi1013", 256, TRUE);
 	OutputLine(NULL, "関係者の記憶を掘り起こすのも一苦労ですよ」",
-			NULL, " They're having a hard time digging up the memories of the people involved.\"", Line_Normal);
+			NULL, " Plus, they're having a hard time digging up the memories of the people involved.\"", Line_Normal);
 	ClearMessage();
 
 //岡部rvS14/00/VT4Bb_okabe1015.「ほう…？kvS14/00/VT4Bb_okabe1016.　それでは現状、それほど変化はなしと」
@@ -329,7 +329,7 @@ void main()
 			NULL, "\"Hahaha, that's right.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/vt4bb_oouchi1015", 256, TRUE);
 	OutputLine(NULL, "まぁ期限まであと少し、できるだけのことはやってみますよ」",
-			NULL, " Well, I'll do everything I can until we reach the deadline.\"", Line_Normal);
+			NULL, " Well, the deadline's not too far off, so we'll do everything we can until then.\"", Line_Normal);
 	ClearMessage();
 
 //岡部r-vS14/00/VT4Bb_okabe1017.（…笑っている場合じゃないだろう。kvS14/00/VT4Bb_okabe1018.何のためにここへ来たのか、わかっているのか？）
@@ -347,7 +347,7 @@ void main()
 //rまるで他人事のように話す大内の態度に呆れた気分がこみ上げたが、気づかないふりで流した。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "まるで他人事のように話す大内の態度に呆れた気分がこみ上げたが、気づかないふりで流した。",
-			NULL, "He was amazed by Oouchi's attitude and how he talked about it like someone else's problem, but he pretended not to notice.", Line_Normal);
+			NULL, "He was irked by Oouchi's attitude and how he talked about it like it was someone else's problem, but he pretended not to notice.", Line_Normal);
 	ClearMessage();
 
 //r…大牧女子学生殺人事件の合同捜査本部に科警研の特別チームが参加してから、まもなく３ヶ月。
@@ -391,7 +391,7 @@ void main()
 //rにもかかわらず、いまだに戦力としての意義を高めるような働きはない。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "にもかかわらず、いまだに戦力としての意義を高めるような働きはない。",
-			NULL, "Nevertheless, there hasn't been any significant increase in progress.", Line_Normal);
+			NULL, "Nevertheless, there hasn't been any significant increase in progress despite the additional manpower.", Line_Normal);
 	ClearMessage();
 
 //r他人事とはいえ岡部にしてみれば、それを恥じてもっと危機感を抱いてもいいのではないか、と言いたくもなった。
@@ -404,10 +404,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>岡部</color>", NULL, "<color=#f5e6d3>Okabe</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/vt4bb_okabe1019", 256, TRUE);
 	OutputLine(NULL, "（まぁ、その代わりに別の『餌場』を見つけたからな。",
-			NULL, "(Well, at least it's someone else who wandered into the \"feeding grounds.\"", Line_WaitForInput);
+			NULL, "(Well, he did find a different \"feeding ground\" in exchange.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/vt4bb_okabe1020", 256, TRUE);
 	OutputLine(NULL, "もう興味がないのだろう）",
-			NULL, " I'm not interested anymore.)", Line_Normal);
+			NULL, " So he's probably not interested anymore.)", Line_Normal);
 	ClearMessage();
 
 	DrawScene("background/aka1", 1000 );
@@ -415,7 +415,7 @@ void main()
 //rそう…大内がしたり顔でいられる理由も、よくわかる。なぜなら、意外な収穫があったからだ。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "そう…大内がしたり顔でいられる理由も、よくわかる。なぜなら、意外な収穫があったからだ。",
-			NULL, "Yes... he understood well the reason Oouchi was making that face. Because this was a surprising harvest.", Line_Normal);
+			NULL, "Yes... he understood well the reason Oouchi could make that face. Because there had been some surprising results.", Line_Normal);
 	ClearMessage();
 
 //r実は、彼は科警研で作成した捜査マニュアルを用いた捜査網の配置を試験的にとり行うプランを立て、合同捜査本部におけるプロジェクトとは別にその承認を得ていた。
@@ -433,7 +433,7 @@ void main()
 //rその結果、マニュアルに従っていくつかの不審者を調べ上げたところ、…なんと数々の軽犯罪を取り締まる成果を得ていたのである。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "その結果、マニュアルに従っていくつかの不審者を調べ上げたところ、…なんと数々の軽犯罪を取り締まる成果を得ていたのである。",
-			NULL, "Ultimately, they were able to look up some suspicious people according to the manual... and they were getting a number of results on minor crimes.", Line_Normal);
+			NULL, "Ultimately, they were able to investigate some suspicious people according to the manual... and were able to crack down on a large number of minor crimes as a results.", Line_Normal);
 	ClearMessage();
 
 	DrawScene("background/ka1_01", 1000 );
@@ -458,7 +458,7 @@ void main()
 			NULL, " Honestly, I was skeptical at first.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/vt4bb_okabe1023", 256, TRUE);
 	OutputLine(NULL, "マニュアルを渡されたはいいが、よくもまぁいい加減なことを書いているものだ、なんて思いながら従っていましたよ」",
-			NULL, " I felt it was a good thing to distribute the manual, but you still have to think rather than blindly follow it.\"", Line_Normal);
+			NULL, " Giving me a manual's all well and good, but I thought it was a bunch of crap while I was using it.\"", Line_Normal);
 	ClearMessage();
 
 //rしかし、いざ蓋を開けてみれば…驚くべきほどの効率性が結果となって表れていった。
@@ -508,7 +508,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>岡部</color>", NULL, "<color=#f5e6d3>Okabe</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/vt4bb_okabe1027", 256, TRUE);
 	OutputLine(NULL, "「おかげで、以前から手配をかけていた常習犯があっさり網にかかってしまった。",
-			NULL, "\"Thanks to that, habitual criminal who have been at it for a long time were easily caught in the net.", Line_WaitForInput);
+			NULL, "\"Thanks to that, habitual criminals who have been at it for a long time were easily caught in the net.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/vt4bb_okabe1028", 256, TRUE);
 	OutputLine(NULL, "逮捕した連中が一番驚いていましたよ」",
 			NULL, " The people being arrested were the most surprised of all.\"", Line_Normal);
@@ -622,7 +622,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>岡部</color>", NULL, "<color=#f5e6d3>Okabe</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/vt4bb_okabe1031", 256, TRUE);
 	OutputLine(NULL, "「…古き良き、なんて言葉は警察には必要ない。",
-			NULL, "\"...The police don't require good old-fashioned praise.", Line_WaitForInput);
+			NULL, "\"...The police don't need the words \"good old days.\"", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/vt4bb_okabe1032", 256, TRUE);
 	OutputLine(NULL, "犯人逮捕に全力を尽くして、市民の安全を約束する。",
 			NULL, " We do our best to apprehend criminals for the safety of our citizens.", Line_WaitForInput);
@@ -731,14 +731,14 @@ void main()
 			NULL, "\"This will be a great help to investigators around the country, as a way to improve investigative activities in the future.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/vt4bb_oouchi1025", 256, TRUE);
 	OutputLine(NULL, "本当に、岡部課長にはいくら感謝しても足りないくらいですよ」",
-			NULL, " I really am grateful, Section Chief Okabe.\"", Line_Normal);
+			NULL, " All the gratitude in the world wouldn't be enough to thank you, Section Chief Okabe.\"", Line_Normal);
 	ClearMessage();
 
 //岡部rvS14/00/VT4Bb_okabe1036.「…恐縮です。kvS14/00/VT4Bb_okabe1037.それでは、失礼します」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>岡部</color>", NULL, "<color=#f5e6d3>Okabe</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/vt4bb_okabe1036", 256, TRUE);
 	OutputLine(NULL, "「…恐縮です。",
-			NULL, "\"...I'm sorry for all the trouble.", Line_WaitForInput);
+			NULL, "\"...I'm flattered.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/vt4bb_okabe1037", 256, TRUE);
 	OutputLine(NULL, "それでは、失礼します」",
 			NULL, " Now, I must be taking my leave.\"", Line_Normal);
@@ -777,7 +777,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>岡部</color>", NULL, "<color=#f5e6d3>Okabe</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/vt4bb_okabe1038", 256, TRUE);
 	OutputLine(NULL, "「…あんな奴らに、あの小娘はよく辛抱しているものだ」",
-			NULL, "\"...Those bastards have a lot of patience for that little girl.\"", Line_Normal);
+			NULL, "\"...I have no idea how that little girl can put up with those bastards.\"", Line_Normal);
 	ClearMessage();
 
 //r怒りを鎮めようとタバコ３本を吸い尽くしてから、岡部はぽつりと呟く。
@@ -948,7 +948,7 @@ void main()
 			NULL, " Honestly, I'm not confident I can reach that goal.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 28, "ps3/s14/28/vt4bb_tomoe1357", 256, TRUE);
 	OutputLine(NULL, "…でも、立ち向かいたいんです』",
-			NULL, " ...But, I want to stand up and try.\"", Line_Normal);
+			NULL, " ...But, I want to stand up and fight.\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(4, 28, "sprite/tomo2_shian_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
@@ -1047,13 +1047,13 @@ void main()
 //rここで妥協すれば、おそらく次の難事件に直面した時にも心のどこかで『逃げ』を考えるようになるだろう。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "ここで妥協すれば、おそらく次の難事件に直面した時にも心のどこかで『逃げ』を考えるようになるだろう。",
-			NULL, "If she compromised here, next time she faced a difficult case somewhere in her mind she'd feel like she \"ran away.\"", Line_Normal);
+			NULL, "If she compromised here, next time she faced a difficult case, somewhere in her mind she'd feel the urge to \"run away.\"", Line_Normal);
 	ClearMessage();
 
 //r…それが、巴には耐えられなかった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…それが、巴には耐えられなかった。",
-			NULL, "...Tomoe couldn't stand it.", Line_Normal);
+			NULL, "...Tomoe couldn't stand that.", Line_Normal);
 	ClearMessage();
 
 //rどんなに挫折しても、失望しても、…それは、全力でぶつかった結果でありたい。
@@ -1072,10 +1072,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>堂島</color>", NULL, "<color=#f5e6d3>Doujima</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/vt4bb_douji1013", 256, TRUE);
 	OutputLine(NULL, "『だから、科警研を動かしてまでのプロジェクトか…。",
-			NULL, "\"So, this project made it all the way through NRIPS...?", Line_WaitForInput);
+			NULL, "\"So, this is the project that got even NRIPS to act, huh...?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/vt4bb_douji1014", 256, TRUE);
 	OutputLine(NULL, "にしても、マスコミにまで派手にぶち上げてよかったのか？』",
-			NULL, " Anyway, are you pleased this is flashy enough to draw the attention of the mass media?\"", Line_Normal);
+			NULL, " Anyway, are you sure you should have flaunted it right before the mass media?\"", Line_Normal);
 	ClearMessage();
 
 //堂島rvS14/00/VT4Bb_douji1015.『いくら注目度を上げて上層部の関心を引くためだとはいえ、失敗すればただでは済まない。kvS14/00/VT4Bb_douji1016.あんた自身の進路…いや、退路すら断つことにもなりかねないぞ？』
@@ -1085,7 +1085,7 @@ void main()
 			NULL, "\"No matter how much you might want to demonstrate profiling analysis to upper management, if it fails you'll be in serious trouble.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/vt4bb_douji1016", 256, TRUE);
 	OutputLine(NULL, "あんた自身の進路…いや、退路すら断つことにもなりかねないぞ？』",
-			NULL, " Your own path... or rather, your escape route might be cut off, you know?\"", Line_Normal);
+			NULL, " Your own path... no, even your escape route might be cut off, you know?\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(4, 28, "sprite/tomo2_shinken_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
@@ -1117,7 +1117,7 @@ void main()
 			NULL, "Even so, this is a gamble with poor odds.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/vt4bb_douji1019", 256, TRUE);
 	OutputLine(NULL, "いや、むしろ自棄っぱちとしか思えん。",
-			NULL, " In fact, I think those odds are desperately unthinkable.", Line_WaitForInput);
+			NULL, " In fact, all I can think is that those odds are completely desperate.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/vt4bb_douji1020", 256, TRUE);
 	OutputLine(NULL, "姫さん、それはあんたが一番わかってるはずだろう？』",
 			NULL, " Princess, you probably know that better than anyone, don't you?\"", Line_Normal);
@@ -1283,7 +1283,7 @@ void main()
 			NULL, " I'll do everything in my power to cooperate.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/vt4bb_douji1027", 256, TRUE);
 	OutputLine(NULL, "だが…どうなっても知らんぞ？』",
-			NULL, " But... who knows what might happen?\"", Line_Normal);
+			NULL, " But... don't blame me if it goes poorly.\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(4, 28, "sprite/tomo2_warai2_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
@@ -1292,7 +1292,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#9d7f69>巴</color>", NULL, "<color=#9d7f69>Tomoe</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 28, "ps3/s14/28/vt4bb_tomoe1374", 256, TRUE);
 	OutputLine(NULL, "『ええ、望むところです』",
-			NULL, "\"Yes, just as I was hoping for.\"", Line_Normal);
+			NULL, "\"Yes, as you wish.\"", Line_Normal);
 	ClearMessage();
 
 //rそう言って、巴は笑う。そこには不敵さと精悍さ、そして強い意志が満ちていた…。
@@ -1337,7 +1337,7 @@ void main()
 //r自分が挫折して、諦めてしまったものを実現させる、あるいはさせようと力強く突き進む誰かに対して抱く、憧れと嫉妬が入り混じった複雑な思い。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "自分が挫折して、諦めてしまったものを実現させる、あるいはさせようと力強く突き進む誰かに対して抱く、憧れと嫉妬が入り混じった複雑な思い。",
-			NULL, "Recognizing that he was the type to give up when faced with frustration, he had mixed feelings ranging between admiration and jealousy upon seeing someone pushing hard to make something happen.", Line_Normal);
+			NULL, "Mixed feelings, ranging between admiration and jealousy, upon seeing someone pushing hard to make something happen that he'd once given up on.", Line_Normal);
 	ClearMessage();
 
 //rそれはある意味、…羨望というものではなかっただろうか……。
@@ -1350,7 +1350,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>岡部</color>", NULL, "<color=#f5e6d3>Okabe</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/vt4bb_okabe1043", 256, TRUE);
 	OutputLine(NULL, "（…それだけに、科警研の若造どもが鼻につくのだ）",
-			NULL, "(...And that's the only reason those greenhorns at NRIPS are sticking their noses in things.)", Line_Normal);
+			NULL, "(...That's just how much those greenhorns at NRIPS are sticking their noses in things.)", Line_Normal);
 	ClearMessage();
 
 //rもはや…大内たち科警研の連中は、大牧の女子学生殺人事件の調査について関心を持っていない。
@@ -1374,7 +1374,7 @@ void main()
 //r迷宮入りの事件で手柄を立てようとするよりも、手近なデータ収集で確実に点数を稼ぐ…学者肌の小才子にはよくある保身だ。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "迷宮入りの事件で手柄を立てようとするよりも、手近なデータ収集で確実に点数を稼ぐ…学者肌の小才子にはよくある保身だ。",
-			NULL, "Instead of trying to solve an unsolvable case, earn credit by collecting data that can be easily and reliably gathered... that seemed the more prudent means of self-preservation for a thin-skinned bookworm.", Line_Normal);
+			NULL, "Instead of trying to gain credit by solving an unsolvable case, he would earn points by collecting data that can be easily and reliably gathered... That seemed the more prudent means of self-preservation for a thin-skinned bookworm.", Line_Normal);
 	ClearMessage();
 
 //rそんな態度を見ていると、捜査本部に参加していない岡部でさえ『やつらはいったい何をしに来たんだ？』と呆れた気分にさせられた。
@@ -1393,7 +1393,7 @@ void main()
 //rただ…そんな大内たちの『内職』については、巴たちも承知済みなのだろう。そして、その上で中央とのパイプ役として、彼らの立場を便宜上尊重している。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "ただ…そんな大内たちの『内職』については、巴たちも承知済みなのだろう。そして、その上で中央とのパイプ役として、彼らの立場を便宜上尊重している。",
-			NULL, "But... Tomoe and her colleagues may have already learned about Oouchi's \"side-job.\" And on top of that, they respect their position as mediators as a matter of convenience.", Line_Normal);
+			NULL, "But... Tomoe and her colleagues may have already learned about Oouchi's \"inside job.\" And on top of that, they respect their position as mediators as a matter of convenience.", Line_Normal);
 	ClearMessage();
 
 //r現場捜査員たちへの慰労に加え、自尊心だけは一流のエリートもどきのご機嫌うかがい。…そこにかかる心労を想像しただけでも、頭が痛くなる。
@@ -1500,7 +1500,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>浅見</color>", NULL, "<color=#f5e6d3>Asami</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/vt4bb_asami1005", 256, TRUE);
 	OutputLine(NULL, "『ええ…確かに我々自身にとっては、体験上で覚えた知識と勘を文章にまとめ上げた内容がほとんどです。",
-			NULL, "\"Yes... and most of the knowledge and intuition we've learned through experience is summarized in this writing.", Line_WaitForInput);
+			NULL, "\"Yes... it's true that this writing is based heavily on the knowledge and intuition we've learned through experience.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/vt4bb_asami1006", 256, TRUE);
 	OutputLine(NULL, "…それは本当に、自分たち『しか』所有できない捜査技術だった』",
 			NULL, " ...Really, it's an investigative technique that we \"alone\" currently possess.\"", Line_Normal);
@@ -1530,7 +1530,7 @@ void main()
 			NULL, "\"...Still, most of the staff in the Second Division are going through the manual right now.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/vt4bb_asami1009", 256, TRUE);
 	OutputLine(NULL, "俺にも貸せ、写させろ、と。",
-			NULL, " They even lent it to me so I could make a copy.", Line_WaitForInput);
+			NULL, " They're asking people to lend them theirs, or to make them a copy.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/vt4bb_asami1010", 256, TRUE);
 	OutputLine(NULL, "…とんでもない人気です』",
 			NULL, " ...It's ridiculously popular.\"", Line_Normal);
@@ -1554,7 +1554,7 @@ void main()
 //rそんな彼らが…今回のマニュアルを食事中、あるいは就寝前に寸暇を惜しんで、その内容を頭に叩き込むべく熟読しているのだという。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "そんな彼らが…今回のマニュアルを食事中、あるいは就寝前に寸暇を惜しんで、その内容を頭に叩き込むべく熟読しているのだという。",
-			NULL, "These detectives... they say they're trying to make time to read the manual during meals or right before bed, reading carefully to drill the contents into their heads.", Line_Normal);
+			NULL, "These same detectives... they say they're trying to make time to read the manual during meals or right before bed, reading carefully to drill the contents into their heads.", Line_Normal);
 	ClearMessage();
 
 //rそして、その内容の解釈や適用方法、あるいは不備や齟齬についても年配のベテラン刑事たちに質問を投げかけるなど、活発な雰囲気を作り出していた。
@@ -1666,13 +1666,13 @@ void main()
 //r確かに巴自身の才覚は、そこまで卓越したものとはいえないかもしれない。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "確かに巴自身の才覚は、そこまで卓越したものとはいえないかもしれない。",
-			NULL, "Indeed, it wasn't Tomoe's talent alone that was outstanding.", Line_Normal);
+			NULL, "Yes, you could perhaps say Tomoe's talent wasn't all that outstanding.", Line_Normal);
 	ClearMessage();
 
 //r…それでも時流に乗り、『変化』を潜在的に求め続けていた垣内署の皆の期待に応えたその存在は、決して軽いものではなかった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…それでも時流に乗り、『変化』を潜在的に求め続けていた垣内署の皆の期待に応えたその存在は、決して軽いものではなかった。",
-			NULL, "...Still, she inspired a trend. Everyone in Kakiuchi Station answered her continual desire to seek \"change,\" and it was by no means trivial.", Line_Normal);
+			NULL, "...Still, she inspired a trend. Her presence, which answered the expectations of those in Kakiuchi Station who had latently desired \"change,\" was by no means trivial.", Line_Normal);
 	ClearMessage();
 
 	DrawScene("black", 1000 );
@@ -1695,7 +1695,7 @@ void main()
 //rしかし、と最近になって思う。…それは本当に、不快感だったのだろうか、と。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "しかし、と最近になって思う。…それは本当に、不快感だったのだろうか、と。",
-			NULL, "But recently, he began thinking... was she really so terrible?", Line_Normal);
+			NULL, "But recently, he began thinking... was that feeling really displeasure?", Line_Normal);
 	ClearMessage();
 
 //rあるいは……。
@@ -1742,13 +1742,13 @@ void main()
 //r確か朝聞いた話だと、この後はＴＶ局で取材の予定が入っていたはずだ。巴は遅刻を嫌うので、そろそろ出発する時刻だろう。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "確か朝聞いた話だと、この後はＴＶ局で取材の予定が入っていたはずだ。巴は遅刻を嫌うので、そろそろ出発する時刻だろう。",
-			NULL, "Madoka heard about it this morning, Tomoe was scheduled to have coverage at the TV station after this meeting. She loathed being late, so it was quickly approaching time to leave.", Line_Normal);
+			NULL, "Madoka heard about it this morning, Tomoe was scheduled to have coverage at the TV station after this meeting. She loathed being late, so she'd probably leave sooner or later.", Line_Normal);
 	ClearMessage();
 
 //rその前に、一服を入れようと何か冷たいものを飲みたいと考える。…が、彼女の性格から誰かに淹れてもらうとか、買いに行かせるとはちょっと思えない。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "その前に、一服を入れようと何か冷たいものを飲みたいと考える。…が、彼女の性格から誰かに淹れてもらうとか、買いに行かせるとはちょっと思えない。",
-			NULL, "Madoka figured that Tomoe would want to catch a cold drink beforehand, though. ...But knowing Tomoe, she wouldn't go out to buy something or have someone make one for her.", Line_Normal);
+			NULL, "Madoka figured that Tomoe would want to quickly catch a cold drink beforehand, though. ...But knowing Tomoe, she wouldn't have someone make one for her or go out to buy it for her.", Line_Normal);
 	ClearMessage();
 
 //rということは、何か自販機で買おうと自分でこの休憩室に来る。…その時が、チャンスだ。
@@ -1842,7 +1842,7 @@ void main()
 			NULL, "\"Ozawa-san in the traffic division.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 28, "ps3/s14/28/vt4bb_tomoe1381", 256, TRUE);
 	OutputLine(NULL, "買い物行く予定だったのに～、ってぶつくさ言ってたわよ」",
-			NULL, " He said you were grumbling about having plans to go shopping.\"", Line_Normal);
+			NULL, " He said you were grumbling about having to work when you already had plans to go shopping.\"", Line_Normal);
 	ClearMessage();
 
 //まどかr-vS14/29/VT4Bb_madoka1009.（あんにゃろ～、内緒にしてろって言ったのに。kvS14/29/VT4Bb_madoka1010.…後でしめてやる）
@@ -1892,7 +1892,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#9d7f69>巴</color>", NULL, "<color=#9d7f69>Tomoe</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 28, "ps3/s14/28/vt4bb_tomoe1382", 256, TRUE);
 	OutputLine(NULL, "「ふぅん…？」",
-			NULL, "\"Hmm...?\"", Line_Normal);
+			NULL, "\"Oh yeah...?\"", Line_Normal);
 	ClearMessage();
 
 	PlaySE(3, "dsse134", 256, 64);
@@ -1914,19 +1914,19 @@ void main()
 //rまどかは気持ちを奮い立たせて、握りしめた両手に力を込める。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "まどかは気持ちを奮い立たせて、握りしめた両手に力を込める。",
-			NULL, "Madoka energetically clapped her hands together to inspire herself.", Line_Normal);
+			NULL, "Madoka clenched her fists to inspire herself.", Line_Normal);
 	ClearMessage();
 
 //rええい、女は度胸だ。…いや愛嬌だったか。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "ええい、女は度胸だ。…いや愛嬌だったか。",
-			NULL, "Yeah, she was a courageous woman. ...Or at least amiable?", Line_Normal);
+			NULL, "That's right, women are courageous. ...Or was it affable?", Line_Normal);
 	ClearMessage();
 
 //rというか、そんなのどうでもいい。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "というか、そんなのどうでもいい。",
-			NULL, "Or, well, that doesn't matter.", Line_Normal);
+			NULL, "Wait, that doesn't matter.", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(4, 28, "sprite/tomo2_shian_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 100, FALSE );
@@ -1951,10 +1951,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#9d7f69>巴</color>", NULL, "<color=#9d7f69>Tomoe</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 28, "ps3/s14/28/vt4bb_tomoe1383", 256, TRUE);
 	OutputLine(NULL, "「話…あるんでしょ？",
-			NULL, "\"...Did you have something to discuss?", Line_WaitForInput);
+			NULL, "\"...You wanted to talk about something, right?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 28, "ps3/s14/28/vt4bb_tomoe1384", 256, TRUE);
 	OutputLine(NULL, "　私に」",
-			NULL, " With me?\"", Line_Normal);
+			NULL, " With me.\"", Line_Normal);
 	ClearMessage();
 
 	PlaySE(3, "kyupirn", 256, 64);
@@ -2063,7 +2063,7 @@ void main()
 			NULL, "\"Ah... yeah.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 29, "ps3/s14/29/vt4bb_madoka1022", 256, TRUE);
 	OutputLine(NULL, "まぁ…ね」",
-			NULL, " I mean... right?\"", Line_Normal);
+			NULL, " I guess... you could say that.\"", Line_Normal);
 	ClearMessage();
 
 //rしかたない、覚悟を決めろ。
@@ -2215,7 +2215,7 @@ void main()
 //rそう思って、『や、やっぱなし！』と言いかけた、…その時。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "そう思って、『や、やっぱなし！』と言いかけた、…その時。",
-			NULL, "Thinking that, she said to herself \"Th-this is it!\" ...But just then.", Line_Normal);
+			NULL, "Thinking that, she was about to say \"N-nevermind, forget it!\" ...But just then.", Line_Normal);
 	ClearMessage();
 
 	FadeOutBGM(2, 200, FALSE);
@@ -2367,7 +2367,7 @@ void main()
 			NULL, " Shouldn't you be happy?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 28, "ps3/s14/28/vt4bb_tomoe1407", 256, TRUE);
 	OutputLine(NULL, "　あんたの結婚、認めてあげるって言ったんだからさ」",
-			NULL, " I already told you, I approve of your marriage.\"", Line_Normal);
+			NULL, " I just told you I approve of your marriage, you know.\"", Line_Normal);
 	ClearMessage();
 
 //まどかrvS14/29/VT4Bb_madoka1037.「え、えっと…」
@@ -2416,13 +2416,13 @@ void main()
 //rそれでも、事実を隠して山沖の両親に会うなんてことは、大好きな姉を裏切っている気がして、…せめて、筋は通しておこうと考えた末の決断だったのだ。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "それでも、事実を隠して山沖の両親に会うなんてことは、大好きな姉を裏切っている気がして、…せめて、筋は通しておこうと考えた末の決断だったのだ。",
-			NULL, "Even so, hiding facts about meeting with Yamaoki's parents would feel like betraying her beloved older sister... at the very least, she thought it was reasonable to reach a final decision.", Line_Normal);
+			NULL, "Even so, hiding facts about meeting with Yamaoki's parents would feel like betraying her beloved older sister... so after thinking it over, she made the decision to at least stick to her principles.", Line_Normal);
 	ClearMessage();
 
 //rそれなのに、…待ち焦がれていたはずの結婚の許しまでもらえるとは。古典的な作法だが、思わず頬をつねりたくなるような思いだった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "それなのに、…待ち焦がれていたはずの結婚の許しまでもらえるとは。古典的な作法だが、思わず頬をつねりたくなるような思いだった。",
-			NULL, "And yet... to finally get the marriage approval she always longed for. Even if it was just traditional etiquette, it made her want to pinch her cheeks.", Line_Normal);
+			NULL, "And yet... to think she'd finally get the marriage approval she always longed for. It was cliche, but she was even starting to consider pinching her cheeks.", Line_Normal);
 	ClearMessage();
 
 //まどかr-vS14/29/VT4Bb_madoka1039.（でも、…なぜだろう）
@@ -2447,7 +2447,7 @@ void main()
 //rまどかの知る姉は、もっと厳しい人だった。だからこそ世間体、いや、それ以上に将来のことを考えて彼女と山沖との結婚を猛反対していたのだ。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "まどかの知る姉は、もっと厳しい人だった。だからこそ世間体、いや、それ以上に将来のことを考えて彼女と山沖との結婚を猛反対していたのだ。",
-			NULL, "Madoka's older sister was a strict individual. That's why she was so vehemently opposed to her marriage to Yamaoki. She was thinking about appearances, but more than that, about her future.", Line_Normal);
+			NULL, "The Tomoe that Madoka knew was a stricter individual. That's why she was so vehemently opposed to her marriage to Yamaoki. She was thinking about appearances, but more than that, about her future.", Line_Normal);
 	ClearMessage();
 
 //r…巴は、家族を何よりも大事にしていた。両親の死後は、その思いをいっそう強くしていった。
@@ -2459,7 +2459,7 @@ void main()
 //rだから、まどかが心的要因で傷ついて、道を外れかけた時は…自分の進路を変更してでも、つきっきりになってくれようとした…。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "だから、まどかが心的要因で傷ついて、道を外れかけた時は…自分の進路を変更してでも、つきっきりになってくれようとした…。",
-			NULL, "So, when Madoka suffered psychological damage and began setting off on her own path... she changed her own course to stay with her...", Line_Normal);
+			NULL, "So, when Madoka suffered psychological damage and began setting off on her own path... Tomoe went so far as to change her own course to watch over her...", Line_Normal);
 	ClearMessage();
 
 	DrawScene("white", 1000 );
@@ -2520,7 +2520,7 @@ void main()
 			NULL, "\"I-it's fine!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 29, "ps3/s14/29/vt4bb_madoka1041", 256, TRUE);
 	OutputLine(NULL, "　もし子供ができればその子と一緒だし、それに、短い時間でも幸せな家庭を築いていくつもりだもん！』",
-			NULL, " If we have children, I'll still be together with them. Plus, we're going to build a happy family even in that short time!\"", Line_Normal);
+			NULL, " If we have children, I'll still be together with them. Plus, even if our time is short, I plan on building a happy family with him!\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(5, 28, "sprite/tomo1a_ikari_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 18, 200, TRUE );
@@ -2618,13 +2618,13 @@ void main()
 //rひょっとして巴は、自分の生命をすべてこの数カ月に注ぎ込む覚悟でいるのだろうか。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "ひょっとして巴は、自分の生命をすべてこの数カ月に注ぎ込む覚悟でいるのだろうか。",
-			NULL, "It seemed like over the past few months Tomoe gained the conviction to put her whole life into her work.", Line_Normal);
+			NULL, "Perhaps Tomoe had gained the conviction to put her entire lifespan into these last few months.", Line_Normal);
 	ClearMessage();
 
 //rそれが、自分の至らなさで命を落とすことになってしまった少女への罪滅ぼしだと信じて、そして…。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "それが、自分の至らなさで命を落とすことになってしまった少女への罪滅ぼしだと信じて、そして…。",
-			NULL, "Believing herself responsible for that girl's death, and feeling the obligation to atone for it...", Line_Normal);
+			NULL, "Believing that she'd atone for causing that girl's death, and then...", Line_Normal);
 	ClearMessage();
 
 //まどかrvS14/29/VT4Bb_madoka1045.「……っ…」
@@ -2637,7 +2637,7 @@ void main()
 //r激しく首を振って、まどかは頭に浮かんだ考えを振り払う。…バカバカしい。縁起でもない話だった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "激しく首を振って、まどかは頭に浮かんだ考えを振り払う。…バカバカしい。縁起でもない話だった。",
-			NULL, "Madoka violently shook her head to chase away the thoughts coming to mind. ...Ridiculous. What an unfortunate story.", Line_Normal);
+			NULL, "Madoka violently shook her head to chase away the thoughts coming to mind. ...Ridiculous. It was too ominous to consider.", Line_Normal);
 	ClearMessage();
 
 	FadeFilm( 250, TRUE );
@@ -2686,7 +2686,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a4856e>まどか</color>", NULL, "<color=#a4856e>Madoka</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 29, "ps3/s14/29/vt4bb_madoka1049", 256, TRUE);
 	OutputLine(NULL, "「……そう」",
-			NULL, "\"...Right.\"", Line_Normal);
+			NULL, "\"...I see.\"", Line_Normal);
 	ClearMessage();
 
 	DrawScene("black", 1000 );
@@ -2768,7 +2768,7 @@ void main()
 			NULL, " Fujita-san, that may have been your first time seeing it... but Sis was always like that.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 29, "ps3/s14/29/vt4bb_madoka1053", 256, TRUE);
 	OutputLine(NULL, "割り切れないっていうか…不器用だから』",
-			NULL, " She can be insatiable... or heavy-handed.\"", Line_Normal);
+			NULL, " She just can't set aside her feelings... She's awkward that way.\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(4, 31, "sprite/huji_odoroki_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
@@ -2793,31 +2793,31 @@ void main()
 //r手配中の犯人が凶行を働いて、犠牲者が出た時。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "手配中の犯人が凶行を働いて、犠牲者が出た時。",
-			NULL, "Whenever she's fighting to arrest criminals, or whenever there's another victim.", Line_Normal);
+			NULL, "Whenever a wanted criminal commits an act of violence, claiming another victim.", Line_Normal);
 	ClearMessage();
 
 //r容疑をかけられた人物が絶望して、自ら命を絶った時。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "容疑をかけられた人物が絶望して、自ら命を絶った時。",
-			NULL, "Whenever she's in despair searching for a suspect, or whenever her life is in danger.", Line_Normal);
+			NULL, "Whenever a suspect falls into despair and takes their own life.", Line_Normal);
 	ClearMessage();
 
 //r…自分の至らなさのせいだと、悩み、苦しんで、…とことんまで自分を追い詰めてしまうのだ。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…自分の至らなさのせいだと、悩み、苦しんで、…とことんまで自分を追い詰めてしまうのだ。",
-			NULL, "...She's always worrying, and suffering over her own inadequacies... hounding herself to the bitter end.", Line_Normal);
+			NULL, "...She's always worrying and suffering, blaming her own inadequacies... driving herself to the edge.", Line_Normal);
 	ClearMessage();
 
 //r確かに、…ほんの何割かは、その通りかもしれない。だが、犯罪が起きるのは間違いなく、犯人のせいだ。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "確かに、…ほんの何割かは、その通りかもしれない。だが、犯罪が起きるのは間違いなく、犯人のせいだ。",
-			NULL, "Indeed... that may be appropriate for a portion of your time. But when a crime occurs, the person responsible is the criminal.", Line_Normal);
+			NULL, "Indeed... maybe she is slightly to blame. But when a crime occurs, it's undoubtedly the criminal's fault.", Line_Normal);
 	ClearMessage();
 
 //rそれを巴はいつもわり切れず、抱え込んでしまう。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "それを巴はいつもわり切れず、抱え込んでしまう。",
-			NULL, "Yet, Tomoe couldn't help but carry that burden.", Line_Normal);
+			NULL, "Yet, Tomoe couldn't bring herself to keep her personal feelings out of it.", Line_Normal);
 	ClearMessage();
 
 //rそして、その姿を部下や同僚たちには見せずに、…ひとり場末のバーで飲み明かしているところを目撃した時には、…本当に、涙が出て止まらなかった。
@@ -2836,10 +2836,10 @@ void main()
 			NULL, "\"...Fujita-san.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 29, "ps3/s14/29/vt4bb_madoka1055", 256, TRUE);
 	OutputLine(NULL, "私、時々思うんです。",
-			NULL, " Sometimes I've had a thought.", Line_WaitForInput);
+			NULL, " I've thought something from time to time.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 29, "ps3/s14/29/vt4bb_madoka1056", 256, TRUE);
 	OutputLine(NULL, "お姉ちゃんって本当は、…刑事に向いてないんじゃないかって』",
-			NULL, " Maybe Sis... really isn't fit to be a detective.\"", Line_Normal);
+			NULL, " That in all honesty... Sis might not be able to handle being a detective.\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(4, 31, "sprite/huji_huan_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
@@ -2855,20 +2855,20 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a4856e>まどか</color>", NULL, "<color=#a4856e>Madoka</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 29, "ps3/s14/29/vt4bb_madoka1057", 256, TRUE);
 	OutputLine(NULL, "『今、この垣内署の管轄内だけで、どれくらいの人が死んでると思います？",
-			NULL, "\"How many people do you think have died, just in Kakiuchi Station's area of jurisdiction alone?", Line_WaitForInput);
+			NULL, "\"Right now, how many people do you think are dying within the Kakiuchi Station jurisdiction area alone?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 29, "ps3/s14/29/vt4bb_madoka1058", 256, TRUE);
 	OutputLine(NULL, "　どれだけの人が犯罪をしでかしているか、知っていますか？』",
-			NULL, " Do you have any idea how many people are out there, committing crimes?\"", Line_Normal);
+			NULL, " Do you have any idea how many people are currently committing crimes?\"", Line_Normal);
 	ClearMessage();
 
 //まどかrvS14/29/VT4Bb_madoka1059.『十や二十、…それこそ百でもおさまらないくらいたくさんの人が悲しんで、苦しんで、…死んでいます。kvS14/29/VT4Bb_madoka1060.そのひとつひとつに同情したり、後悔なんてしていたら、…心が持ちませんよ』
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a4856e>まどか</color>", NULL, "<color=#a4856e>Madoka</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 29, "ps3/s14/29/vt4bb_madoka1059", 256, TRUE);
 	OutputLine(NULL, "『十や二十、…それこそ百でもおさまらないくらいたくさんの人が悲しんで、苦しんで、…死んでいます。",
-			NULL, "\"Ten, twenty... maybe even hundreds. So many people are out there enduring grief, suffering... and death.", Line_WaitForInput);
+			NULL, "\"Ten, twenty... maybe even a hundred people are grieving, suffering... and dying.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 29, "ps3/s14/29/vt4bb_madoka1060", 256, TRUE);
 	OutputLine(NULL, "そのひとつひとつに同情したり、後悔なんてしていたら、…心が持ちませんよ』",
-			NULL, " If you feel sorrow and regret for every single one of them... you won't have any heart left.\"", Line_Normal);
+			NULL, " If you feel sympathy or regret for every last one of them... your heart won't last.\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(4, 31, "sprite/huji_shinken_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
@@ -2884,20 +2884,20 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a4856e>まどか</color>", NULL, "<color=#a4856e>Madoka</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 29, "ps3/s14/29/vt4bb_madoka1061", 256, TRUE);
 	OutputLine(NULL, "『それに警察だって人間だから、…万能じゃないんです。",
-			NULL, "\"And the police are human beings... they're not all-powerful.", Line_WaitForInput);
+			NULL, "\"Plus, the police are human beings... They're not omnipotent.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 29, "ps3/s14/29/vt4bb_madoka1062", 256, TRUE);
 	OutputLine(NULL, "間違いだってあるし、できないこともある』",
-			NULL, " They make mistakes, and there are things they just can't do.\"", Line_Normal);
+			NULL, " Even they make mistakes, and there are things they can't do.\"", Line_Normal);
 	ClearMessage();
 
 //まどかrvS14/29/VT4Bb_madoka1063.『それなのにお姉ちゃんは、いつもみんなに応えようと頑張って、あっちこっちに動き回って、…その分ボロボロになって、傷ついてる。kvS14/29/VT4Bb_madoka1064.もっと割り切ってやらなきゃ、ほんとに壊れちゃうのに…』
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a4856e>まどか</color>", NULL, "<color=#a4856e>Madoka</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 29, "ps3/s14/29/vt4bb_madoka1063", 256, TRUE);
 	OutputLine(NULL, "『それなのにお姉ちゃんは、いつもみんなに応えようと頑張って、あっちこっちに動き回って、…その分ボロボロになって、傷ついてる。",
-			NULL, "\"And yet, Sis is always working desperately hard to respond to everything, constantly moving to and fro... being battered and scarred by it.", Line_WaitForInput);
+			NULL, "\"Even so, Sis always put in so much effort to respond to everyone, always moving here and there... exhausting herself, and enduring the pain.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 29, "ps3/s14/29/vt4bb_madoka1064", 256, TRUE);
 	OutputLine(NULL, "もっと割り切ってやらなきゃ、ほんとに壊れちゃうのに…』",
-			NULL, " If she's not more careful, it'll completely break her...\"", Line_Normal);
+			NULL, " Even though she'll completely break... unless she can better set aside her feelings...\"", Line_Normal);
 	ClearMessage();
 
 	DrawScene("black", 1000 );
@@ -2911,7 +2911,7 @@ void main()
 //r自分は本当に利己的で、警察の風上にもおけない発言をしていることくらいは。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "自分は本当に利己的で、警察の風上にもおけない発言をしていることくらいは。",
-			NULL, "She herself was actually very selfish, and not opposed to making terse remarks upwind of the police.", Line_Normal);
+			NULL, "She herself was actually very selfish, and not opposed to making terse remarks that wouldn't reflect well on the police.", Line_Normal);
 	ClearMessage();
 
 //rそれでも、…まどかは思わずにはいられなかった。
@@ -2923,7 +2923,7 @@ void main()
 //rもっと、要領よく生きても、いいはずじゃないか。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "もっと、要領よく生きても、いいはずじゃないか。",
-			NULL, "Wouldn't it be better to live a more simple life?", Line_Normal);
+			NULL, "Wouldn't it be better for her to live a smoother life?", Line_Normal);
 	ClearMessage();
 
 //rもっと、気楽に責任を抱え込まなくても、いいはずじゃないか。
@@ -2935,7 +2935,7 @@ void main()
 //rそれが許されるだけの努力もしてきたのだから、権利も、資格だってあるはずなんだ。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "それが許されるだけの努力もしてきたのだから、権利も、資格だってあるはずなんだ。",
-			NULL, "She should be entitled to make that happen.", Line_Normal);
+			NULL, "She'd worked hard enough to be allowed to do that, so she should be entitled to make that happen.", Line_Normal);
 	ClearMessage();
 
 //rそれなのに巴は、…いつも貧乏くじばかりを引いている。
@@ -2959,7 +2959,7 @@ void main()
 //rはっきり言って、迷宮入り確実といわれている事件を３ヶ月以内に解決するなんて、不可能というよりも無謀だった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "はっきり言って、迷宮入り確実といわれている事件を３ヶ月以内に解決するなんて、不可能というよりも無謀だった。",
-			NULL, "Let's be clear, solving a cold case in just three months isn't impossible, it's reckless.", Line_Normal);
+			NULL, "To be blunt, solving a cold case in just three months wasn't impossible, it was reckless.", Line_Normal);
 	ClearMessage();
 
 //rそれなのに、…巴は、それに賭けた。文字通り警察生命全てをつぎ込んで、やりぬこうとしている。
@@ -2983,7 +2983,7 @@ void main()
 //rまどかには、どうしてもそれが、信じられない。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "まどかには、どうしてもそれが、信じられない。",
-			NULL, "Madoka couldn't believe it.", Line_Normal);
+			NULL, "Madoka couldn't believe that they would.", Line_Normal);
 	ClearMessage();
 
 //rそれを思うと、姉が不憫で、かわいそうで…泣きたくなる。
@@ -2995,7 +2995,7 @@ void main()
 //rだから…本当は、まどかは……。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "だから…本当は、まどかは……。",
-			NULL, "So... really, Madoka...", Line_Normal);
+			NULL, "So... deep down, Madoka...", Line_Normal);
 	ClearMessage();
 
 	DrawSceneWithMask( "white", "c", 0, 0, 2000 );
@@ -3066,7 +3066,7 @@ void main()
 //r…こんなことしか言えない自分の拙劣さが、心底情けない。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…こんなことしか言えない自分の拙劣さが、心底情けない。",
-			NULL, "...She was deeply ashamed of her inferiority complex and unable to say anything more.", Line_Normal);
+			NULL, "...She was deeply ashamed of her clumsiness, at being unable to bring herself to say anything more than that.", Line_Normal);
 	ClearMessage();
 
 //r本当は、早く巴を、解放してあげたかった。
@@ -3078,7 +3078,7 @@ void main()
 //r自分よりも、妹のことを常に案じ続けてくれる姉に、もういいって言ってあげたくて。…早々に結婚を決めたのも、本当はそれが一番の理由だった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "自分よりも、妹のことを常に案じ続けてくれる姉に、もういいって言ってあげたくて。…早々に結婚を決めたのも、本当はそれが一番の理由だった。",
-			NULL, "She wanted to tell her sister, who always spent more time thinking about her family than herself, \"that's enough.\" ...That was the main reason she decided to get married so soon.", Line_Normal);
+			NULL, "She wanted to tell her sister, who always spent more time worrying about Madoka than herself, \"that's enough.\" ...That was the main reason she decided to get married so soon.", Line_Normal);
 	ClearMessage();
 
 //rなのに、自分のそんな浅はかな想いのせいで、逆に彼女の大きな負担となってしまったことが、…悲しい。
@@ -3102,7 +3102,7 @@ void main()
 //rその時。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "その時。",
-			NULL, "That moment.", Line_Normal);
+			NULL, "At that moment.", Line_Normal);
 	ClearMessage();
 
 	PlaySE(3, "dsse132", 256, 64);
@@ -3241,7 +3241,7 @@ void main()
 			NULL, "\"Everyone was terrified that the curse might strike them.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 31, "ps3/s14/31/vt4bb_fujita1016", 256, TRUE);
 	OutputLine(NULL, "茨城の事件の被害者の中にはさらに引っ越して、行方をくらました家庭もありましたよ」",
-			NULL, " Some of the victims from the Ibaraki incident moved even further away, and we lost track of their families.\"", Line_Normal);
+			NULL, " Some of the victims from the Ibaraki incident moved even further away, and there were other families we lost track of.\"", Line_Normal);
 	ClearMessage();
 
 //巴rvS14/28/VT4Bb_tomoe1430.「…引っ越し？kvS14/28/VT4Bb_tomoe1431.　その安否は？」
@@ -3263,7 +3263,7 @@ void main()
 			NULL, "\"Aah, it's okay, I'm handling it from the other end.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 31, "ps3/s14/31/vt4bb_fujita1018", 256, TRUE);
 	OutputLine(NULL, "ただ、とても話を聞ける状況ではありませんね。",
-			NULL, " But, I haven't been able to hear much in the present circumstances.", Line_WaitForInput);
+			NULL, " But, it's not a situation where I can exactly question them.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 31, "ps3/s14/31/vt4bb_fujita1019", 256, TRUE);
 	OutputLine(NULL, "せっかく助けてやろうってのに、厄病神呼ばわりされて門前払いです」",
 			NULL, " Even though I'm trying to help, they call me a god of misfortune and slam their doors on me.\"", Line_Normal);
@@ -3287,7 +3287,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#646571>花田</color>", NULL, "<color=#646571>Hanada</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 32, "ps3/s14/32/vt4bb_hanada1001", 256, TRUE);
 	OutputLine(NULL, "「俺なんか、ほんとに塩まかれたりもしましたからね。",
-			NULL, "\"Seriously feels like they're salting the earth, to me.", Line_WaitForInput);
+			NULL, "\"There were even times when they sprinkled salt on me.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 32, "ps3/s14/32/vt4bb_hanada1002", 256, TRUE);
 	OutputLine(NULL, "…ほれ」",
 			NULL, " ...Heads up.\"", Line_Normal);
@@ -3335,7 +3335,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#54636b>藤田</color>", NULL, "<color=#54636b>Fujita</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 31, "ps3/s14/31/vt4bb_fujita1020", 256, TRUE);
 	OutputLine(NULL, "「こっちも綺麗なものです。",
-			NULL, "\"This one is a beautiful story, too.", Line_WaitForInput);
+			NULL, "\"She came out totally clean too.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 31, "ps3/s14/31/vt4bb_fujita1021", 256, TRUE);
 	OutputLine(NULL, "看護学校時代は、品行方正で成績も優秀。",
 			NULL, " She was apparently well behaved and a good student in her nursing school days. ", GetGlobalFlag(GLinemodeSp));
@@ -3578,7 +3578,7 @@ void main()
 			NULL, "\"...Not very strongly.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 32, "ps3/s14/32/vt4bb_hanada1014", 256, TRUE);
 	OutputLine(NULL, "無関係を装うというよりも、無関心って感じでしたよ」",
-			NULL, " She wasn't just pretending it was unrelated to her, but genuinely seemed to be apathetic.\"", Line_Normal);
+			NULL, " It's more like she was genuinely apathetic to the news rather than just pretending it had nothing to do with her.\"", Line_Normal);
 	ClearMessage();
 
 //巴rvS14/28/VT4Bb_tomoe1447.「無関心…？」
@@ -3799,14 +3799,14 @@ void main()
 			NULL, " After all, this case is so out of the blue, and not enough of the pieces fit together.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 31, "ps3/s14/31/vt4bb_fujita1044", 256, TRUE);
 	OutputLine(NULL, "むしろ祟りならどれだけ考えるのが楽か、なんて思いたくもなりますよ」",
-			NULL, " But it's much easier to think it's the work of a curse.\"", Line_Normal);
+			NULL, " So there have been times where I've thought it would be so easy if I could just assume it's the work of a curse.\"", Line_Normal);
 	ClearMessage();
 
 //巴rvS14/28/VT4Bb_tomoe1457.「へぇ…？」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#9d7f69>巴</color>", NULL, "<color=#9d7f69>Tomoe</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 28, "ps3/s14/28/vt4bb_tomoe1457", 256, TRUE);
 	OutputLine(NULL, "「へぇ…？」",
-			NULL, "\"Eh...?\"", Line_Normal);
+			NULL, "\"Oh...?\"", Line_Normal);
 	ClearMessage();
 
 //r藤田がここまで言うのは、よほど今回は難解ということだろう。確かに巴自身も、この件に関しては超常的なものの存在を疑いたくなっていた。
@@ -3971,7 +3971,7 @@ void main()
 			NULL, "\"You need to get some rest once in a while.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 31, "ps3/s14/31/vt4bb_fujita1048", 256, TRUE);
 	OutputLine(NULL, "あなたが今倒れたら、科警研と現場の連中が衝突してプロジェクトが吹っ飛びますからね」",
-			NULL, " If you collapsed right now, all the NRIPS guys and the people in the field working on this project would disappear.\"", Line_Normal);
+			NULL, " If you collapsed right now, all the NRIPS guys and the people in the field would clash, and this project would disappear.\"", Line_Normal);
 	ClearMessage();
 
 //r…藤田のその言葉は、冗談でも何でもなかった。すでに捜査員の中には、科警研の研究員たちの横柄で傍若無人な態度に、公然と不平をもらす者も出てきている。
@@ -4606,7 +4606,7 @@ void main()
 			NULL, "\"Anyway... even though the mark is gone, I think you still need to be careful.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/vt4bb_araf1028", 256, TRUE);
 	OutputLine(NULL, "さすがに俺も、知り合いが事件に巻き込まれて不幸に遭う、なんてのは見たくありませんからね」",
-			NULL, " Of course, I don't want to see an acquaintance of mine get caught up in a miserable incident.\"", Line_Normal);
+			NULL, " Even I don't want to see an acquaintance of mine get caught up in an unfortunate incident.\"", Line_Normal);
 	ClearMessage();
 
 //巴rvS14/28/VT4Bb_tomoe1495.「ふふっ…上等。kvS14/28/VT4Bb_tomoe1496.捜査の途上で殉職なんて、警察冥利に尽きるってやつですか？」
@@ -4623,10 +4623,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5f5248>荒川</color>", NULL, "<color=#5f5248>Arakawa</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/vt4bb_araf1029", 256, TRUE);
 	OutputLine(NULL, "「強気な人だなぁ。",
-			NULL, "\"You're a bullish person.", Line_WaitForInput);
+			NULL, "\"You're a confident person.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/vt4bb_araf1030", 256, TRUE);
 	OutputLine(NULL, "…ま、そう言うとは思ってましたけどね」",
-			NULL, " ...Well, I wanted to say that, but...\"", Line_Normal);
+			NULL, " ...Well, I figured you'd say that.\"", Line_Normal);
 	ClearMessage();
 
 	DrawScene("black", 1000 );
@@ -4693,14 +4693,14 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5f5248>荒川</color>", NULL, "<color=#5f5248>Arakawa</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/vt4bb_araf1034", 256, TRUE);
 	OutputLine(NULL, "「正直、こんなヤクザな商売をやってる人間が家庭を持つなんざ、悪いジョークか何かって気もしますがね。",
-			NULL, "\"Honestly, the idea of people getting involved in yakuza business while having a family feels like a bad joke or something.", Line_WaitForInput);
+			NULL, "\"Honestly, the idea of people getting involved in this sort of yakuza business while having a family feels like a bad joke or something.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/vt4bb_araf1035", 256, TRUE);
 	OutputLine(NULL, "子供が小学校に上がろうって言うんじゃ、しょうがねぇ。",
 			NULL, " When your kid says they want to go to elementary school, what choice do you have? ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5f5248>荒川</color>", NULL, "<color=#5f5248>Arakawa</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/vt4bb_araf1036", 256, TRUE);
 	OutputLine(NULL, "腹くくって籍に入れましたよ」",
-			NULL, "You squeeze your gut and enroll them.\"", Line_Normal);
+			NULL, "You accept your fate and let them join the family.\"", Line_Normal);
 	ClearMessage();
 
 //巴rvS14/28/VT4Bb_tomoe1499.「あははは、それはおめでとうございます。kvS14/28/VT4Bb_tomoe1500.でも奥さん、大した人ですね。kvS14/28/VT4Bb_tomoe1501.子供ができて大きくなっていたのに、あなたに連絡を取ろうとしなかったんでしょう？」
@@ -4710,7 +4710,7 @@ void main()
 			NULL, "\"Ahahaha, congratulations on that.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 28, "ps3/s14/28/vt4bb_tomoe1500", 256, TRUE);
 	OutputLine(NULL, "でも奥さん、大した人ですね。",
-			NULL, " And your wife is an excellent person.", Line_WaitForInput);
+			NULL, " But your wife sure is something.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 28, "ps3/s14/28/vt4bb_tomoe1501", 256, TRUE);
 	OutputLine(NULL, "子供ができて大きくなっていたのに、あなたに連絡を取ろうとしなかったんでしょう？」",
 			NULL, " Even though your child is growing up, you don't make any effort to contact them?\"", Line_Normal);
@@ -4720,10 +4720,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5f5248>荒川</color>", NULL, "<color=#5f5248>Arakawa</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/vt4bb_araf1037", 256, TRUE);
 	OutputLine(NULL, "「ん…まぁ、俺の邪魔になるって思ったみたいです。",
-			NULL, "\"Hmm... well, I thought I might just be getting in the way.", Line_WaitForInput);
+			NULL, "\"Hmm... well, she thought they might just be getting in my way.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/vt4bb_araf1038", 256, TRUE);
 	OutputLine(NULL, "気ぃ遣い過ぎなんですよ。",
-			NULL, " It seemed like being overly concerned.", Line_WaitForInput);
+			NULL, " She's way too considerate.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/vt4bb_araf1039", 256, TRUE);
 	OutputLine(NULL, "こっちだってそこまで冷たい人間じゃねぇ、言ってくれりゃ力にもなったのに」",
 			NULL, " I'm not that cold a person though, I'd helped if asked.\"", Line_Normal);
@@ -4743,24 +4743,24 @@ void main()
 			NULL, "\"Absolutely.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/vt4bb_araf1041", 256, TRUE);
 	OutputLine(NULL, "気を遣って言わなかった、ってのは結局のところ自己満足なんですよ」",
-			NULL, " To make a fuss about it but not say anything, in the end, is just selfish.\"", Line_Normal);
+			NULL, " To say nothing even when you're concerned is just complacency in the end.\"", Line_Normal);
 	ClearMessage();
 
 //荒川rvS14/00/VT4Bb_araF1042.「本当に自分が心配するに足る相手なら、よほどでない限り言われたことで態度を急変させる、なんてありえませんからね。kvS14/00/VT4Bb_araF1043.あいつもいい勉強になったと思いますよ」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5f5248>荒川</color>", NULL, "<color=#5f5248>Arakawa</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/vt4bb_araf1042", 256, TRUE);
 	OutputLine(NULL, "「本当に自分が心配するに足る相手なら、よほどでない限り言われたことで態度を急変させる、なんてありえませんからね。",
-			NULL, "\"When you're really worried about someone, you can't change your attitude just because you've been told to.", Line_WaitForInput);
+			NULL, "\"When you're really worried about someone, they won't suddenly change their attitude unless it's something extreme, after all.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/vt4bb_araf1043", 256, TRUE);
 	OutputLine(NULL, "あいつもいい勉強になったと思いますよ」",
-			NULL, " That kid was always well studied.\"", Line_Normal);
+			NULL, " I think it was a good lesson for her too.\"", Line_Normal);
 	ClearMessage();
 
 //巴rvS14/28/VT4Bb_tomoe1503.「勉強になったのは、あなたも一緒…でしょう？」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#9d7f69>巴</color>", NULL, "<color=#9d7f69>Tomoe</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 28, "ps3/s14/28/vt4bb_tomoe1503", 256, TRUE);
 	OutputLine(NULL, "「勉強になったのは、あなたも一緒…でしょう？」",
-			NULL, "\"Well studied. I'd say that applies to both of you... right?\"", Line_Normal);
+			NULL, "\"I'd say that applies to both of you... right?\"", Line_Normal);
 	ClearMessage();
 
 	PlaySE(3, "dageki", 256, 64);
@@ -4774,7 +4774,7 @@ void main()
 			NULL, "\"Hahaha!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s14/00/vt4bb_araf1045", 256, TRUE);
 	OutputLine(NULL, "　こいつは一本取られましたな」",
-			NULL, " This one's already out.\"", Line_Normal);
+			NULL, " You've got me there.\"", Line_Normal);
 	ClearMessage();
 
 //rそう言って、荒川は豪快に笑って煙草を灰皿の上で揉み消す。

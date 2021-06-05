@@ -21,9 +21,10 @@ And here's a [walkthrough](http://07th-mod.com/wiki/Higurashi/img/walk-omot.jpg)
 | Miotsukushi Omote    | 100%     | 100%        | 100%    | 
 | Miotsukushi Ura      | 100%     | 100%        | 100%    | 
 | Connecting Fragments | 100%     | 100%        | 100%    | 
-| Miotsukushi PS2      | 100%     | 100%        |  66%    | 
+| Miotsukushi PS2      | 100%     | 100%        | 100%    | 
+| Hajisarashi          | 100%     | 100%        |   0%    | 
 
-PS2 Miotsukushi is under development. This is a little different from other arcs, so I'm doing the porting and translation concurrently. I'm terrible at time estimates, but the release is coming very soon. Other folks are also working on Hajisarashi and Kotohogushi, so expect those eventually.
+Hajisarashi translation is complete! There are still a bunch of little things that need to be done before release, but it should take a couple weeks at most.
 
 
 ## Screenshots

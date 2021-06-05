@@ -191,7 +191,7 @@ void main()
 //r富田くんも岡村くんも怯むことなく、挑発的な態度だ。沙都子の皮肉にも踊らされず、柔軟運動を念入りに行いながら腕を撫している。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "富田くんも岡村くんも怯むことなく、挑発的な態度だ。沙都子の皮肉にも踊らされず、柔軟運動を念入りに行いながら腕を撫している。",
-			NULL, "Tomita-kun and Okamura-kun wasted no time before provoking her. Rather than dancing to Satoko's cynicism, they were flexing and patting their arms.", Line_Normal);
+			NULL, "Tomita-kun and Okamura-kun wasted no time before provoking her. Rather than dancing to Satoko's sarcasm, they were flexing and patting their arms.", Line_Normal);
 	ClearMessage();
 
 //rなかなかの顔立ちだ…これなら俺たちの仲間に加わっても、しっかり鍛えれば十分、今後の戦力になってくれるに違いない！
@@ -215,7 +215,7 @@ void main()
 //rレナはさりげなく、浮つきそうな俺の考えに釘を刺す。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "レナはさりげなく、浮つきそうな俺の考えに釘を刺す。",
-			NULL, "Rena casually hammered a nail straight into my thoughts.", Line_Normal);
+			NULL, "Rena casually warned me as if she could read my mind.", Line_Normal);
 	ClearMessage();
 
 //rまぁ、確かにそうなんだけど。誰が入るかはともかく、新メンバーを今から決めるかと思うと、なんだかわくわくしてくるぜ！
@@ -485,7 +485,7 @@ void main()
 			NULL, "\"I see.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s14/01/210100065", 256, TRUE);
 	OutputLine(NULL, "…あ、それなら適当に番号言ってもいいのか？」",
-			NULL, " ...Then I'm only allowed to call out numbers while I'm in there?\"", Line_Normal);
+			NULL, " ...Oh, but then couldn't we just call out whatever numbers we wanted if that's how it works?\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(4, 3, "sprite/me3_tohoho_a1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
@@ -541,7 +541,7 @@ void main()
 			NULL, " Everyone, follow Rika-chan's orders!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s14/03/210300101", 256, TRUE);
 	OutputLine(NULL, "　これなら、誰も文句言ったりしないでしょ？」",
-			NULL, " As long as we do that, there shouldn't be any complaints. Okay?\"", Line_Normal);
+			NULL, " As long as we do that, there shouldn't be any complaints. Right?\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(3, 5, "sprite/ri3_niko_a1_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
@@ -569,7 +569,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 4, "ps3/s14/04/210400107", 256, TRUE);
 	OutputLine(NULL, "「大丈夫ですの？　梨花…」",
-			NULL, "\"Is that really all right, Rika...?\"", Line_Normal);
+			NULL, "\"Are you all right, Rika...?\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(3, 5, "sprite/ri3_warai_a1_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
@@ -718,7 +718,7 @@ void main()
 			NULL, "\"Don't be ridiculous!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s14/01/210100069", 256, TRUE);
 	OutputLine(NULL, "　魅音こそあっさり抜かれて、勝ちを譲ったりするなよ？！」",
-			NULL, " You think I'd give up and hand them victory just because of that, Mion?!\"", Line_Normal);
+			NULL, " Don't you go slipping up and handing them victory on a silver platter either, Mion!\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(4, 3, "sprite/me3_warai_a1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
@@ -873,7 +873,7 @@ void main()
 //rいや、微妙に突っ込みどころが違う気がするのは俺だけか？　…いいけどな。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "いや、微妙に突っ込みどころが違う気がするのは俺だけか？　…いいけどな。",
-			NULL, "Wait, am I the only one feeling slightly different about this? ...I guess it's fine then.", Line_Normal);
+			NULL, "Wait, am I the only one who feels that's not the part to be pointing out? ...Not that it matters, I guess.", Line_Normal);
 	ClearMessage();
 
 	FadeBustshot(4, FALSE, 0, 0, 0, 0, 200, TRUE);
@@ -1156,10 +1156,10 @@ void main()
 			NULL, "\"Hmm~~...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s14/03/210300126", 256, TRUE);
 	OutputLine(NULL, "もう少し頑張ってくれると思ってたんだけど…。",
-			NULL, " I thought you guys were going to give it everything you got...", Line_WaitForInput);
+			NULL, " I thought you guys would put up a better fight...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s14/03/210300127", 256, TRUE);
 	OutputLine(NULL, "ちょっと、見込み違いかなぁ～？」",
-			NULL, " I guess I was just mistaken~?\"", Line_Normal);
+			NULL, " Maybe I overestimated you~?\"", Line_Normal);
 	ClearMessage();
 
 //圭一rvS14/01/210100083.「おい、そんな言い方はないだろ？」
@@ -1175,13 +1175,13 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s14/03/210300128", 256, TRUE);
 	OutputLine(NULL, "「でもさー、これじゃ準備運動にもならないよ」",
-			NULL, "\"But this was just a warm-up, and they still couldn't do it.\"", Line_Normal);
+			NULL, "\"But this wasn't even a warm-up.\"", Line_Normal);
 	ClearMessage();
 
 //rしょぼくれてうなだれる下級生を前に、魅音はこめかみをかきながら呆れた声をあげる。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "しょぼくれてうなだれる下級生を前に、魅音はこめかみをかきながら呆れた声をあげる。",
-			NULL, "Mion called out in a bewildered voice and scratched her head, right in front of our junior students.", Line_Normal);
+			NULL, "Mion called out in a bewildered voice and scratched her head, right in front of our dejected underclassmen.", Line_Normal);
 	ClearMessage();
 
 //r見るとレナも沙都子も、汗ひとつかかず息も切らしていない。もちろん、途中からはハンター役に徹していた俺も同様だった。
@@ -1233,7 +1233,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s14/03/210300132", 256, TRUE);
 	OutputLine(NULL, "「これじゃ、ちょっと入部は難しいね…」",
-			NULL, "\"All right everyone, entry into this club is a little difficult...\"", Line_Normal);
+			NULL, "\"No one's gonna make the cut at this rate...\"", Line_Normal);
 	ClearMessage();
 
 //圭一rvS14/01/210100086.「しかしな、魅音…、kvS14/01/210100087.ん？」
@@ -1429,7 +1429,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s14/01/210100089", 256, TRUE);
 	OutputLine(NULL, "「——お？　おおっ！」",
-			NULL, "\"...Oh? Ohh!\"", Line_Normal);
+			NULL, "\"...Oh? Sure!\"", Line_Normal);
 	ClearMessage();
 
 //rよくわからんが、魅音と沙都子は岡村くんたちの作戦が読めたらしい。
@@ -1485,7 +1485,7 @@ void main()
 			NULL, "\"I see...!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s14/01/210100092", 256, TRUE);
 	OutputLine(NULL, "　読まれる前に物量攻撃か！！」",
-			NULL, " So, you predicted this mass attack!!\"", Line_Normal);
+			NULL, " So they launched a mass attack before we could predict it!!\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(4, 3, "sprite/me3_huteki_a1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
@@ -1578,7 +1578,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s14/01/210100093", 256, TRUE);
 	OutputLine(NULL, "「い、今の…レナパンチ使ってないよな？」",
-			NULL, "\"J-just now... wasn't Rena using punches?\"", Line_Normal);
+			NULL, "\"J-just now... she didn't use her Rena Punches, did she?\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(4, 5, "sprite/ri3_niko_a1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
@@ -2099,7 +2099,7 @@ void main()
 //r…情けない。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…情けない。",
-			NULL, "...How pitiful.", Line_Normal);
+			NULL, "...How pathetic.", Line_Normal);
 	ClearMessage();
 
 //r私はこんなにも、ちっぽけな存在だったのだろうか…？
@@ -2269,7 +2269,7 @@ void main()
 //rその、ちらりと見える表情から、そして仕草から伝わってくる悔しさ。無力感。――なによりも失望からの、諦観。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "その、ちらりと見える表情から、そして仕草から伝わってくる悔しさ。無力感。——なによりも失望からの、諦観。",
-			NULL, "After catching a quick glimpse of their expressions, they quickly came to regret the gesture. They felt helpless. ...And above all, they were disappointed in their resignation.", Line_Normal);
+			NULL, "I could sense their bitterness when I caught a glimpse of their expressions. They felt helpless. ...And above all, resignation from despair.", Line_Normal);
 	ClearMessage();
 
 //r悔しいのだろう。
@@ -2287,7 +2287,7 @@ void main()
 //r相手への敵意や嫌悪よりも、…自分の無力さを知ったときが人間にとって一番、はらわたが煮えくり返るのだ。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "相手への敵意や嫌悪よりも、…自分の無力さを知ったときが人間にとって一番、はらわたが煮えくり返るのだ。",
-			NULL, "Rather than treating your opponent with hostility or hatred... when you know that you're helpless, all you can do is feel your guts boil over.", Line_Normal);
+			NULL, "Rather than hostility or hatred for your enemies... what really makes people seethe is when they know that they're helpless.", Line_Normal);
 	ClearMessage();
 
 //rそして、それでも諦める、屈服する方を選んだ時に、ますますの自己嫌悪を感じて陰鬱な気持ちになってしまう…。
@@ -2321,7 +2321,7 @@ void main()
 //r魅音は全てを聞かず、冷たく言い放つ。その突き放したような言い方に俺はむっ、と顔を向けたが、魅音は涼しい顔のままそれを受け流した。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "魅音は全てを聞かず、冷たく言い放つ。その突き放したような言い方に俺はむっ、と顔を向けたが、魅音は涼しい顔のままそれを受け流した。",
-			NULL, "Mion responded coldly and wouldn't listen at all. I suddenly turned toward her, but she quickly turned away with a calm expression.", Line_Normal);
+			NULL, "Mion responded coldly and wouldn't listen at all. I suddenly turned toward her, but she brushed me aside with a calm expression.", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(4, 3, "sprite/me3_tokui_a1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
@@ -2371,10 +2371,10 @@ void main()
 	if (GetLocalFlag(LConsoleArc)==10) {
 		ModPlayVoiceLS(4, 4, "ps2/04/210400118", 540, TRUE);
 		OutputLine(NULL, "「まぁ、圭一さんは最近負けが込んでますし、敗者の立場になってお考えになりたくなる気持ちもわからないわけじゃありませんけど…。",
-				NULL, "\"Well, it's true that Keiichi-san has been losing a lot lately, but that is no reason to view things from the loser's perspective...", Line_WaitForInput);
+				NULL, "\"Well, it's true that Keiichi-san has been losing a lot lately, so I can understand why he'd sympathize with the losers...", Line_WaitForInput);
 		ModPlayVoiceLS(4, 4, "ps2/04/210400119", 540, TRUE);
 		OutputLine(NULL, "勝負は勝ってこそ意味があるものでございますわ！」 ",
-				NULL, " A game only has meaning when you are playing to win!\"", Line_Normal);
+				NULL, " But a game only has meaning when you are playing to win!\"", Line_Normal);
 	} else {
 		ModPlayVoiceLS(4, 4, "ps3/s14/04/vt4ba_satoko1013", 256, TRUE);
 		OutputLine(NULL, "「まぁ、圭一さんは最近負けが込んでますし、敗者の立場になってお考えになりたくなる気持ちもわからないわけじゃありませんけど…。",
@@ -2565,7 +2565,7 @@ void main()
 //rそのうち、なんで自分が戦っているのか…その意義を見失って、宙ぶらりんになって…しまいにはその勝負すら、面白くなくなったんじゃないか。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "そのうち、なんで自分が戦っているのか…その意義を見失って、宙ぶらりんになって…しまいにはその勝負すら、面白くなくなったんじゃないか。",
-			NULL, "Before long, I lost sight of what I was fighting for... It lost its significance and was just left hanging there... In the end, was the competition even fun?", Line_Normal);
+			NULL, "Before long, I lost sight of what I was fighting for... It lost its significance and was just left hanging there... In the end, the competition stopped being fun altogether, didn't it?", Line_Normal);
 	ClearMessage();
 
 //r――いや、俺の過去はどうでもいい。もう、俺はそれを捨ててきたんだから。
@@ -2794,7 +2794,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s14/03/210300182", 256, TRUE);
 	OutputLine(NULL, "「ほう——言ったね、圭ちゃん？",
-			NULL, "\"Hoh... is that what you're saying, Kei-chan?", Line_WaitForInput);
+			NULL, "\"Hoh... them's fighting words, Kei-chan?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s14/03/210300183", 256, TRUE);
 	OutputLine(NULL, "　断っておくけど、私たち相手に戦うってことは、それ相応の覚悟をしてもらうことになるよ？」",
 			NULL, " I'd like to refuse, but are you prepared to openly fight against us?\"", Line_Normal);
@@ -2813,7 +2813,7 @@ void main()
 			NULL, " ...On the other hand, are you prepared for the possibility I'll win?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s14/01/210100120", 256, TRUE);
 	OutputLine(NULL, "　恨みっこ無しで俺の要求を、無条件で呑んでもらうぜ？！」",
-			NULL, " Are you willing to unconditionally accept my demand?!\"", Line_Normal);
+			NULL, " Are you willing to unconditionally accept my demands, with no hard feelings?!\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(4, 3, "sprite/me3_tokui_a1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
@@ -2834,7 +2834,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s14/03/210300186", 256, TRUE);
 	OutputLine(NULL, "「——もっとも、その必要は限りなくゼロに近いけどね！　くっくっく…！！」",
-			NULL, "\"...Of course, the chances of that are near zero! Heh heh heh...!!\"", Line_Normal);
+			NULL, "\"...Of course, the chances of that are all but nothing! Heh heh heh...!!\"", Line_Normal);
 	ClearMessage();
 
 //圭一rvS14/01/210100121.「その言葉、忘れるなよ！kvS14/01/210100122.　――よぅし、みんなっ！！」
@@ -2884,7 +2884,7 @@ void main()
 			NULL, "\"How many of you can still move?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s14/01/210100124", 256, TRUE);
 	OutputLine(NULL, "　——遠慮しなくていい、きついやつは休め！",
-			NULL, " ...No need to be shy, those of you who've been through a lot can stay at ease!", Line_WaitForInput);
+			NULL, " ...No need to be shy, those of you who've been through a lot can rest!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s14/01/210100125", 256, TRUE);
 	OutputLine(NULL, "　恥じることは無い、みんな頑張った！",
 			NULL, " You have nothing to be ashamed of, every last one of you did your best!", Line_WaitForInput);
@@ -3002,10 +3002,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s14/01/210100143", 256, TRUE);
 	OutputLine(NULL, "「——みんな、魅音や沙都子と勉強で勝負して、負けてばかりか？",
-			NULL, "\"...Everyone, have you been carefully studying Mion and Satoko while aiming for victory, or have you just been losing to them?", Line_WaitForInput);
+			NULL, "\"...Everyone, have you been constantly losing to Mion and Satoko when it comes studying?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s14/01/210100144", 256, TRUE);
 	OutputLine(NULL, "　そうじゃないだろ？！」",
-			NULL, " Which is it?!\"", Line_Normal);
+			NULL, " You haven't, right?!\"", Line_Normal);
 	ClearMessage();
 
 //女子rvS14/00/girlA10006.「……私、カリフラワーとブロッコリーの違い、わかるもん！」
@@ -3084,13 +3084,13 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#7a7e7d>岡村</color>", NULL, "<color=#7a7e7d>Okamura</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 25, "ps3/s14/25/212500016", 256, TRUE);
 	OutputLine(NULL, "「そ、そうかっ…！」",
-			NULL, "\"Th-that's right...!\"", Line_Normal);
+			NULL, "\"I-I see...!\"", Line_Normal);
 	ClearMessage();
 
 //rそれを聞いて、ようやく元気を失いかけていた二人の顔が、ぱっと明るくなる。それにつられて、徐々に俯いていた下級生たちも、顔を上げて俺を見つめはじめた。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "それを聞いて、ようやく元気を失いかけていた二人の顔が、ぱっと明るくなる。それにつられて、徐々に俯いていた下級生たちも、顔を上げて俺を見つめはじめた。",
-			NULL, "Even though those two were slowly losing their energy, their faces brightened up after hearing that. And at the same time, the younger students on the ground slowly began to raise their heads and look up at me.", Line_Normal);
+			NULL, "Even though those two had gradually been losing their energy, their faces brightened up after hearing that. And at the same time, the younger students on the ground slowly began to raise their heads and look up at me.", Line_Normal);
 	ClearMessage();
 
 //r――よし、もう一息だ！
@@ -3501,7 +3501,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s14/03/210300187", 256, TRUE);
 	OutputLine(NULL, "「くっくっく…圭ちゃん、いつもの引っ掛けたナゾナゾだね？",
-			NULL, "\"Heh heh heh... Kei-chan, you're trying to trick us with a conventional riddle?", Line_WaitForInput);
+			NULL, "\"Heh heh heh... Kei-chan, you're trying to trick us with one of your conventional riddles?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s14/03/210300188", 256, TRUE);
 	OutputLine(NULL, "　残念だけどおじさんはひっかからないよ！」",
 			NULL, " Sorry, but this ol' man won't be caught in your web!\"", Line_Normal);
@@ -3852,7 +3852,7 @@ void main()
 			NULL, "\"Oh ho ho ho!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 4, "ps3/s14/04/210400126", 256, TRUE);
 	OutputLine(NULL, "　一斉攻撃とは芸の無い…、」",
-			NULL, " There is no technique to a mass attack...\"", Line_Normal);
+			NULL, " There is no elegance to a mass attack...\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(4, 4, "sprite/sa3_hannbeso_a1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
@@ -3906,7 +3906,7 @@ void main()
 //r梨花ちゃんが胸の前で、バッテンを作る。それを見て、余計に焦った沙都子は数人の背番号を読み間違え、梨花ちゃんに無効判定されていた。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "梨花ちゃんが胸の前で、バッテンを作る。それを見て、余計に焦った沙都子は数人の背番号を読み間違え、梨花ちゃんに無効判定されていた。",
-			NULL, "Rika-chan formed an X in front of her chest with her arms. Looking on, Satoko had gotten impatient and mistakenly read several people's numbers. Rika-chan declared her answers invalid.", Line_Normal);
+			NULL, "Rika-chan formed an X in front of her chest with her arms. When she saw that, Satoko panicked and mistakenly read several people's numbers. Rika-chan declared her answers invalid.", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(4, 2, "sprite/re3a_nande_a1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, FALSE );
@@ -4149,14 +4149,14 @@ void main()
 			NULL, " Sorry Keiichi-kun, but you're not my opponent at the moment.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s14/02/210200087", 256, TRUE);
 	OutputLine(NULL, "一歩でも間合いに入ったら、圭一くんだって容赦しないからね！！」",
-			NULL, " I won't allow you to take even one step closer!!\"", Line_Normal);
+			NULL, " I won't allow even you to take even one step closer!!\"", Line_Normal);
 	ClearMessage();
 
 //圭一rvS14/01/210100187.「おぉよ、上等ッ！kvS14/01/210100188.　――大樹！　傑！　沙都子は頼んだ！！」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s14/01/210100187", 256, TRUE);
 	OutputLine(NULL, "「おぉよ、上等ッ！",
-			NULL, "\"Ohh, excellent!", Line_WaitForInput);
+			NULL, "\"Ohh, it is on!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s14/01/210100188", 256, TRUE);
 	OutputLine(NULL, "　——大樹！　傑！　沙都子は頼んだ！！」",
 			NULL, " ...Daiki! Suguru! I'll leave Satoko to you!!\"", Line_Normal);
@@ -4382,7 +4382,7 @@ void main()
 //rほとんど反射的にバックステップして、脇と胸に襲い掛かってきた腕を紙一重でかわす。ちらり、と体操服の襟元を見ると、上のボタンがひとつ、いつの間にかなくなっていた。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "ほとんど反射的にバックステップして、脇と胸に襲い掛かってきた腕を紙一重でかわす。ちらり、と体操服の襟元を見ると、上のボタンがひとつ、いつの間にかなくなっていた。",
-			NULL, "I reflexively stepped back to dodge an arm that came a sheet of paper's width away from reaching my chest and side. When I looked down on the neckline of my gym shirt, I noticed one of the buttons was missing.", Line_Normal);
+			NULL, "I reflexively stepped back in the nick of time to dodge an arm that reached for my chest and side. When I looked down on the neckline of my gym shirt, I noticed one of the buttons was missing.", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(4, 2, "sprite/re3a_hig_def_a1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
@@ -4394,7 +4394,7 @@ void main()
 			NULL, "\"Nicely done.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s14/02/210200096", 256, TRUE);
 	OutputLine(NULL, "もらったと思ったのに」",
-			NULL, " I expected as much.\"", Line_Normal);
+			NULL, " I thought I had you there.\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(4, 2, "sprite/re3a_hig_muhyou_a1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
@@ -4441,12 +4441,12 @@ void main()
 	//rもちろん、こちらの心理の不安定が伝わらないように…視線の焦点は茫洋と広げたまま、俺は悠然とした態を保って構えをとる。
 		if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 		OutputLine(NULL, "もちろん、こちらの心理の不安定が伝わらないように…視線の焦点は茫洋と広げたまま、俺は悠然とした態を保って構えをとる。",
-				NULL, "Of course, I didn't let her pick up on my mental instability... I maintained my wider field of focus and assumed a resolute posture.", Line_Normal);
+				NULL, "Of course, I couldn't let her pick up on my mental instability... so I maintained my wider field of focus and assumed a resolute posture.", Line_Normal);
 		ClearMessage();
 	//r不安を感じているのは、レナも俺と同じだ。特に実力が拮抗すればするほど、動きがすなわち隙につながる、と警戒して攻撃に躊躇を覚えるもの。
 		if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 		OutputLine(NULL, "不安を感じているのは、レナも俺と同じだ。特に実力が拮抗すればするほど、動きがすなわち隙につながる、と警戒して攻撃に躊躇を覚えるもの。",
-				NULL, "Rena must be feeling just as anxious as me. The longer this goes on, the more likely our movements are to open gaps, so we have to be vigilant of attacks of opportunity.", Line_Normal);
+				NULL, "Rena must be feeling just as anxious as me. The longer this goes on, the more likely our movements are to open gaps, so we have to be vigilant of opportunities of attack.", Line_Normal);
 		ClearMessage();
 
 	//rだから本来、こういう場合は相手の動きを見て反撃するのが最も有利な戦法で、先に動いた方が逆に劣勢となる。
@@ -4535,10 +4535,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s14/03/210300198", 256, TRUE);
 	OutputLine(NULL, "「あ～あ、圭ちゃんひどいね～？",
-			NULL, "\"Aah~, Kei-chan is being awful~?", Line_WaitForInput);
+			NULL, "\"Aah~, that was awful, Kei-chan~.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s14/03/210300199", 256, TRUE);
 	OutputLine(NULL, "　こりゃ罰ゲームは相当覚悟してもらわないとね」",
-			NULL, " This is a punishment game. You have to be prepared for anything your opponent throws at you.\"", Line_Normal);
+			NULL, " You'd better be prepared for one heck of a punishment for this.\"", Line_Normal);
 	ClearMessage();
 
 //圭一rvS14/01/210100198.「あ、いやそ……、kvS14/01/210100199.っ？！！」
@@ -4583,7 +4583,7 @@ void main()
 			NULL, "\"Oh ho ho!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 4, "ps3/s14/04/210400142", 256, TRUE);
 	OutputLine(NULL, "　さすが圭一さんですが…いかんせん駒不足でしたわねぇ！」",
-			NULL, " Well done, Keiichi-san... but it simply wasn't enough!\"", Line_Normal);
+			NULL, " Well done, Keiichi-san... but you sent the wrong pawns for the job!\"", Line_Normal);
 	ClearMessage();
 
 //r沙都子も不敵な笑みで、俺を取り囲もうと迫ってきている。気がつけばレナも立ち上がって、俺の退路を絶とうと背後に回りこむべく、じりじりと間合いを詰めてきた。
@@ -5397,7 +5397,7 @@ void main()
 //r歓喜の声と、泥だらけの汗と、あたたかい涙とともに。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "歓喜の声と、泥だらけの汗と、あたたかい涙とともに。",
-			NULL, "They let out a jubilant sound, full of muddy sweat and warm tears.", Line_Normal);
+			NULL, "They let out a jubilant sound, covered in muddy sweat and warm tears.", Line_Normal);
 	ClearMessage();
 
 //r俺に駆け寄って……思い思いの喜びの声を、上げていた。
