@@ -334,10 +334,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s14/03/220300309", 256, TRUE);
 	OutputLine(NULL, "「～～～～～、さっ、先に行くよ！",
-			NULL, "\"~~~~~, C-come on, let's get going!", Line_WaitForInput);
+			NULL, "\"~~~~~, I-I'm going now anyway!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s14/03/220300310", 256, TRUE);
 	OutputLine(NULL, "　圭ちゃんは走っておいで、じゃっ！！」",
-			NULL, " Kei-chan, you're just gonna have to run!!\"", Line_Normal);
+			NULL, " Kei-chan, you're just gonna have to run, see ya!!\"", Line_Normal);
 	ClearMessage();
 
 	FadeBustshot(3, FALSE, 0, 0, 0, 0, 200, TRUE);
@@ -1320,7 +1320,7 @@ void main()
 	ModPlayVoiceLS(4, 5, "ps3/s14/05/220500551", 256, TRUE);
 	OutputLine(NULL, "羽入のそんな声が、聞こえたような気がした。",
 			NULL, "I felt like I could hear Hanyuu's voice.", Line_Normal);
-	ClearMessage();
+	CleardriMessage();
 
 //梨花rvS14/05/220500552.…羽入。
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
